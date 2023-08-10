@@ -9,12 +9,13 @@
  * @module authmanager
  */
 // Requirements
-const ConfigManager          = require('./configmanager')
-const { LoggerUtil }         = require('helios-core')
+const ConfigManager = require('./configmanager')
+const { LoggerUtil } = require('helios-core')
 const { RestResponseStatus } = require('helios-core/common')
 const { MojangRestAPI, mojangErrorDisplayable, MojangErrorCode } = require('helios-core/mojang')
 const { MicrosoftAuth, microsoftErrorDisplayable, MicrosoftErrorCode } = require('helios-core/microsoft')
-const { AZURE_CLIENT_ID }    = require('./ipcconstants')
+const { AZURE_CLIENT_ID } = require('./ipcconstants')
+const Utils = require('./utils')
 
 const log = LoggerUtil.getLogger('AuthManager')
 
@@ -29,16 +30,16 @@ const log = LoggerUtil.getLogger('AuthManager')
  * @param {string} password The account password.
  * @returns {Promise.<Object>} Promise which resolves the resolved authenticated account object.
  */
-exports.addMojangAccount = async function(username, password) {
+exports.addMojangAccount = async function (username, password) {
     try {
         const response = await MojangRestAPI.authenticate(username, password, ConfigManager.getClientToken())
         console.log(response)
-        if(response.responseStatus === RestResponseStatus.SUCCESS) {
+        if (response.responseStatus === RestResponseStatus.SUCCESS) {
 
             const session = response.data
-            if(session.selectedProfile != null){
+            if (session.selectedProfile != null) {
                 const ret = ConfigManager.addMojangAuthAccount(session.selectedProfile.id, session.accessToken, username, session.selectedProfile.name)
-                if(ConfigManager.getClientToken() == null){
+                if (ConfigManager.getClientToken() == null) {
                     ConfigManager.setClientToken(session.clientToken)
                 }
                 ConfigManager.save()
@@ -50,11 +51,24 @@ exports.addMojangAccount = async function(username, password) {
         } else {
             return Promise.reject(mojangErrorDisplayable(response.mojangErrorCode))
         }
-        
-    } catch (err){
+
+    } catch (err) {
         log.error(err)
         return Promise.reject(mojangErrorDisplayable(MojangErrorCode.UNKNOWN))
     }
+}
+
+/**
+ * TODO: Debug this
+ * Add offline account.
+ * 
+ * @param {string} username The account username (email if migrated).
+ * @returns {Promise.<Object>} Promise which resolves the resolved authenticated account object.
+ */
+exports.addOfflineAccount = async function (username) {
+    const ret = ConfigManager.addOfflineAuthAccount(Utils.stringToUuid(username), username)
+    ConfigManager.save()
+    return ret
 }
 
 const AUTH_MODE = { FULL: 0, MS_REFRESH: 1, MC_REFRESH: 2 }
@@ -75,9 +89,9 @@ async function fullMicrosoftAuthFlow(entryCode, authMode) {
 
         let accessTokenRaw
         let accessToken
-        if(authMode !== AUTH_MODE.MC_REFRESH) {
+        if (authMode !== AUTH_MODE.MC_REFRESH) {
             const accessTokenResponse = await MicrosoftAuth.getAccessToken(entryCode, authMode === AUTH_MODE.MS_REFRESH, AZURE_CLIENT_ID)
-            if(accessTokenResponse.responseStatus === RestResponseStatus.ERROR) {
+            if (accessTokenResponse.responseStatus === RestResponseStatus.ERROR) {
                 return Promise.reject(microsoftErrorDisplayable(accessTokenResponse.microsoftErrorCode))
             }
             accessToken = accessTokenResponse.data
@@ -85,21 +99,21 @@ async function fullMicrosoftAuthFlow(entryCode, authMode) {
         } else {
             accessTokenRaw = entryCode
         }
-        
+
         const xblResponse = await MicrosoftAuth.getXBLToken(accessTokenRaw)
-        if(xblResponse.responseStatus === RestResponseStatus.ERROR) {
+        if (xblResponse.responseStatus === RestResponseStatus.ERROR) {
             return Promise.reject(microsoftErrorDisplayable(xblResponse.microsoftErrorCode))
         }
         const xstsResonse = await MicrosoftAuth.getXSTSToken(xblResponse.data)
-        if(xstsResonse.responseStatus === RestResponseStatus.ERROR) {
+        if (xstsResonse.responseStatus === RestResponseStatus.ERROR) {
             return Promise.reject(microsoftErrorDisplayable(xstsResonse.microsoftErrorCode))
         }
         const mcTokenResponse = await MicrosoftAuth.getMCAccessToken(xstsResonse.data)
-        if(mcTokenResponse.responseStatus === RestResponseStatus.ERROR) {
+        if (mcTokenResponse.responseStatus === RestResponseStatus.ERROR) {
             return Promise.reject(microsoftErrorDisplayable(mcTokenResponse.microsoftErrorCode))
         }
         const mcProfileResponse = await MicrosoftAuth.getMCProfile(mcTokenResponse.data.access_token)
-        if(mcProfileResponse.responseStatus === RestResponseStatus.ERROR) {
+        if (mcProfileResponse.responseStatus === RestResponseStatus.ERROR) {
             return Promise.reject(microsoftErrorDisplayable(mcProfileResponse.microsoftErrorCode))
         }
         return {
@@ -110,7 +124,7 @@ async function fullMicrosoftAuthFlow(entryCode, authMode) {
             mcToken: mcTokenResponse.data,
             mcProfile: mcProfileResponse.data
         }
-    } catch(err) {
+    } catch (err) {
         log.error(err)
         return Promise.reject(microsoftErrorDisplayable(MicrosoftErrorCode.UNKNOWN))
     }
@@ -125,7 +139,7 @@ async function fullMicrosoftAuthFlow(entryCode, authMode) {
  * @returns 
  */
 function calculateExpiryDate(nowMs, epiresInS) {
-    return nowMs + ((epiresInS-10)*1000)
+    return nowMs + ((epiresInS - 10) * 1000)
 }
 
 /**
@@ -135,7 +149,7 @@ function calculateExpiryDate(nowMs, epiresInS) {
  * @param {string} authCode The authCode obtained from microsoft.
  * @returns {Promise.<Object>} Promise which resolves the resolved authenticated account object.
  */
-exports.addMicrosoftAccount = async function(authCode) {
+exports.addMicrosoftAccount = async function (authCode) {
 
     const fullAuth = await fullMicrosoftAuthFlow(authCode, AUTH_MODE.FULL)
 
@@ -163,11 +177,11 @@ exports.addMicrosoftAccount = async function(authCode) {
  * @param {string} uuid The UUID of the account to be removed.
  * @returns {Promise.<void>} Promise which resolves to void when the action is complete.
  */
-exports.removeMojangAccount = async function(uuid){
+exports.removeMojangAccount = async function (uuid) {
     try {
         const authAcc = ConfigManager.getAuthAccount(uuid)
         const response = await MojangRestAPI.invalidate(authAcc.accessToken, ConfigManager.getClientToken())
-        if(response.responseStatus === RestResponseStatus.SUCCESS) {
+        if (response.responseStatus === RestResponseStatus.SUCCESS) {
             ConfigManager.removeAuthAccount(uuid)
             ConfigManager.save()
             return Promise.resolve()
@@ -175,10 +189,23 @@ exports.removeMojangAccount = async function(uuid){
             log.error('Error while removing account', response.error)
             return Promise.reject(response.error)
         }
-    } catch (err){
+    } catch (err) {
         log.error('Error while removing account', err)
         return Promise.reject(err)
     }
+}
+
+/**
+ * TODO: Debug this
+ * Remove offline account.
+ * 
+ * @param {string} uuid The UUID of the account to be removed.
+ * @returns {Promise.<void>} Promise which resolves to void when the action is complete.
+ */
+exports.removeMojangAccount = async function (uuid) {
+    ConfigManager.removeAuthAccount(uuid)
+    ConfigManager.save()
+    return Promise.resolve()
 }
 
 /**
@@ -188,12 +215,12 @@ exports.removeMojangAccount = async function(uuid){
  * @param {string} uuid The UUID of the account to be removed.
  * @returns {Promise.<void>} Promise which resolves to void when the action is complete.
  */
-exports.removeMicrosoftAccount = async function(uuid){
+exports.removeMicrosoftAccount = async function (uuid) {
     try {
         ConfigManager.removeAuthAccount(uuid)
         ConfigManager.save()
         return Promise.resolve()
-    } catch (err){
+    } catch (err) {
         log.error('Error while removing account', err)
         return Promise.reject(err)
     }
@@ -207,15 +234,15 @@ exports.removeMicrosoftAccount = async function(uuid){
  * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
  * otherwise false.
  */
-async function validateSelectedMojangAccount(){
+async function validateSelectedMojangAccount() {
     const current = ConfigManager.getSelectedAccount()
     const response = await MojangRestAPI.validate(current.accessToken, ConfigManager.getClientToken())
 
-    if(response.responseStatus === RestResponseStatus.SUCCESS) {
+    if (response.responseStatus === RestResponseStatus.SUCCESS) {
         const isValid = response.data
-        if(!isValid){
+        if (!isValid) {
             const refreshResponse = await MojangRestAPI.refresh(current.accessToken, ConfigManager.getClientToken())
-            if(refreshResponse.responseStatus === RestResponseStatus.SUCCESS) {
+            if (refreshResponse.responseStatus === RestResponseStatus.SUCCESS) {
                 const session = refreshResponse.data
                 ConfigManager.updateMojangAuthAccount(current.uuid, session.accessToken)
                 ConfigManager.save()
@@ -231,7 +258,19 @@ async function validateSelectedMojangAccount(){
             return true
         }
     }
-    
+
+}
+
+/**
+ * TODO: Debug this
+ * Validate offline account.
+ * 
+ * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
+ * otherwise false.
+ */
+async function validateSelectedOfflineAccount() {
+    const current = ConfigManager.getSelectedAccount()
+    return true
 }
 
 /**
@@ -242,13 +281,13 @@ async function validateSelectedMojangAccount(){
  * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
  * otherwise false.
  */
-async function validateSelectedMicrosoftAccount(){
+async function validateSelectedMicrosoftAccount() {
     const current = ConfigManager.getSelectedAccount()
     const now = new Date().getTime()
     const mcExpiresAt = current.expiresAt
     const mcExpired = now >= mcExpiresAt
 
-    if(!mcExpired) {
+    if (!mcExpired) {
         return true
     }
 
@@ -257,7 +296,7 @@ async function validateSelectedMicrosoftAccount(){
     const msExpiresAt = current.microsoft.expires_at
     const msExpired = now >= msExpiresAt
 
-    if(msExpired) {
+    if (msExpired) {
         // MS expired, do full refresh.
         try {
             const res = await fullMicrosoftAuthFlow(current.microsoft.refresh_token, AUTH_MODE.MS_REFRESH)
@@ -272,7 +311,7 @@ async function validateSelectedMicrosoftAccount(){
             )
             ConfigManager.save()
             return true
-        } catch(err) {
+        } catch (err) {
             return false
         }
     } else {
@@ -291,7 +330,7 @@ async function validateSelectedMicrosoftAccount(){
             ConfigManager.save()
             return true
         }
-        catch(err) {
+        catch (err) {
             return false
         }
     }
@@ -303,13 +342,15 @@ async function validateSelectedMicrosoftAccount(){
  * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
  * otherwise false.
  */
-exports.validateSelected = async function(){
+exports.validateSelected = async function () {
     const current = ConfigManager.getSelectedAccount()
 
-    if(current.type === 'microsoft') {
+    if (current.type === 'microsoft') {
         return await validateSelectedMicrosoftAccount()
+    } if (current.type === 'offline') {
+        return await validateSelectedOfflineAccount()
     } else {
         return await validateSelectedMojangAccount()
     }
-    
+
 }

@@ -42,7 +42,7 @@ p {
 
 /* Set default font and color. */
 body, button {
-    font-family: 'Avenir Book';
+    font-family: 'Avenir Book', sans-serif;
     color: white;
 }
 
@@ -110,7 +110,7 @@ body, button {
 }
 #frameTitleText {
     font-size: 14px;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     letter-spacing: 0.5px;
 }
 
@@ -284,7 +284,7 @@ body, button {
 }
 
 #welcomeHeader {
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     text-align: center;
     color: white;
     margin-bottom: 25px;
@@ -377,7 +377,7 @@ body, button {
 }
 
 /* Main login container. */
-#loginContainer {
+#loginContainer, #loginOfflineContainer {
     position: relative;
     display: flex;
     justify-content: center;
@@ -389,14 +389,14 @@ body, button {
 }
 
 /* Login cancel button styles. */
-#loginCancelContainer {
+#loginCancelContainer, #loginOfflineCancelContainer {
     position: absolute;
     top: 5%;
     right: 5%;
 }
 
 /* Login cancel button styles. */
-#loginCancelButton {
+#loginCancelButton, #loginOfflineCancelButton {
     background: none;
     border: none;
     outline: none;
@@ -404,35 +404,47 @@ body, button {
     transition: 0.25s ease;
 }
 #loginCancelButton:hover #loginCancelIcon,
+#loginOfflineCancelButton:hover #loginOfflineCancelIcon,
 #loginCancelButton:hover #loginCancelText,
+#loginOfflineCancelButton:hover #loginOfflineCancelText,
 #loginCancelButton:focus #loginCancelIcon,
-#loginCancelButton:focus #loginCancelText {
+#loginOfflineCancelButton:focus #loginOfflineCancelIcon,
+#loginCancelButton:focus #loginCancelText,
+#loginOfflineCancelButton:focus #loginOfflineCancelText {
     text-shadow: 0px 0px 20px white;
 }
 #loginCancelButton:hover #loginCancelIcon,
-#loginCancelButton:focus #loginCancelIcon {
+#loginOfflineCancelButton:hover #loginOfflineCancelIcon,
+#loginCancelButton:focus #loginCancelIcon,
+#loginOfflineCancelButton:focus #loginOfflineCancelIcon {
     box-shadow: 0px 0px 20px white;
 }
 #loginCancelButton:active #loginCancelIcon,
-#loginCancelButton:active #loginCancelText {
+#loginOfflineCancelButton:active #loginOfflineCancelIcon,
+#loginCancelButton:active #loginCancelText,
+#loginOfflineCancelButton:active #loginOfflineCancelText {
     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
     color: rgba(255, 255, 255, 0.75);
     border-color: rgba(255, 255, 255, 0.75);
 }
-#loginCancelButton:active #loginCancelIcon {
+#loginCancelButton:active #loginCancelIcon,
+#loginOfflineCancelButton:active #loginOfflineCancelIcon {
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
 }
-#loginCancelButton:disabled {
+#loginCancelButton:disabled,
+#loginOfflineCancelButton:disabled {
     pointer-events: none;
 }
 #loginCancelButton:disabled #loginCancelIcon,
-#loginCancelButton:disabled #loginCancelText {
+#loginOfflineCancelButton:disabled #loginOfflineCancelIcon,
+#loginCancelButton:disabled #loginCancelText,
+#loginOfflineCancelButton:disabled #loginOfflineCancelText {
     color: rgba(255, 255, 255, 0.75);
     border-color: rgba(255, 255, 255, 0.75);
 }
 
 /* The X in a circle icon for the cancel button. */
-#loginCancelIcon {
+#loginCancelIcon, #loginOfflineCancelIcon {
     border-radius: 50%;
     border: 1px solid white;
     box-sizing: border-box;
@@ -445,13 +457,13 @@ body, button {
     transition: 0.25s ease;
 }
 /* Text for the login cancel button. */
-#loginCancelText {
+#loginCancelText, #loginOfflineCancelText {
     font-size: 15px;
     transition: 0.25s ease;
 }
 
 /* Login content wrapper. */
-#loginContent {
+#loginContent, #loginOfflineContent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -460,7 +472,7 @@ body, button {
 }
 
 /* Login form. */
-#loginForm {
+#loginForm, #loginOfflineForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -468,7 +480,7 @@ body, button {
 }
 
 /* Login form anchor styles. */
-#loginForm a {
+#loginForm a, #loginOfflineForm a {
     font-size: 12px;
     color: #848484;
     font-weight: bold;
@@ -476,16 +488,19 @@ body, button {
     transition: 0.25s ease;
 }
 #loginForm a:hover,
-#loginForm a:focus {
+#loginOfflineForm a:hover,
+#loginForm a:focus,
+#loginOfflineForm a:focus {
     color: #a2a2a2;
     outline: none;
 }
-#loginForm a:active {
+#loginForm a:active,
+#loginOfflineForm a:active {
     color: #8b8b8b;
 }
 
 /* Logo on login form. */
-#loginImageSeal {
+#loginImageSeal, #loginOfflineImageSeal {
     border-radius: 50%;
     border: 2px solid #cad7e1;
     background: rgba(1, 2, 1, 0.5);
@@ -496,8 +511,8 @@ body, button {
 }
 
 /* Header on login view. */
-#loginSubheader {
-    font-family: 'Avenir Medium';
+#loginSubheader, #loginOfflineSubheader {
+    font-family: 'Avenir Medium', sans-serif;
     margin-bottom: 25px;
     font-size: 12px;
     letter-spacing: 1px;
@@ -522,7 +537,7 @@ body, button {
 
 /* Span which displays errors related to login field content. */
 .loginErrorSpan {
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     font-weight: bold;
     font-size: 8px;
     color: #ff1b0c;
@@ -558,7 +573,7 @@ body, button {
 
 /* Login text input styles. */
 .loginField {
-    font-family: 'Avenir Book';
+    font-family: 'Avenir Book', sans-serif;
     background: none;
     border-width: 1.5px 0px 0px 0px;
     border-style: solid;
@@ -609,7 +624,7 @@ body, button {
 }
 
 /* Login button styles. */
-#loginButton {
+#loginButton, #loginOfflineButton {
     background: none;
     font-weight: bold;
     letter-spacing: 2px;
@@ -621,23 +636,28 @@ body, button {
     right: -20px;
     transition: 0.5s ease;
 }
-#loginButton:disabled {
+#loginButton:disabled, 
+#loginOfflineButton:disabled {
     color: rgba(255, 255, 255, 0.75);
     pointer-events: none;
 }
-#loginButton[loading] {
+#loginButton[loading],
+#loginOfflineButton[loading] {
     color: #fff;
 }
 #loginButton:hover,
-#loginButton:focus {
+#loginOfflineButton:hover,
+#loginButton:focus,
+#loginOfflineButton:focus {
     text-shadow: 0px 0px 20px #fff;
     outline: none;
 }
-#loginButton:active {
+#loginButton:active,
+#loginOfflineButton:active {
     color: #c7c7c7;
     text-shadow:  0px 0px 20px #c7c7c7;
 }
-#loginSVG {
+#loginSVG, #loginOfflineSVG {
     -webkit-transform: translate3d(0, 0, 0);
     overflow: visible;
     transform: rotate(90deg);
@@ -647,30 +667,39 @@ body, button {
     height: 20px;
 }
 #loginButton:hover #loginSVG,
-#loginButton:focus #loginSVG {
+#loginOfflineButton:hover #loginOfflineSVG,
+#loginButton:focus #loginSVG,
+#loginOfflineButton:focus #loginOfflineSVG {
     -webkit-filter: drop-shadow(0px 0px 2px #fff);
 }
-#loginButton:active #loginSVG .arrowLine {
+#loginButton:active #loginSVG .arrowLine,
+#loginOfflineButton:active #loginOfflineSVG .arrowLine {
     stroke: #c7c7c7;
 }
-#loginButton:active #loginSVG {
+#loginButton:active #loginSVG,
+#loginOfflineButton:active #loginOfflineSVG {
     -webkit-filter: drop-shadow(0px 0px 2px #c7c7c7);
 }
-#loginButton:disabled #loginSVG .arrowLine {
+#loginButton:disabled #loginSVG .arrowLine,
+#loginOfflineButton:disabled #loginOfflineSVG .arrowLine {
     stroke: rgba(255, 255, 255, 0.75);
 }
 
-#loginButtonContent {
+#loginButtonContent, #loginOfflineButtonContent {
     display: flex;
     align-items: center;
 }
 
 #loginButton .circle-loader,
-#loginButton[loading] #loginSVG {
+#loginOfflineButton .circle-loader,
+#loginButton[loading] #loginSVG,
+#loginOfflineButton[loading] #loginOfflineSVG {
     display: none;
 }
 #loginButton[loading] .circle-loader,
-#loginButton #loginSVG {
+#loginOfflineButton[loading] .circle-loader,
+#loginButton #loginSVG,
+#loginOfflineButton #loginOfflineSVG {
     display: initial;
 }
 
@@ -772,7 +801,7 @@ body, button {
 }*/
 
 /* Disclaimer container. */
-#loginDisclaimer {
+#loginDisclaimer, #loginOfflineDisclaimer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1222,7 +1251,7 @@ body, button {
 }
 .settingsTabHeaderText {
     font-size: 20px;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
 }
 .settingsTabHeaderDesc {
     font-size: 12px;
@@ -1261,7 +1290,7 @@ body, button {
     background: none;
     font-size: 12px;
     border-radius: 3px;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     transition: 0.25s ease;
     cursor: pointer;
     outline: none;
@@ -1293,7 +1322,7 @@ body, button {
     background: rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     border: 1px solid rgba(126, 126, 126, 0.57);
-    font-family: 'Avenir Book';
+    font-family: 'Avenir Book', sans-serif;
     transition: 0.25s ease;
 }
 #settingsContainer input[type=number]:focus,
@@ -1322,7 +1351,7 @@ body, button {
 }
 .settingsFieldTitle {
     font-size: 14px;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     color: rgba(255, 255, 255, 0.95);
 }
 .settingsFieldDesc {
@@ -1485,7 +1514,7 @@ input:checked + .toggleSwitchSlider:before {
     width: 89%;
 }
 .settingsFileSelDesc strong {
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
 }
 
 /* * *
@@ -1593,7 +1622,7 @@ input:checked + .toggleSwitchSlider:before {
     font-size: 12px;
     color: grey;
     font-weight: bold;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
 }
 .settingsAuthAccountDetailValue {
     font-size: 14px;
@@ -1615,7 +1644,7 @@ input:checked + .toggleSwitchSlider:before {
     border: none;
     white-space: nowrap;
     background: none;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     outline: none;
     transition: 0.25s ease;
 }
@@ -1640,7 +1669,7 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     font-size: 12px;
     border-radius: 3px;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     transition: 0.25s ease;
     cursor: pointer;
     outline: none;
@@ -2195,7 +2224,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Release type text. */
 #settingsAboutCurrentVersionTitle {
     font-size: 12px;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     color: #23aa23;
     font-weight: bold;
 }
@@ -2284,7 +2313,7 @@ input:checked + .toggleSwitchSlider:before {
     background-color: rgba(255, 255, 255, 0.25);
     color: white;
     border-radius: 3px;
-    font-family: 'Avenir Book';
+    font-family: 'Avenir Book', sans-serif;
 }
 .settingsChangelogText li+li {
     margin-top: .25em;
@@ -2394,7 +2423,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Release type text. */
 #settingsUpdateVersionTitle {
     font-size: 12px;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     color: #23aa23;
     font-weight: bold;
 }
@@ -2593,7 +2622,7 @@ input:checked + .toggleSwitchSlider:before {
 #newsArticleTitle {
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     color: white;
     text-decoration: none;
     transition: 0.25s ease;
@@ -2910,7 +2939,7 @@ input:checked + .toggleSwitchSlider:before {
     z-index: 1;
     top: 115%;
     left: -17.5px;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     font-size: 12px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
 }
@@ -3242,7 +3271,7 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 4px;
     padding: 5px 10px;
     z-index: 1;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     font-size: 12px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
     bottom: calc(100% + 15px);
@@ -3557,7 +3586,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Overlay title styles. */
 #overlayTitle {
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -3583,7 +3612,7 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     border: 1px solid #ffffff;
     color: white;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     font-weight: bold;
     border-radius: 2px;
     padding: 0px 8.1px;
@@ -3635,7 +3664,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Server selection header. */
 #serverSelectHeader,
 #accountSelectHeader {
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
@@ -3858,7 +3887,7 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     border: 1px solid #ffffff;
     color: white;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Medium', sans-serif;
     font-weight: bold;
     border-radius: 2px;
     padding: 0px 8.1px;
