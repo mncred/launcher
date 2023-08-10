@@ -469,11 +469,11 @@ function bindAuthAccountSelect() {
             for (let i = 0; i < selectBtns.length; i++) {
                 if (selectBtns[i].hasAttribute('selected')) {
                     selectBtns[i].removeAttribute('selected')
-                    selectBtns[i].innerHTML = 'Select Account'
+                    selectBtns[i].innerHTML = 'Выбрать'
                 }
             }
             val.setAttribute('selected', '')
-            val.innerHTML = 'Selected Account &#10004;'
+            val.innerHTML = 'Выбран &#10004;'
             setSelectedAccount(val.closest('.settingsAuthAccount').getAttribute('uuid'))
         }
     })
@@ -619,12 +619,12 @@ function refreshAuthAccountSelected(uuid) {
         const selBtn = val.getElementsByClassName('settingsAuthAccountSelect')[0]
         if (uuid === val.getAttribute('uuid')) {
             selBtn.setAttribute('selected', '')
-            selBtn.innerHTML = 'Selected Account &#10004;'
+            selBtn.innerHTML = 'Выбран &#10004;'
         } else {
             if (selBtn.hasAttribute('selected')) {
                 selBtn.removeAttribute('selected')
             }
-            selBtn.innerHTML = 'Select Account'
+            selBtn.innerHTML = 'Выбрать'
         }
     })
 }
@@ -1469,7 +1469,7 @@ function populateAboutVersionInformation() {
  */
 function populateReleaseNotes() {
     $.ajax({
-        url: 'https://github.com/dscalzi/HeliosLauncher/releases.atom',
+        url: 'https://github.com/jkulvich/mnclaunch/releases.atom',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')
@@ -1489,7 +1489,7 @@ function populateReleaseNotes() {
         },
         timeout: 2500
     }).catch(err => {
-        settingsAboutChangelogText.innerHTML = 'Failed to load release notes.'
+        settingsAboutChangelogText.innerHTML = 'Не удалось загрузить заметки по обновлению'
     })
 }
 
@@ -1537,27 +1537,27 @@ function settingsUpdateButtonStatus(text, disabled = false, handler = null) {
  */
 function populateSettingsUpdateInformation(data) {
     if (data != null) {
-        settingsUpdateTitle.innerHTML = `New ${isPrerelease(data.version) ? 'Pre-release' : 'Release'} Available`
+        settingsUpdateTitle.innerHTML = `Новый ${isPrerelease(data.version) ? 'пре-релиз' : 'релиз'} доступен`
         settingsUpdateChangelogCont.style.display = null
         settingsUpdateChangelogTitle.innerHTML = data.releaseName
         settingsUpdateChangelogText.innerHTML = data.releaseNotes
         populateVersionInformation(data.version, settingsUpdateVersionValue, settingsUpdateVersionTitle, settingsUpdateVersionCheck)
 
         if (process.platform === 'darwin') {
-            settingsUpdateButtonStatus('Download from GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Close the launcher and run the dmg to update.</span>', false, () => {
+            settingsUpdateButtonStatus('Скачано с GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Закройте лаунчер и запустите dmg для обновления</span>', false, () => {
                 shell.openExternal(data.darwindownload)
             })
         } else {
-            settingsUpdateButtonStatus('Downloading..', true)
+            settingsUpdateButtonStatus('Скачиваем ...', true)
         }
     } else {
-        settingsUpdateTitle.innerHTML = 'You Are Running the Latest Version'
+        settingsUpdateTitle.innerHTML = 'У вас актуальная версия'
         settingsUpdateChangelogCont.style.display = 'none'
         populateVersionInformation(remote.app.getVersion(), settingsUpdateVersionValue, settingsUpdateVersionTitle, settingsUpdateVersionCheck)
-        settingsUpdateButtonStatus('Check for Updates', false, () => {
+        settingsUpdateButtonStatus('Проверить обновления', false, () => {
             if (!isDev) {
                 ipcRenderer.send('autoUpdateAction', 'checkForUpdate')
-                settingsUpdateButtonStatus('Checking for Updates..', true)
+                settingsUpdateButtonStatus('Проверка обновлений ...', true)
             }
         })
     }

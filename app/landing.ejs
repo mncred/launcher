@@ -13,7 +13,12 @@
                 <div id="user_content">
                     <span id="user_text">Username</span>
                     <div id="avatarContainer">
-                        <button id="avatarOverlay">Ред.</button>
+                        <button id="avatarOverlay">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                                <path fill="white"
+                                    d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
                 <div id="mediaContent">
@@ -116,7 +121,7 @@
                 <div id="launch_content">
                     <button id="launch_button">ИГРАТЬ</button>
                     <div class="bot_divider"></div>
-                    <button id="server_selection_button" class="bot_label">&#8226; No Server Selected</button>
+                    <button id="server_selection_button" class="bot_label">&#8226; Сервер не выбран</button>
                 </div>
                 <div id="launch_details">
                     <div id="launch_details_left">
@@ -125,7 +130,7 @@
                     </div>
                     <div id="launch_details_right">
                         <progress id="launch_progress" value="22" max="100"></progress>
-                        <span id="launch_details_text" class="bot_label">Please wait..</span>
+                        <span id="launch_details_text" class="bot_label">Ожидайте ...</span>
                     </div>
                 </div>
             </div>
@@ -142,10 +147,10 @@
                         <div id="newsArticleDateWrapper">
                             <span id="newsArticleDate">Mar 15, 44 BC, 9:14 AM</span>
                         </div>
-                        <div id="newsArticleAuthorWrapper">
-                            <span id="newsArticleAuthor">by Cicero</span>
+                        <div id="newsArticleAuthorWrapper" style="display: none;">
+                            <span id="newsArticleAuthor">by jkulvich</span>
                         </div>
-                        <a href="#" id="newsArticleComments">0 Comments</a>
+                        <a href="#" id="newsArticleComments" style="display: none;">0 Комментариев</a>
                     </div>
                 </div>
                 <div id="newsNavigationContainer">

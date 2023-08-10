@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+    <channel>
+        <title>MNC.RED</title>
+        <link>https://mnc.red</link>
+        <item>
+            <title>Запуск лаунчера</title>
+            <content:encoded>
+<![CDATA[
+<p>В тестовом режиме запустил лаунчер.</p>
+<p>За основу взят <a href="https://github.com/dscalzi/HeliosLauncher">HeliosLauncher</a>, который был переведён на русский и настроен под наши реалии.</p>
+]]>
+</content:encoded>
+            <!-- <dc:creator>GeekCorner</dc:creator> -->
+            <author>GeekCorner</author>
+            <pubDate>11 March 2023</pubDate>
+        </item>
+    </channel>
+</rss>
