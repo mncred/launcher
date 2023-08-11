@@ -2518,7 +2518,7 @@ input:checked + .toggleSwitchSlider:before {
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 33%;
+    width: 25%;
     display: inline-flex;
     justify-content: center;
 }
@@ -2527,14 +2527,13 @@ input:checked + .toggleSwitchSlider:before {
     top: 25px;
     display: inline-flex;
     line-height: 24px;
-    left: 50px;
 }
 #landingContainer > #lower > #center {
     position: relative;
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 34%;
+    width: 25%;
     display: inline-flex;
     justify-content: center;
 }
@@ -2549,8 +2548,9 @@ input:checked + .toggleSwitchSlider:before {
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 33%;
+    width: 50%;
     display: inline-flex;
+    justify-content: center;
 }
 
 /*******************************************************************************
