@@ -43,7 +43,7 @@ if (!isDev) {
         switch (arg) {
             case 'checking-for-update':
                 loggerAutoUpdater.info('Checking for update..')
-                settingsUpdateButtonStatus('Checking for Updates..', true)
+                settingsUpdateButtonStatus('Проверка обновлений ...', true)
                 break
             case 'update-available':
                 loggerAutoUpdater.info('New update available', info.version)
@@ -57,7 +57,7 @@ if (!isDev) {
                 break
             case 'update-downloaded':
                 loggerAutoUpdater.info('Update ' + info.version + ' ready to be installed.')
-                settingsUpdateButtonStatus('Install Now', false, () => {
+                settingsUpdateButtonStatus('Установить', false, () => {
                     if (!isDev) {
                         ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
                     }
@@ -66,7 +66,7 @@ if (!isDev) {
                 break
             case 'update-not-available':
                 loggerAutoUpdater.info('No new update found.')
-                settingsUpdateButtonStatus('Check for Updates')
+                settingsUpdateButtonStatus('Проверить обновления')
                 break
             case 'ready':
                 updateCheckListener = setInterval(() => {
