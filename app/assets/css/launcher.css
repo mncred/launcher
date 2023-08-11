@@ -3489,7 +3489,7 @@ input:checked + .toggleSwitchSlider:before {
     border: none;
     outline: none;
     cursor: pointer;
-    line-height: 24px;
+    line-height: 1.2em;
     padding: 0px;
     transition: 0.25s ease;
 }
