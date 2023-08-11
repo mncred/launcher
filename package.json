@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
-  "version": "2.0.4",
-  "productName": "Helios Launcher",
+  "name": "mncredlauncher",
+  "version": "0.9.0",
+  "productName": "MNCRED Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "author": "Yuri Kulagin (https://github.com/jkulvich/)",
+  "license": "MIT",
+  "homepage": "https://github.com/mncred/launcher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/mncred/launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -44,6 +44,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/mncred/launcher.git"
   }
 }
