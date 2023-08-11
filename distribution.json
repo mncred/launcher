@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "rss": "https://downloads.over.red/mnc/rss.xml",
+    "rss": "https://rsshub.app/github/issue/jkulvich/mnclaunch/open/news",
     "discord": {
         "clientId": "1086936373057040395",
         "smallImageText": "Change me through Nebula",
