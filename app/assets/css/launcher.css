@@ -2764,6 +2764,10 @@ input:checked + .toggleSwitchSlider:before {
     width: 80%;
 }
 
+#newsArticleContentWrapper p {
+    margin-bottom: 1em;
+}
+
 .newsArticleSpacerTop {
     height: 15px;
 }

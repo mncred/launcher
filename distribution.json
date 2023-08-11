@@ -1,6 +1,11 @@
 {
     "version": "1.0.0",
-    "rss": "https://rsshub.app/github/issue/mncred/launcher/open/news",
+    "rss": "https://rsshub.app/github/issue/mncred/launcher/open/news?update",
+    "discord": {
+        "clientId": "",
+        "smallImageText": "",
+        "smallImageKey": ""
+    },
     "servers": [
         {
             "id": "mncred-private",

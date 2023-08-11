@@ -944,7 +944,7 @@ document.addEventListener('keydown', (e) => {
 function displayArticle(articleObject, index) {
     newsArticleTitle.innerHTML = articleObject.title
     newsArticleTitle.href = articleObject.link
-    newsArticleAuthor.innerHTML = 'by ' + articleObject.author
+    newsArticleAuthor.innerHTML = 'автор ' + articleObject.author
     newsArticleDate.innerHTML = articleObject.date
     newsArticleComments.innerHTML = articleObject.comments
     newsArticleComments.href = articleObject.commentsLink
@@ -986,23 +986,16 @@ async function loadNews() {
                     const el = $(items[i])
 
                     // Resolve date.
-                    const date = new Date(el.find('pubDate').text()).toLocaleDateString('ru-RU', { month: 'short', day: 'numeric', year: 'numeric' })
+                    const date = new Date(el.find('pubDate').text()).toLocaleDateString('ru-RU', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric' })
 
                     // Resolve comments.
                     let comments = el.find('slash\\:comments').text() || '0'
                     comments = comments + ' Comment' + (comments === '1' ? '' : 's')
 
-                    // Fix relative links in content.
-                    let content = el.find('content\\:encoded').text()
-                    let regex = /src="(?!http:\/\/|https:\/\/)(.+?)"/g
-                    let matches
-                    while ((matches = regex.exec(content))) {
-                        content = content.replace(`"${matches[1]}"`, `"${newsHost + matches[1]}"`)
-                    }
-
+                    let content = el.find('description').text()
                     let link = el.find('link').text()
                     let title = el.find('title').text()
-                    let author = el.find('dc\\:creator').text()
+                    let author = el.find('author').text()
 
                     // Generate article.
                     articles.push(
