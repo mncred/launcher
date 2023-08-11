@@ -317,10 +317,10 @@ async function asyncSystemScan(effectiveJavaOptions, launchAfter = true) {
         // If the result is null, no valid Java installation was found.
         // Show this information to the user.
         setOverlayContent(
-            'No Compatible<br>Java Installation Found',
-            `In order to join WesterosCraft, you need a 64-bit installation of Java ${effectiveJavaOptions.suggestedMajor}. Would you like us to install a copy?`,
-            'Install Java',
-            'Install Manually'
+            'Не найдена совместимая версия Java',
+            `Для запуска игры требуется Java ${effectiveJavaOptions.suggestedMajor}. Хотите, чтобы мы установили её автоматически?`,
+            'Да, установите Java',
+            'Нет, я установлю вручную'
         )
         setOverlayHandler(() => {
             setLaunchDetails('Загрузка Java ...')
@@ -330,17 +330,17 @@ async function asyncSystemScan(effectiveJavaOptions, launchAfter = true) {
                 downloadJava(effectiveJavaOptions, launchAfter)
             } catch (err) {
                 loggerLanding.error('Unhandled error in Java Download', err)
-                showLaunchFailure('Error During Java Download', 'See console (CTRL + Shift + i) for more details.')
+                showLaunchFailure('Не удалось загрузить Java', 'See console (CTRL + Shift + i) for more details.')
             }
         })
         setDismissHandler(() => {
             $('#overlayContent').fadeOut(250, () => {
                 //$('#overlayDismiss').toggle(false)
                 setOverlayContent(
-                    'Java is Required<br>to Launch',
-                    `A valid x64 installation of Java ${effectiveJavaOptions.suggestedMajor} is required to launch.<br><br>Please refer to our <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java Management Guide</a> for instructions on how to manually install Java.`,
-                    'I Understand',
-                    'Go Back'
+                    'Для запуска требуется Java<br>',
+                    `Необходимо установить Java ${effectiveJavaOptions.suggestedMajor}.<br><br>Воспользуйтесь следующей ссылкой <a href="https://www.java.com/download/ie_manual.jsp">для установки Java</a>.`,
+                    'Ок, установлю вручную',
+                    'Отмена'
                 )
                 setOverlayHandler(() => {
                     toggleLaunchArea(false)
