@@ -8,570 +8,1013 @@
     },
     "servers": [
         {
-            "id": "mncred-private",
-            "name": "MNC.RED :: Приватный сервер",
-            "description": "Приватный сервер на базе Minecraft 1.20.1 с Create и мелкими модами, призванными улучшить пользовательский опыт.",
-            "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
-            "version": "0.4.0",
+            "id": "test-1.20.1",
+            "name": "MNCRED :: Тестовый пилот #1",
+            "description": "Тестовый сервер на базе мода Create и декоративных модов. Minecraft 1.20.1 (Forge v47.1.44)",
+            "icon": "https://downloads.over.red/default_icon.png",
+            "version": "1.0.0",
             "address": "mnc.red:25565",
             "minecraftVersion": "1.20.1",
             "mainServer": true,
             "autoconnect": true,
-            "modules": []
-        },
-        {
-            "id": "WesterosCraft-Demo-1.12.2",
-            "name": "WesterosCraft-Demo (Minecraft 1.12.2)",
-            "description": "WesterosCraft-Demo Running Minecraft 1.12.2 (Forge v14.23.5.2859)",
-            "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
-            "version": "2.1.6",
-            "address": "mc.westeroscraft.com:25565",
-            "minecraftVersion": "1.12.2",
-            "discord": {
-                "shortId": "WesterosCraft Demo",
-                "largeImageKey": "westeroscraft",
-                "largeImageText": "Change me through Nebula"
-            },
-            "mainServer": false,
-            "autoconnect": false,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
-                    "name": "Minecraft Forge",
+                    "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.1.44",
+                    "name": "Minecraft Forge (lowcodelanguage)",
                     "type": "ForgeHosted",
+                    "classpath": true,
                     "artifact": {
-                        "size": 4466108,
-                        "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
-                        "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
+                        "size": 7401,
+                        "MD5": "a5a7d6e32d0d06235889b63d956b8c17",
+                        "url": "https://downloads.over.red/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.1.44/lowcodelanguage-1.20.1-47.1.44.jar"
                     },
                     "subModules": [
                         {
-                            "id": "1.12.2-14.23.5.2859",
+                            "id": "1.20.1-47.1.44",
                             "name": "Minecraft Forge (version.json)",
                             "type": "VersionManifest",
                             "artifact": {
-                                "size": 12345,
-                                "MD5": "1959bb357e54a9666dd80d744b524639",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
+                                "size": 16554,
+                                "MD5": "0f306a8c7241d9346bc6cc7aa831d221",
+                                "url": "https://downloads.over.red/repo/versions/1.20.1-forge-47.1.44/1.20.1-forge-47.1.44.json"
                             }
                         },
                         {
-                            "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-                            "name": "Minecraft Forge (asm-debug-all)",
+                            "id": "net.minecraftforge:fmlcore:1.20.1-47.1.44",
+                            "name": "Minecraft Forge (fmlcore)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 117594,
+                                "MD5": "3ce54ed3dd94728049744593c8d3c3c8",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.1.44/fmlcore-1.20.1-47.1.44.jar"
+                            },
+                            "subModules": []
+                        },
+                        {
+                            "id": "net.minecraftforge:javafmllanguage:1.20.1-47.1.44",
+                            "name": "Minecraft Forge (javafmllanguage)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 16376,
+                                "MD5": "7ccad39a1b3dece541d26556bf9f0888",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.1.44/javafmllanguage-1.20.1-47.1.44.jar"
+                            },
+                            "subModules": []
+                        },
+                        {
+                            "id": "net.minecraftforge:mclanguage:1.20.1-47.1.44",
+                            "name": "Minecraft Forge (mclanguage)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 5002,
+                                "MD5": "4ebf5c9cca88e77f21002fa817d3d92d",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.1.44/mclanguage-1.20.1-47.1.44.jar"
+                            },
+                            "subModules": []
+                        },
+                        {
+                            "id": "net.minecraftforge:forge:1.20.1-47.1.44:universal",
+                            "name": "Minecraft Forge (universal jar)",
+                            "type": "Library",
+                            "classpath": false,
+                            "artifact": {
+                                "size": 2671957,
+                                "MD5": "4057fec8b394818ba28274f97748d0c8",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.1.44/forge-1.20.1-47.1.44-universal.jar"
+                            },
+                            "subModules": []
+                        },
+                        {
+                            "id": "net.minecraftforge:forge:1.20.1-47.1.44:client",
+                            "name": "Minecraft Forge (client jar)",
+                            "type": "Library",
+                            "classpath": false,
+                            "artifact": {
+                                "size": 4791107,
+                                "MD5": "81c0f5598327abc64b03e5a467f81a0e",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.1.44/forge-1.20.1-47.1.44-client.jar"
+                            },
+                            "subModules": []
+                        },
+                        {
+                            "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+                            "name": "Minecraft Forge (client srg)",
+                            "type": "Library",
+                            "classpath": false,
+                            "artifact": {
+                                "size": 18842082,
+                                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+                            },
+                            "subModules": []
+                        },
+                        {
+                            "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+                            "name": "Minecraft Forge (client slim)",
+                            "type": "Library",
+                            "classpath": false,
+                            "artifact": {
+                                "size": 12592249,
+                                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+                            },
+                            "subModules": []
+                        },
+                        {
+                            "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+                            "name": "Minecraft Forge (client extra)",
+                            "type": "Library",
+                            "classpath": false,
+                            "artifact": {
+                                "size": 10436626,
+                                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+                            },
+                            "subModules": []
+                        },
+                        {
+                            "id": "cpw.mods:securejarhandler:2.1.10",
+                            "name": "Minecraft Forge (securejarhandler)",
                             "type": "Library",
                             "artifact": {
-                                "size": 387903,
-                                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+                                "size": 88749,
+                                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                                "url": "https://downloads.over.red/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
                             }
                         },
                         {
-                            "id": "net.minecraft:launchwrapper:1.12@jar",
-                            "name": "Minecraft Forge (launchwrapper)",
+                            "id": "org.ow2.asm:asm:9.5",
+                            "name": "Minecraft Forge (asm)",
                             "type": "Library",
                             "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                                "size": 121863,
+                                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
                             }
                         },
                         {
-                            "id": "org.jline:jline:3.5.1@jar",
-                            "name": "Minecraft Forge (jline)",
+                            "id": "org.ow2.asm:asm-commons:9.5",
+                            "name": "Minecraft Forge (asm-commons)",
                             "type": "Library",
                             "artifact": {
-                                "size": 614590,
-                                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+                                "size": 72209,
+                                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
                             }
                         },
                         {
-                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-                            "name": "Minecraft Forge (akka-actor_2.11)",
+                            "id": "org.ow2.asm:asm-tree:9.5",
+                            "name": "Minecraft Forge (asm-tree)",
                             "type": "Library",
                             "artifact": {
-                                "size": 2514991,
-                                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+                                "size": 51944,
+                                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
                             }
                         },
                         {
-                            "id": "com.typesafe:config:1.2.1@jar",
-                            "name": "Minecraft Forge (config)",
+                            "id": "org.ow2.asm:asm-util:9.5",
+                            "name": "Minecraft Forge (asm-util)",
                             "type": "Library",
                             "artifact": {
-                                "size": 219554,
-                                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+                                "size": 91076,
+                                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-                            "name": "Minecraft Forge (scala-actors-migration_2.11)",
+                            "id": "org.ow2.asm:asm-analysis:9.5",
+                            "name": "Minecraft Forge (asm-analysis)",
                             "type": "Library",
                             "artifact": {
-                                "size": 58018,
-                                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+                                "size": 33978,
+                                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-                            "name": "Minecraft Forge (scala-compiler)",
+                            "id": "net.minecraftforge:accesstransformers:8.0.4",
+                            "name": "Minecraft Forge (accesstransformers)",
                             "type": "Library",
                             "artifact": {
-                                "size": 13449765,
-                                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+                                "size": 77756,
+                                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-                            "name": "Minecraft Forge (scala-continuations-library_2.11)",
+                            "id": "org.antlr:antlr4-runtime:4.9.1",
+                            "name": "Minecraft Forge (antlr4-runtime)",
                             "type": "Library",
                             "artifact": {
-                                "size": 25365,
-                                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+                                "size": 337868,
+                                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                                "url": "https://downloads.over.red/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-                            "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+                            "id": "net.minecraftforge:eventbus:6.0.5",
+                            "name": "Minecraft Forge (eventbus)",
                             "type": "Library",
                             "artifact": {
-                                "size": 206575,
-                                "MD5": "359c4a6743a082c689039482eed78670",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                                "size": 53985,
+                                "MD5": "2a6245210b446b2144071e71ca13432b",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-library:2.11.1@jar",
-                            "name": "Minecraft Forge (scala-library)",
+                            "id": "net.minecraftforge:forgespi:7.0.1",
+                            "name": "Minecraft Forge (forgespi)",
                             "type": "Library",
                             "artifact": {
-                                "size": 5538130,
-                                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+                                "size": 29831,
+                                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-                            "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+                            "id": "net.minecraftforge:coremods:5.0.1",
+                            "name": "Minecraft Forge (coremods)",
                             "type": "Library",
                             "artifact": {
-                                "size": 419701,
-                                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+                                "size": 24199,
+                                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-                            "name": "Minecraft Forge (scala-reflect)",
+                            "id": "cpw.mods:modlauncher:10.0.9",
+                            "name": "Minecraft Forge (modlauncher)",
                             "type": "Library",
                             "artifact": {
-                                "size": 4372892,
-                                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+                                "size": 130343,
+                                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                                "url": "https://downloads.over.red/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-                            "name": "Minecraft Forge (scala-swing_2.11)",
+                            "id": "net.minecraftforge:unsafe:0.2.0",
+                            "name": "Minecraft Forge (unsafe)",
                             "type": "Library",
                             "artifact": {
-                                "size": 726500,
-                                "MD5": "1009d69e4948045383f2a7a334348af5",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+                                "size": 2834,
+                                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-                            "name": "Minecraft Forge (scala-xml_2.11)",
+                            "id": "net.minecraftforge:mergetool:1.1.5:api",
+                            "name": "Minecraft Forge (mergetool)",
                             "type": "Library",
                             "artifact": {
-                                "size": 648679,
-                                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+                                "size": 2572,
+                                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
                             }
                         },
                         {
-                            "id": "lzma:lzma:0.0.1@jar",
-                            "name": "Minecraft Forge (lzma)",
+                            "id": "com.electronwill.night-config:core:3.6.4",
+                            "name": "Minecraft Forge (core)",
                             "type": "Library",
                             "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+                                "size": 199834,
+                                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                                "url": "https://downloads.over.red/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
                             }
                         },
                         {
-                            "id": "java3d:vecmath:1.5.2@jar",
-                            "name": "Minecraft Forge (vecmath)",
+                            "id": "com.electronwill.night-config:toml:3.6.4",
+                            "name": "Minecraft Forge (toml)",
                             "type": "Library",
                             "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                                "size": 31816,
+                                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                                "url": "https://downloads.over.red/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
                             }
                         },
                         {
-                            "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-                            "name": "Minecraft Forge (trove4j)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2523218,
-                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+                            "id": "org.apache.maven:maven-artifact:3.8.5",
                             "name": "Minecraft Forge (maven-artifact)",
                             "type": "Library",
                             "artifact": {
-                                "size": 54961,
-                                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+                                "size": 58077,
+                                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                                "url": "https://downloads.over.red/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
                             }
                         },
                         {
-                            "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-                            "name": "Minecraft Forge (jopt-simple)",
+                            "id": "net.jodah:typetools:0.6.3",
+                            "name": "Minecraft Forge (typetools)",
                             "type": "Library",
                             "artifact": {
-                                "size": 78175,
-                                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+                                "size": 18281,
+                                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                                "url": "https://downloads.over.red/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
                             }
                         },
                         {
-                            "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
-                            "name": "Minecraft Forge (log4j-api)",
+                            "id": "net.minecrell:terminalconsoleappender:1.2.0",
+                            "name": "Minecraft Forge (terminalconsoleappender)",
                             "type": "Library",
                             "artifact": {
-                                "size": 301804,
-                                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+                                "size": 15977,
+                                "MD5": "679363fa893293791e55a21f81342f87",
+                                "url": "https://downloads.over.red/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
                             }
                         },
                         {
-                            "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
-                            "name": "Minecraft Forge (log4j-core)",
+                            "id": "org.jline:jline-reader:3.12.1",
+                            "name": "Minecraft Forge (jline-reader)",
                             "type": "Library",
                             "artifact": {
-                                "size": 1789769,
-                                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+                                "size": 150765,
+                                "MD5": "a2e7b012cd9802f83321187409174a94",
+                                "url": "https://downloads.over.red/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
                             }
                         },
                         {
-                            "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
-                            "name": "Minecraft Forge (log4j-slf4j18-impl)",
+                            "id": "org.jline:jline-terminal:3.12.1",
+                            "name": "Minecraft Forge (jline-terminal)",
                             "type": "Library",
                             "artifact": {
-                                "size": 21223,
-                                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
-                                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+                                "size": 211712,
+                                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                                "url": "https://downloads.over.red/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.spongepowered:mixin:0.8.5",
+                            "name": "Minecraft Forge (mixin)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1089277,
+                                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                                "url": "https://downloads.over.red/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                            }
+                        },
+                        {
+                            "id": "org.openjdk.nashorn:nashorn-core:15.3",
+                            "name": "Minecraft Forge (nashorn-core)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2167288,
+                                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                                "url": "https://downloads.over.red/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:JarJarSelector:0.3.19",
+                            "name": "Minecraft Forge (JarJarSelector)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 17374,
+                                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+                            "name": "Minecraft Forge (JarJarMetadata)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 15895,
+                                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+                            }
+                        },
+                        {
+                            "id": "cpw.mods:bootstraplauncher:1.1.2",
+                            "name": "Minecraft Forge (bootstraplauncher)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 8284,
+                                "MD5": "48f5255aa337344c467c0150d347813d",
+                                "url": "https://downloads.over.red/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+                            "name": "Minecraft Forge (JarJarFileSystems)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32195,
+                                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:fmlloader:1.20.1-47.1.44",
+                            "name": "Minecraft Forge (fmlloader)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 264249,
+                                "MD5": "17f2a4b8b3f0a78a5e8ae5ea6ad24759",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.1.44/fmlloader-1.20.1-47.1.44.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.1.44",
+                            "name": "Minecraft Forge (fmlearlydisplay)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 170338,
+                                "MD5": "456e1b13d7b23910e263624f9624f43a",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.1.44/fmlearlydisplay-1.20.1-47.1.44.jar"
                             }
                         }
                     ]
                 },
                 {
-                    "id": "com.creativemd:creativecore:1.10@jar",
+                    "id": "com.mgen256.al:additional_lights:2.1.7@jar",
+                    "name": "Additional Lights",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 530405,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/additional_lights-1.20.1-2.1.7.jar",
+                        "MD5": "2a2661fc9399c3fb4a40fda6e6eec0d1"
+                    }
+                },
+                {
+                    "id": "squeek.appleskin:appleskin:2.5.0+mc1.20.1@jar",
+                    "name": "AppleSkin",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 47447,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.0.jar",
+                        "MD5": "e2e1bc69dd56e4945ab47cdb9a92e12b"
+                    }
+                },
+                {
+                    "id": "dev.architectury:architectury:9.0.8@jar",
+                    "name": "Architectury",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 567166,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/architectury-9.0.8-forge.jar",
+                        "MD5": "02ac749cdcd9f064202dd0253b59365c"
+                    }
+                },
+                {
+                    "id": "com.grim3212.assorted.lib:assortedlib:3.0.1@jar",
+                    "name": "Assorted Lib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 513898,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/assortedlib-forge-1.20.1-3.0.1.jar",
+                        "MD5": "8638cc36d5dcf79dc78c5bb16a772641"
+                    }
+                },
+                {
+                    "id": "com.grim3212.assorted.storage:assortedstorage:10.0.1@jar",
+                    "name": "Assorted Storage",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1602379,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/assortedstorage-forge-1.20.1-10.0.1.jar",
+                        "MD5": "dff8a241d240538b3dd26da1eb280144"
+                    }
+                },
+                {
+                    "id": "io.github.fourmisain:axesareweapons:1.7.0@jar",
+                    "name": "Axes Are Weapons",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 27745,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/AxesAreWeapons-1.7.0-forge-1.19.3.jar",
+                        "MD5": "55afd334042978ba809084444f2b32c1"
+                    }
+                },
+                {
+                    "id": "net.blay09.mods:balm:7.0.4@jar",
+                    "name": "Balm",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 330777,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/balm-forge-1.20-7.0.4.jar",
+                        "MD5": "f5eb8f8dc7b257ff17ca8a3fe28bb61e"
+                    }
+                },
+                {
+                    "id": "me.treyruffy:betterf3:7.0.1@jar",
+                    "name": "BetterF3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 456795,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/BetterF3-7.0.1-Forge-1.20.1.jar",
+                        "MD5": "59994205b68680095fcc1b9fea447020"
+                    }
+                },
+                {
+                    "id": "com.abdelaziz:canary:0.2.6@jar",
+                    "name": "Canary",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 428448,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/canary-mc1.20(.1)-0.2.6.jar",
+                        "MD5": "a13c32c69731a8d07f6764d2a4151d9c"
+                    }
+                },
+                {
+                    "id": "tschipp.carryon:carryon:2.1.0.1@jar",
+                    "name": "Carry On",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 439103,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/carryon-forge-1.20.1-2.1.0.1.jar",
+                        "MD5": "422a316778f6a4e031002ba12605e03d"
+                    }
+                },
+                {
+                    "id": "com.mrcrayfish:catalogue:1.7.1@jar",
+                    "name": "Catalogue",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 244311,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/catalogue-forge-1.20.1-1.7.1.jar",
+                        "MD5": "5036bf92c0aadbf05c851121c63ecf8d"
+                    }
+                },
+                {
+                    "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
+                    "name": "MrCrayfish's Furniture Mod",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2613393,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
+                        "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
+                    }
+                },
+                {
+                    "id": "dzwdz.chat_heads:chat_heads:0.10.18@jar",
+                    "name": "Chat Heads",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 49230,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/chat_heads-0.10.18-forge-1.20.jar",
+                        "MD5": "3375ab694f84b5eca58844d361d9afdf"
+                    }
+                },
+                {
+                    "id": "io.github.strikerrocker:cleardespawn:1.1.13@jar",
+                    "name": "ClearDespawn",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 20022,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/ClearDespawn-forge-1.20.1-1.1.13.jar",
+                        "MD5": "6065e80e7aae80728b9d6827b3121bdb"
+                    }
+                },
+                {
+                    "id": "me.shedaniel.clothconfig:cloth_config:11.1.106@jar",
+                    "name": "Cloth Config v10 API",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1168375,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/cloth-config-11.1.106-forge.jar",
+                        "MD5": "17794d377921e9cd96b30250a7b13156"
+                    }
+                },
+                {
+                    "id": "com.natamus:collective:6.65@jar",
+                    "name": "Collective",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 618381,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/collective-1.20.1-6.65.jar",
+                        "MD5": "32848eb0fe6cdb0f00224da2864367f6"
+                    }
+                },
+                {
+                    "id": "net.blay09.mods:craftingtweaks:18.0.2@jar",
+                    "name": "CraftingTweaks",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 183519,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/craftingtweaks-forge-1.20-18.0.2.jar",
+                        "MD5": "69e8547b5a260671c68404fb478f74d6"
+                    }
+                },
+                {
+                    "id": "com.simibubi:create:0.5.1.d@jar",
+                    "name": "Create",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 14789680,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/create-1.20.1-0.5.1.d.jar",
+                        "MD5": "1d8596c61219833a7c0dbf47302dd607"
+                    }
+                },
+                {
+                    "id": "team.creative:creativecore:2.10.31@jar",
                     "name": "CreativeCore",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 1290012,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/CreativeCore_v1.10.65_mc1.12.2.jar",
-                        "MD5": "e6e4ad48ce7d4f0cd47a5d106dbad745"
+                        "size": 1026617,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/CreativeCore_FORGE_v2.10.31_mc1.20.1.jar",
+                        "MD5": "da621334ab635d8199bc8ad78abdc84e"
                     }
                 },
                 {
-                    "id": "org.orecruncher:dsurround:1.12.2-3.6.1.0@jar",
-                    "name": "Dynamic Surroundings",
+                    "id": "eu.midnightdust:cullleaves:3.1.0@jar",
+                    "name": "CullLeaves",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 15929762,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/DynamicSurroundings-1.12.2-3.6.1.0.jar",
-                        "MD5": "1a0d50a34941865ff091a492e0612502"
+                        "size": 35738,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/cullleaves-forge-3.1.0.jar.dis",
+                        "MD5": "7e87061e1bebaeebd5748b1cccef8b3e"
                     }
                 },
                 {
-                    "id": "sekelsta.horse_colors:horse_colors:1.12.2-1.2.6@jar",
-                    "name": "Realistic Horse Genetics",
+                    "id": "chappie.displaycase:display_case:1.0.5@jar",
+                    "name": "Display Case Mod",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 711220,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/horse_colors-1.12.2-1.3.6.a.jar",
-                        "MD5": "073030905d404994027f44839279cb3a"
+                        "size": 45633,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/Display%20Case-forge-1.20-1.0.5.jar",
+                        "MD5": "3aaa55508c5b168ab9bf6fa51d758c3d"
                     }
                 },
                 {
-                    "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
-                    "name": "JourneyMap",
+                    "id": "com.natamus:doubledoors:5.0@jar",
+                    "name": "Double Doors",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 6990968,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/journeymap-1.12.2-5.7.1.jar",
-                        "MD5": "8160b970fc14cff30dff2785bb9f964c"
+                        "size": 51453,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/doubledoors-1.20.1-5.0.jar",
+                        "MD5": "178ef3c1cdf0a6e9e68c451a7ef7dd10"
                     }
                 },
                 {
-                    "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
-                    "name": "OptiFine 1.12.2_HD_U_G5",
+                    "id": "atomicstryker.dynamiclights.server:dynamiclights:1.20.1.0@jar",
+                    "name": "Dynamic Lights",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 2669107,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
-                        "MD5": "54e561e441192cf009803ae95873c5d0"
+                        "size": 45225,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/dynamiclights-1.20.1.0.jar",
+                        "MD5": "dd0fef7eedc68506900374adf7f11a41"
                     }
                 },
                 {
-                    "id": "org.orecruncher:orelib:1.12.2-3.6.0.1@jar",
-                    "name": "OreLib Support Mod",
+                    "id": "org.dynmap.forge_1_20:dynmap:3.6-beta-1-890@jar",
+                    "name": "Dynmap",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 341728,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/OreLib-1.12.2-3.6.0.1.jar",
-                        "MD5": "00cce3b240365458adcad3e77782358a"
+                        "size": 10358199,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/Dynmap-3.6-beta-1-forge-1.20.jar",
+                        "MD5": "d94b010b212dc951d3b4623c0c017534"
                     }
                 },
                 {
-                    "id": "com.shynieke:statues:0.8.9.2@jar",
-                    "name": "Statues mod",
+                    "id": "fuzs.easymagic:easymagic:8.0.1@jar",
+                    "name": "Easy Magic",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 1811654,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/statues-1.12.X-0.8.9.2.jar",
-                        "MD5": "a8c31d02a76d408ba19aabf832038087"
+                        "size": 115947,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/EasyMagic-v8.0.1-1.20.1-Forge.jar",
+                        "MD5": "4818f5240dc07c9da2fafe9b1c344305"
                     }
                 },
                 {
-                    "id": "com.creativemd.opf:opframe:1.7.0@jar",
-                    "name": "WCOnlinePictureFrame",
+                    "id": "dev.tr7zw:entityculling:1.6.2@jar",
+                    "name": "EntityCulling",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 64116,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/WCOnlinePictureFrame-1.7.0-beta-1-forge-1.12.2.jar",
-                        "MD5": "1f9cd1d59f899ea895fd32aee42ed72f"
+                        "size": 60489,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/entityculling-forge-1.6.2-mc1.20.jar",
+                        "MD5": "70a8664d4f7b153cdc92557d50e6bf35"
                     }
                 },
                 {
-                    "id": "com.westeroscraft:westerosblocks:4.3.4-126@jar",
-                    "name": "WesterosBlocks",
+                    "id": "bre2el.fpsreducer:fpsreducer:1.20-2.5@jar",
+                    "name": "FPS Reducer",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 19056312,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/WesterosBlocks-4.3.4-forge-1.12.2.jar",
-                        "MD5": "fa85607024a470146e9ad088fe2c847c"
+                        "size": 125347,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/FpsReducer2-forge-1.20-2.5.jar",
+                        "MD5": "667e0ad36f07af69e285d47624b1d084"
                     }
                 },
                 {
-                    "id": "com.westeroscraft:westerosentities:1.12.2-1.3.0@jar",
-                    "name": "WesterosEntities",
+                    "id": "com.natamus:healingcampfire:5.1@jar",
+                    "name": "Healing Campfire",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 287218,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/westerosentities-1.12.2-b6.jar",
-                        "MD5": "a02be14d86cb9748892a92778b194f4c"
+                        "size": 50658,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/healingcampfire-1.20.1-5.1.jar",
+                        "MD5": "f76795be87f367032e2bf0f483847e4d"
                     }
                 },
                 {
-                    "id": "betterfoliage.cfg",
-                    "name": "betterfoliage.cfg",
-                    "type": "File",
+                    "id": "com.natamus:infinitetrading:4.0@jar",
+                    "name": "Infinite Trading",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 7409,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/betterfoliage.cfg",
-                        "MD5": "fa6f5224ce68059be075c1c25610c13f",
-                        "path": "config/betterfoliage.cfg"
+                        "size": 43734,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/infinitetrading-1.20.1-4.0.jar",
+                        "MD5": "0f579e1d35cb0400f372ed4218721ba7"
                     }
                 },
                 {
-                    "id": "creativecore-client.json",
-                    "name": "creativecore-client.json",
-                    "type": "File",
+                    "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.6@jar",
+                    "name": "Inventory Profiles Next",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 236,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/creativecore-client.json",
-                        "MD5": "d1c26a8be7d2031a02d4b3aca3d1c503",
-                        "path": "config/creativecore-client.json"
+                        "size": 1343696,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/InventoryProfilesNext-forge-1.20-1.10.6.jar",
+                        "MD5": "eb1a6273289ef1a152847dce35302f73"
                     }
                 },
                 {
-                    "id": "dsurround.cfg",
-                    "name": "dsurround.cfg",
-                    "type": "File",
+                    "id": "com.natamus:inventorytotem:3.0@jar",
+                    "name": "Inventory Totem",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 15675,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/dsurround/dsurround.cfg",
-                        "MD5": "b9c8ee4782b0db40dea2193f9443a755",
-                        "path": "config/dsurround/dsurround.cfg"
+                        "size": 22446,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/inventorytotem-1.20.1-3.0.jar",
+                        "MD5": "c57f4f39725e61e64155634061528660"
                     }
                 },
                 {
-                    "id": "forge.cfg",
-                    "name": "forge.cfg",
-                    "type": "File",
+                    "id": "dlovin.inventoryhud:inventoryhud:3.4.13@jar",
+                    "name": "Inventory HUD+(Forge edition)",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 3955,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/forge.cfg",
-                        "MD5": "bee77d51b82699b95bf5c02788f654fb",
-                        "path": "config/forge.cfg"
+                        "size": 218494,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/invhud.forge.1.20-3.4.13.jar",
+                        "MD5": "0258f9f88b7044bf489624cf2283a780"
                     }
                 },
                 {
-                    "id": "forgeChunkLoading.cfg",
-                    "name": "forgeChunkLoading.cfg",
-                    "type": "File",
+                    "id": "team.creative:itemphysic:1.6.9@jar",
+                    "name": "ItemPhysic",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 2206,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/forgeChunkLoading.cfg",
-                        "MD5": "95ba05ef01861ee260b40c95e9cc5aec",
-                        "path": "config/forgeChunkLoading.cfg"
+                        "size": 47244,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/ItemPhysic_FORGE_v1.6.9_mc1.20.jar",
+                        "MD5": "aeaab91763265c1cc07244c6edfa54b3"
                     }
                 },
                 {
-                    "id": "horse_colors.cfg",
-                    "name": "horse_colors.cfg",
-                    "type": "File",
+                    "id": "snownee.jade:jade:11.1.4@jar",
+                    "name": "Jade",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 4459,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/horse_colors.cfg",
-                        "MD5": "1b2ee4e60989737366385dfea4a4c30d",
-                        "path": "config/horse_colors.cfg"
+                        "size": 479574,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/Jade-1.20-forge-11.1.4.jar",
+                        "MD5": "60ab1ec7e4d7b13245e139e0314b0eee"
                     }
                 },
                 {
-                    "id": "journeymap_ModInfo.cfg",
-                    "name": "journeymap_ModInfo.cfg",
-                    "type": "File",
+                    "id": "mezz.jei:jei:15.2.0.22@jar",
+                    "name": "Just Enough Items",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 379,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/journeymap_ModInfo.cfg",
-                        "MD5": "792dd5263a3aeecf13a2a78729221f98",
-                        "path": "config/journeymap_ModInfo.cfg"
+                        "size": 1112922,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/jei-1.20.1-forge-15.2.0.22.jar",
+                        "MD5": "fbf44cd9b80449ab7bc8fa041e73e33b"
                     }
                 },
                 {
-                    "id": "journeymap_server.cfg",
-                    "name": "journeymap_server.cfg",
-                    "type": "File",
+                    "id": "journeymap:journeymap:5.9.12@jar",
+                    "name": "Journeymap",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 633,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/journeymap_server.cfg",
-                        "MD5": "ec1f450ddbf068d578328b97f5e50d1b",
-                        "path": "config/journeymap_server.cfg"
+                        "size": 7102721,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/journeymap-1.20.1-5.9.12-forge.jar",
+                        "MD5": "2eeacde9ac5caca71c994ecccae28105"
                     }
                 },
                 {
-                    "id": "opframe-client.json",
-                    "name": "opframe-client.json",
-                    "type": "File",
+                    "id": "generated.forgemod:kotlinforforge:4.4.0-all@jar",
+                    "name": "Kotlinforforge",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 34,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/opframe-client.json",
-                        "MD5": "b0dc09d08f2ec719a8907aaa2d77c96e",
-                        "path": "config/opframe-client.json"
+                        "size": 7598082,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/kotlinforforge-4.4.0-all.jar",
+                        "MD5": "de59abb1cfcf3d07874819e8b888bca0"
                     }
                 },
                 {
-                    "id": "orelib.cfg",
-                    "name": "orelib.cfg",
-                    "type": "File",
+                    "id": "org.anti_ad.mc:libipn:3.0.2@jar",
+                    "name": "LibIPN",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 622,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/orelib.cfg",
-                        "MD5": "1a445891cf7ae380e6e0ea2d7bbe9209",
-                        "path": "config/orelib.cfg"
+                        "size": 678877,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/libIPN-forge-1.20-3.0.2.jar",
+                        "MD5": "8e90a6dfc9db95e5bde0113c8098ab03"
                     }
                 },
                 {
-                    "id": "splash.properties",
-                    "name": "splash.properties",
-                    "type": "File",
+                    "id": "com.mcwbridges.kikoz:mcwbridges:2.1.1@jar",
+                    "name": "Macaw's Bridges",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 375,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/splash.properties",
-                        "MD5": "ae51f2863230f87e74776d46f86e668d",
-                        "path": "config/splash.properties"
+                        "size": 745774,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/mcw-bridges-2.1.1-mc1.20.1forge.jar",
+                        "MD5": "2fd10e11adaffb31e9b2f0ae9f391dd7"
                     }
                 },
                 {
-                    "id": "statues.cfg",
-                    "name": "statues.cfg",
-                    "type": "File",
+                    "id": "com.mcwfences.kikoz:mcwfences:1.0.7@jar",
+                    "name": "Macaw's Fences and Walls",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 7079,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/statues.cfg",
-                        "MD5": "d43c508ca9266df4fa1f571c5348de3a",
-                        "path": "config/statues.cfg"
+                        "size": 391919,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/mcw-fences-1.0.7-mc1.20.1forge.jar",
+                        "MD5": "72d46c58d50ed19a58acab42a815ff77"
                     }
                 },
                 {
-                    "id": "westerosblocks.cfg",
-                    "name": "westerosblocks.cfg",
-                    "type": "File",
+                    "id": "com.mcwlights.kikoz:mcwlights:1.0.6@jar",
+                    "name": "Macaw's Lights and Lamps",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 122,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/westerosblocks.cfg",
-                        "MD5": "e56e4ea260b54962a84193fd154756fb",
-                        "path": "config/westerosblocks.cfg"
+                        "size": 415180,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/mcw-lights-1.0.6-mc1.20.1forge.jar",
+                        "MD5": "a19a1f72ac7f958f540ef8c71e410336"
                     }
                 },
                 {
-                    "id": "options.txt",
-                    "name": "options.txt",
-                    "type": "File",
+                    "id": "eu.midnightdust:midnightlib:1.4.1@jar",
+                    "name": "MidnightLib",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 2911,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/options.txt",
-                        "path": "options.txt"
+                        "size": 63769,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/midnightlib-forge-1.4.1.jar.dis",
+                        "MD5": "9a665ffea487f48e8529ec4cf0d63b23"
                     }
                 },
                 {
-                    "id": "WesterosCraft-v1.12.2-29.zip",
-                    "name": "WesterosCraft-v1.12.2-29.zip",
-                    "type": "File",
+                    "id": "net.coderbot.iris:oculus:1.6.4@jar",
+                    "name": "Oculus",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 55905310,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/resourcepacks/WesterosCraft-v1.12.2-29.zip",
-                        "MD5": "eb3c794aafe44c7ea7d3407a10553bd4",
-                        "path": "resourcepacks/WesterosCraft-v1.12.2-29.zip"
+                        "size": 2849391,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/oculus-mc1.20-1.6.4.jar.dis",
+                        "MD5": "5a5931227b842d89f2ace93625b22739"
                     }
                 },
                 {
-                    "id": "servers.dat",
-                    "name": "servers.dat",
-                    "type": "File",
+                    "id": "fuzs.pickupnotifier:pickupnotifier:8.0.0@jar",
+                    "name": "Pick Up Notifier",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 84,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/servers.dat",
-                        "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
-                        "path": "servers.dat"
+                        "size": 102164,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
+                        "MD5": "c1004011e796ef62010dcb03e9597cdc"
                     }
                 },
                 {
-                    "id": "Chocapic13_V9_Extreme.zip",
-                    "name": "Chocapic13_V9_Extreme.zip",
-                    "type": "File",
+                    "id": "com.illusivesoulworks:polymorph:0.49.0+1.20.1@jar",
+                    "name": "Polymorph",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 3134623,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/shaderpacks/Chocapic13_V9_Extreme.zip",
-                        "MD5": "2a5ec76ad7acc47005e32cc1e5da1e41",
-                        "path": "shaderpacks/Chocapic13_V9_Extreme.zip"
+                        "size": 297448,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/polymorph-forge-0.49.0+1.20.1.jar",
+                        "MD5": "bf22dcae0b8799e0475281dbb3b26165"
                     }
                 },
                 {
-                    "id": "SEUS-Renewed-v1.0.1.zip",
-                    "name": "SEUS-Renewed-v1.0.1.zip",
-                    "type": "File",
+                    "id": "fuzs.puzzleslib.impl:puzzleslib:8.0.7@jar",
+                    "name": "Puzzles Lib",
+                    "type": "ForgeMod",
                     "artifact": {
-                        "size": 7062638,
-                        "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/shaderpacks/SEUS-Renewed-v1.0.1.zip",
-                        "MD5": "8faeb04d9953c9b10b0794acafc4c1aa",
-                        "path": "shaderpacks/SEUS-Renewed-v1.0.1.zip"
+                        "size": 670937,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PuzzlesLib-v8.0.7-1.20.1-Forge.jar",
+                        "MD5": "81d4d281abf7a4e927245bdddd2371e4"
+                    }
+                },
+                {
+                    "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.5@jar",
+                    "name": "Rubidium",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 605877,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/rubidium-0.6.5.jar",
+                        "MD5": "a452efa401ac9ec14d7232243ee4f3fd"
+                    }
+                },
+                {
+                    "id": "link.infra:screenshotclipboard:1.0.9@jar",
+                    "name": "Screenshot to Clipboard",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 16472,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/screenshot-to-clipboard-1.0.9-forge.jar",
+                        "MD5": "8d20d50d2bd041ecda38d2f1a1949b90"
+                    }
+                },
+                {
+                    "id": "me.wesley1808:servercore:1.3.7+1.20.1@jar",
+                    "name": "ServerCore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1197350,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/servercore-forge-1.3.7+1.20.1.jar.dis",
+                        "MD5": "bc71bfcb58c5405fbb0f17c9f39cc5aa"
+                    }
+                },
+                {
+                    "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.20.1-3.18.54.870@jar",
+                    "name": "Sophisticated Backpacks",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 786298,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.18.54.870.jar",
+                        "MD5": "738a039e233c1cd4082e45e5375a26b2"
+                    }
+                },
+                {
+                    "id": "net.p3pp3rf1y:sophisticatedcore:1.20.1-0.5.77.347@jar",
+                    "name": "Sophisticated Core",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 978229,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/sophisticatedcore-1.20.1-0.5.77.347.jar",
+                        "MD5": "df1f8d435ad8af5ce2307cbd4bf2c52e"
+                    }
+                },
+                {
+                    "id": "com.natamus:stackrefill:4.0@jar",
+                    "name": "Stack Refill",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 34660,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/stackrefill-1.20.1-4.0.jar",
+                        "MD5": "7c8e77fcb2ea9e753d5cf1207e355ed5"
+                    }
+                },
+                {
+                    "id": "ca.spottedleaf:starlight:1.1.2+forge.1cda73c@jar",
+                    "name": "Starlight",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 110583,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/starlight-1.1.2+forge.1cda73c.jar.dis",
+                        "MD5": "da99a054428fb62342b6767b993c4c8d"
+                    }
+                },
+                {
+                    "id": "org.tlauncher:tlskincape:1.32@jar",
+                    "name": "TLSkinCape",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 715179,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/tl_skin_cape_forge_1.20_1.20.1-1.32.jar",
+                        "MD5": "4a94ba5350850dec78dba59c2988eb43"
+                    }
+                },
+                {
+                    "id": "com.tom.storagemod:toms_storage:1.6.4@jar",
+                    "name": "Tom's Simple Storage Mod",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 504999,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/toms_storage-1.20-1.6.4.jar",
+                        "MD5": "054f9a072ea3505db17085d083e21093"
+                    }
+                },
+                {
+                    "id": "net.blay09.mods:trashslot:15.0.0@jar",
+                    "name": "TrashSlot",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 113495,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/trashslot-forge-1.20-15.0.0.jar",
+                        "MD5": "2a7599b96bfd5d7b77617eeee8fd52a3"
+                    }
+                },
+                {
+                    "id": "eu.midnightdust:visualoverhaul:5.0.1@jar",
+                    "name": "VisualOverhaul",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 185525,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/visualoverhaul-forge-5.0.1.jar.dis",
+                        "MD5": "21d23a8c857177c3dae56c7b4db2c41d"
+                    }
+                },
+                {
+                    "id": "fuzs.visualworkbench:visualworkbench:8.0.0@jar",
+                    "name": "Visual Workbench",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 82055,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
+                        "MD5": "d741bc2d4d3a385116d094b874474a6b"
+                    }
+                },
+                {
+                    "id": "xaero.minimap:xaerominimap:23.5.0@jar",
+                    "name": "Xaero's Minimap",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1295283,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/Xaeros_Minimap_23.5.0_Forge_1.20.jar.dis",
+                        "MD5": "83010dfdbaca4328d71971c375f497a1"
                     }
                 }
             ]
