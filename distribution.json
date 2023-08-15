@@ -13,7 +13,7 @@
             "description": "Тестовый сервер на базе мода Create и декоративных модов. Minecraft 1.20.1 (Forge v47.1.44)",
             "icon": "https://downloads.over.red/default_icon.png",
             "version": "1.0.0",
-            "address": "mnc.red:25565",
+            "address": "stone.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
             "mainServer": true,
             "autoconnect": true,
@@ -952,9 +952,9 @@
                     "name": "servers.dat",
                     "type": "File",
                     "artifact": {
-                        "size": 90,
+                        "size": 129,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/servers.dat",
-                        "MD5": "db16a15ef9a432ec07232c4418b73b88",
+                        "MD5": "028c3ef8b9d60de944f31badca2f7985",
                         "path": "servers.dat"
                     }
                 }
