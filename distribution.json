@@ -979,86 +979,86 @@
             "address": "water.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
             "mainServer": false,
-            "autoconnect": true,
+            "autoconnect": false,
             "modules": [
                 {
-                    "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.1.44",
+                    "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.1.3",
                     "name": "Minecraft Forge (lowcodelanguage)",
                     "type": "ForgeHosted",
                     "classpath": true,
                     "artifact": {
-                        "size": 7401,
-                        "MD5": "a5a7d6e32d0d06235889b63d956b8c17",
-                        "url": "https://downloads.over.red/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.1.44/lowcodelanguage-1.20.1-47.1.44.jar"
+                        "size": 7402,
+                        "MD5": "7766e1df56a8f65f663b429ff9d7faeb",
+                        "url": "https://downloads.over.red/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.1.3/lowcodelanguage-1.20.1-47.1.3.jar"
                     },
                     "subModules": [
                         {
-                            "id": "1.20.1-47.1.44",
+                            "id": "1.20.1-47.1.3",
                             "name": "Minecraft Forge (version.json)",
                             "type": "VersionManifest",
                             "artifact": {
-                                "size": 16554,
-                                "MD5": "0f306a8c7241d9346bc6cc7aa831d221",
-                                "url": "https://downloads.over.red/repo/versions/1.20.1-forge-47.1.44/1.20.1-forge-47.1.44.json"
+                                "size": 16543,
+                                "MD5": "8b8f97f76919093f7af0b2f761f0771d",
+                                "url": "https://downloads.over.red/repo/versions/1.20.1-forge-47.1.3/1.20.1-forge-47.1.3.json"
                             }
                         },
                         {
-                            "id": "net.minecraftforge:fmlcore:1.20.1-47.1.44",
+                            "id": "net.minecraftforge:fmlcore:1.20.1-47.1.3",
                             "name": "Minecraft Forge (fmlcore)",
                             "type": "Library",
                             "classpath": true,
                             "artifact": {
                                 "size": 117594,
-                                "MD5": "3ce54ed3dd94728049744593c8d3c3c8",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.1.44/fmlcore-1.20.1-47.1.44.jar"
+                                "MD5": "8324fb70d7add29a82ffc1509c17bc22",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.1.3/fmlcore-1.20.1-47.1.3.jar"
                             },
                             "subModules": []
                         },
                         {
-                            "id": "net.minecraftforge:javafmllanguage:1.20.1-47.1.44",
+                            "id": "net.minecraftforge:javafmllanguage:1.20.1-47.1.3",
                             "name": "Minecraft Forge (javafmllanguage)",
                             "type": "Library",
                             "classpath": true,
                             "artifact": {
                                 "size": 16376,
-                                "MD5": "7ccad39a1b3dece541d26556bf9f0888",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.1.44/javafmllanguage-1.20.1-47.1.44.jar"
+                                "MD5": "2054e5b0afdd57411fe9577d491a73fc",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.1.3/javafmllanguage-1.20.1-47.1.3.jar"
                             },
                             "subModules": []
                         },
                         {
-                            "id": "net.minecraftforge:mclanguage:1.20.1-47.1.44",
+                            "id": "net.minecraftforge:mclanguage:1.20.1-47.1.3",
                             "name": "Minecraft Forge (mclanguage)",
                             "type": "Library",
                             "classpath": true,
                             "artifact": {
                                 "size": 5002,
-                                "MD5": "4ebf5c9cca88e77f21002fa817d3d92d",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.1.44/mclanguage-1.20.1-47.1.44.jar"
+                                "MD5": "a41aa55f95215da9c05f29088de76e8f",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.1.3/mclanguage-1.20.1-47.1.3.jar"
                             },
                             "subModules": []
                         },
                         {
-                            "id": "net.minecraftforge:forge:1.20.1-47.1.44:universal",
+                            "id": "net.minecraftforge:forge:1.20.1-47.1.3:universal",
                             "name": "Minecraft Forge (universal jar)",
                             "type": "Library",
                             "classpath": false,
                             "artifact": {
-                                "size": 2671957,
-                                "MD5": "4057fec8b394818ba28274f97748d0c8",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.1.44/forge-1.20.1-47.1.44-universal.jar"
+                                "size": 2630639,
+                                "MD5": "df7bbe0adb3ffdf7e1406a3cb6d5136d",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-universal.jar"
                             },
                             "subModules": []
                         },
                         {
-                            "id": "net.minecraftforge:forge:1.20.1-47.1.44:client",
+                            "id": "net.minecraftforge:forge:1.20.1-47.1.3:client",
                             "name": "Minecraft Forge (client jar)",
                             "type": "Library",
                             "classpath": false,
                             "artifact": {
-                                "size": 4791107,
-                                "MD5": "81c0f5598327abc64b03e5a467f81a0e",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.1.44/forge-1.20.1-47.1.44-client.jar"
+                                "size": 4733955,
+                                "MD5": "0cdfc19b88cb623466a3e9b1132dee5a",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-client.jar"
                             },
                             "subModules": []
                         },
@@ -1369,23 +1369,23 @@
                             }
                         },
                         {
-                            "id": "net.minecraftforge:fmlloader:1.20.1-47.1.44",
+                            "id": "net.minecraftforge:fmlloader:1.20.1-47.1.3",
                             "name": "Minecraft Forge (fmlloader)",
                             "type": "Library",
                             "artifact": {
-                                "size": 264249,
-                                "MD5": "17f2a4b8b3f0a78a5e8ae5ea6ad24759",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.1.44/fmlloader-1.20.1-47.1.44.jar"
+                                "size": 264250,
+                                "MD5": "72cd3299b117e9106ffc49dbabb95987",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.1.3/fmlloader-1.20.1-47.1.3.jar"
                             }
                         },
                         {
-                            "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.1.44",
+                            "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.1.3",
                             "name": "Minecraft Forge (fmlearlydisplay)",
                             "type": "Library",
                             "artifact": {
-                                "size": 170338,
-                                "MD5": "456e1b13d7b23910e263624f9624f43a",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.1.44/fmlearlydisplay-1.20.1-47.1.44.jar"
+                                "size": 3690966,
+                                "MD5": "42bc656700c314b884a8e7fa322e3853",
+                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.1.3/fmlearlydisplay-1.20.1-47.1.3.jar"
                             }
                         }
                     ]
