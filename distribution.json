@@ -2291,16 +2291,6 @@
                     }
                 },
                 {
-                    "id": "net.coderbot.iris:oculus:1.6.4@jar",
-                    "name": "Oculus",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2849391,
-                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/oculus-mc1.20-1.6.4.jar",
-                        "MD5": "5a5931227b842d89f2ace93625b22739"
-                    }
-                },
-                {
                     "id": "xaero.pac:openpartiesandclaims:0.19.3@jar",
                     "name": "Open Parties and Claims",
                     "type": "ForgeMod",
