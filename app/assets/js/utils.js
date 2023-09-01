@@ -15,5 +15,5 @@ exports.stringToUuid = (str) => {
         }
         return seq.join('')
     }
-    return `${next(8)}-${next(4)}-4${next(3)}-${next(4)}-${next(12)}`
+    return `${next(8)}${next(4)}4${next(3)}${next(4)}${next(12)}`
 }
