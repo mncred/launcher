@@ -972,19 +972,14 @@
         },
         {
             "id": "water-1.20.1",
-            "name": "water (Minecraft 1.20.1)",
-            "description": "water Running Minecraft 1.20.1 (Forge v47.1.44)",
-            "icon": null,
+            "name": "MNCRED Water [TEST]",
+            "description": "Тестовый сервер по красоте",
+            "icon": "https://downloads.over.red/default_icon.png",
             "version": "1.0.0",
-            "address": "localhost:25565",
+            "address": "water.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
-            "discord": {
-                "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-                "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-                "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-            },
             "mainServer": false,
-            "autoconnect": false,
+            "autoconnect": true,
             "modules": [
                 {
                     "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.1.44",
