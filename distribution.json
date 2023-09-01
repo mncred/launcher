@@ -4235,17 +4235,6 @@
                     }
                 },
                 {
-                    "id": "realms_persistence.json",
-                    "name": "realms_persistence.json",
-                    "type": "File",
-                    "artifact": {
-                        "size": 120,
-                        "url": "https://downloads.over.red/servers/water-1.20.1/files/realms_persistence.json",
-                        "MD5": "4692b880a0c02b80a79a4d57b7b128d8",
-                        "path": "realms_persistence.json"
-                    }
-                },
-                {
                     "id": "[Heavy 102] [All] Complementary Reimagined.zip",
                     "name": "[Heavy 102] [All] Complementary Reimagined.zip",
                     "type": "File",
