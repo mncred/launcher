@@ -1391,6 +1391,326 @@
                     ]
                 },
                 {
+                    "id": "com.mgen256.al:additional_lights:2.1.7@jar",
+                    "name": "Additional Lights",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 530405,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/additional_lights-1.20.1-2.1.7.jar",
+                        "MD5": "2a2661fc9399c3fb4a40fda6e6eec0d1"
+                    }
+                },
+                {
+                    "id": "net.adorabuild.structures:adorabuild_structures:1.0.1@jar",
+                    "name": "AdoraBuild: Structures",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 292472,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/adorabuild-structures-1.20.1-forge-1.0.1.jar",
+                        "MD5": "946f01361e43274a6971cf6c44b2e5e1"
+                    }
+                },
+                {
+                    "id": "team.creative:ambientsounds:5.2.22@jar",
+                    "name": "AmbientSounds",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 78550606,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/AmbientSounds_FORGE_v5.2.22_mc1.20.1.jar",
+                        "MD5": "8e8cc95717648a65cebe70275013a1a5"
+                    }
+                },
+                {
+                    "id": "slexom.vf:animal_feeding_trough:1.0.3+1.20.1-forge@jar",
+                    "name": "Animal Feeding Trough",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 233369,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/animal_feeding_trough-1.0.3+1.20.1-forge.jar",
+                        "MD5": "dec2dcfcd9f8bdd9a4dd4fc3d0a6f84b"
+                    }
+                },
+                {
+                    "id": "squeek.appleskin:appleskin:2.5.0+mc1.20.1@jar",
+                    "name": "AppleSkin",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 47447,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.0.jar",
+                        "MD5": "c8fa782233818096c6fd7bb78f291650"
+                    }
+                },
+                {
+                    "id": "dev.architectury:architectury:9.1.12@jar",
+                    "name": "Architectury",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 567579,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/architectury-9.1.12-forge.jar",
+                        "MD5": "cd2915bce632b465f6bf4bf82cf1c25b"
+                    }
+                },
+                {
+                    "id": "com.natamus:areas:5.0@jar",
+                    "name": "Areas",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 83759,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/areas-1.20.1-5.0.jar",
+                        "MD5": "0900e13325cfdcf7fad926f3026a771e"
+                    }
+                },
+                {
+                    "id": "earth.terrarium:argonauts:1.0.4@jar",
+                    "name": "Argonauts",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 620769,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/argonauts-forge-1.20.1-1.0.4.jar.disable",
+                        "MD5": "026a38d45503033d4f1fd64c502cf30b"
+                    }
+                },
+                {
+                    "id": "com.grim3212.assorted.lib:assortedlib:3.0.1@jar",
+                    "name": "Assorted Lib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 513898,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/assortedlib-forge-1.20.1-3.0.1.jar",
+                        "MD5": "8638cc36d5dcf79dc78c5bb16a772641"
+                    }
+                },
+                {
+                    "id": "com.grim3212.assorted.world:assortedworld:8.0.0@jar",
+                    "name": "Assorted World",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 340830,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/assortedworld-forge-1.20.1-8.0.0.jar",
+                        "MD5": "8de72281ce5089b734d78d8ab30c49d1"
+                    }
+                },
+                {
+                    "id": "io.github.fourmisain:axesareweapons:1.7.1@jar",
+                    "name": "Axes Are Weapons",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 125716,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/AxesAreWeapons-1.7.1-forge-1.19.3.jar",
+                        "MD5": "a6339c238dc38e3877eb5b370d571540"
+                    }
+                },
+                {
+                    "id": "bagu_chan.bagus_lib:bagus_lib:1.20.1-3.5.2@jar",
+                    "name": "BagusLib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 84292,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/Baguslib-1.20.1-3.5.2.jar",
+                        "MD5": "ba5cad88a02ccbdc90114369f5b27e71"
+                    }
+                },
+                {
+                    "id": "net.blay09.mods:balm:7.0.7@jar",
+                    "name": "Balm",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 331235,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/balm-forge-1.20-7.0.7.jar",
+                        "MD5": "c2d1c0b2a734bb91a6519180c712aa6d"
+                    }
+                },
+                {
+                    "id": "generated.forgemod:mr_banner_flags:1.6@jar",
+                    "name": "Banner Flags",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 25543,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/banner-flags-1.6.jar",
+                        "MD5": "c6185b931b2325f17ff02d605fff482a"
+                    }
+                },
+                {
+                    "id": "fuzs.betteranimationscollection:betteranimationscollection:8.0.0@jar",
+                    "name": "Better Animations Collection",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 198652,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
+                        "MD5": "c46dfe2a4b5d302581777c549c389f01"
+                    }
+                },
+                {
+                    "id": "link.infra:screenshotclipboard:1.0.9@jar",
+                    "name": "Screenshot to Clipboard",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 16472,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/screenshot-to-clipboard-1.0.9-forge.jar",
+                        "MD5": "8d20d50d2bd041ecda38d2f1a1949b90"
+                    }
+                },
+                {
+                    "id": "club.iananderson:seasonhud:1.5.4@jar",
+                    "name": "SeasonHUD",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 269024,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/seasonhud-forge-1.20.1-1.5.4.jar",
+                        "MD5": "10c1af2bc9299d548c7079fbb22424b2"
+                    }
+                },
+                {
+                    "id": "sereneseasons.core:sereneseasons:9.0.0.43@jar",
+                    "name": "Serene Seasons",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 145880,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/SereneSeasons-1.20.1-9.0.0.43.jar",
+                        "MD5": "1286ea1a44eae8edb34c0bc0101dbd3e"
+                    }
+                },
+                {
+                    "id": "me.khajiitos:servercountryflags:1.8.1@jar",
+                    "name": "Server Country Flags",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 882570,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/servercountryflags-1.8.1-1.20.x-FORGE.jar",
+                        "MD5": "52a3235e3d2b22a7d5ac1f4492015191"
+                    }
+                },
+                {
+                    "id": "com.anubis.simplezoom:simple_zoom:1.0@jar",
+                    "name": "Simple Zoom",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 97629,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/simple_zoom-1.20.1-1.0.jar",
+                        "MD5": "dc4f6232dff5c65ada61a4fafb5b007b"
+                    }
+                },
+                {
+                    "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.20.1-3.18.54.870@jar",
+                    "name": "Sophisticated Backpacks",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 786298,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.18.54.870.jar",
+                        "MD5": "738a039e233c1cd4082e45e5375a26b2"
+                    }
+                },
+                {
+                    "id": "net.p3pp3rf1y:sophisticatedcore:1.20.1-0.5.77.347@jar",
+                    "name": "Sophisticated Core",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 978229,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/sophisticatedcore-1.20.1-0.5.77.347.jar",
+                        "MD5": "df1f8d435ad8af5ce2307cbd4bf2c52e"
+                    }
+                },
+                {
+                    "id": "com.branders:spawnermod:1.9.3@jar",
+                    "name": "Enhanced Mob Spawners",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 91940,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/spawnermod-1.20.1-1.9.3+Forge.jar",
+                        "MD5": "34d93f742ad84d986eceaf6a6f0fb49f"
+                    }
+                },
+                {
+                    "id": "net.darkhax:splashy:14.0.2@jar",
+                    "name": "Splashy",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 16172,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/Splashy-Forge-1.20.1-14.0.2.jar",
+                        "MD5": "ab24daecdb444735a2d2aa75b1954aba"
+                    }
+                },
+                {
+                    "id": "com.natamus:stackrefill:4.0@jar",
+                    "name": "Stack Refill",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 34660,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/stackrefill-1.20.1-4.0.jar",
+                        "MD5": "7c8e77fcb2ea9e753d5cf1207e355ed5"
+                    }
+                },
+                {
+                    "id": "com.harleyoconnor:suggestionproviderfix:1.20.1-1.0.0@jar",
+                    "name": "Suggestion Provider Fix",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 5073,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/SuggestionProviderFix-1.20.1-1.0.0.jar",
+                        "MD5": "13f7f4a9d27cb9593314cc4719de2d8e"
+                    }
+                },
+                {
+                    "id": "terrablender.core:terrablender:3.0.0.169@jar",
+                    "name": "TerraBlender",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 105368,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.0.169.jar",
+                        "MD5": "a657221693cd1819e48d13ac9a2771f3"
+                    }
+                },
+                {
+                    "id": "net.darkhax:tipsmod:12.0.2@jar",
+                    "name": "Tips",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 108799,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/Tips-Forge-1.20.1-12.0.2.jar",
+                        "MD5": "5ee507b6efef740288716cd01ffa6566"
+                    }
+                },
+                {
+                    "id": "com.tom.storagemod:toms_storage:1.6.4@jar",
+                    "name": "Tom's Simple Storage Mod",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 504999,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/toms_storage-1.20-1.6.4.jar",
+                        "MD5": "054f9a072ea3505db17085d083e21093"
+                    }
+                },
+                {
+                    "id": "me.khajiitos:tradeuses:1.1.1@jar",
+                    "name": "Trade Uses",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 63562,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/tradeuses-1.1.1-1.20.x-FORGE.jar",
+                        "MD5": "10db270184dc7e0643cd92bbe1a73702"
+                    }
+                },
+                {
+                    "id": "fuzs.visualworkbench:visualworkbench:8.0.0@jar",
+                    "name": "Visual Workbench",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 82055,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
+                        "MD5": "d741bc2d4d3a385116d094b874474a6b"
+                    }
+                },
+                {
+                    "id": "net.messer:woodenjetpack:1.0.0@jar",
+                    "name": "WoodenJetpack",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 40031,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/wooden-jetpack%201.0%20-%201.20.1.jar",
+                        "MD5": "45d9a2f55a8b584f70e36808ce6d50c1"
+                    }
+                },
+                {
                     "id": "xaero.minimap:xaerominimap:23.6.3@jar",
                     "name": "Xaero's Minimap",
                     "type": "ForgeMod",
