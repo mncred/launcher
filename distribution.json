@@ -15,7 +15,7 @@
             "version": "1.0.0",
             "address": "stone.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
-            "mainServer": true,
+            "mainServer": false,
             "autoconnect": true,
             "modules": [
                 {
@@ -978,7 +978,7 @@
             "version": "1.0.0",
             "address": "water.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
-            "mainServer": false,
+            "mainServer": true,
             "autoconnect": false,
             "modules": [
                 {
