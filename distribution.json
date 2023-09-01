@@ -8,969 +8,6 @@
     },
     "servers": [
         {
-            "id": "test-1.20.1",
-            "name": "MNCRED :: Тестовый пилот #1",
-            "description": "Тестовый сервер на базе мода Create и декоративных модов. Minecraft 1.20.1 (Forge v47.1.44)",
-            "icon": "https://downloads.over.red/default_icon.png",
-            "version": "1.0.0",
-            "address": "stone.play.mnc.red:25565",
-            "minecraftVersion": "1.20.1",
-            "mainServer": true,
-            "autoconnect": true,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.1.44",
-                    "name": "Minecraft Forge (lowcodelanguage)",
-                    "type": "ForgeHosted",
-                    "classpath": true,
-                    "artifact": {
-                        "size": 7401,
-                        "MD5": "a5a7d6e32d0d06235889b63d956b8c17",
-                        "url": "http://downloads.over.red/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.1.44/lowcodelanguage-1.20.1-47.1.44.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "1.20.1-47.1.44",
-                            "name": "Minecraft Forge (version.json)",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 16554,
-                                "MD5": "0f306a8c7241d9346bc6cc7aa831d221",
-                                "url": "http://downloads.over.red/repo/versions/1.20.1-forge-47.1.44/1.20.1-forge-47.1.44.json"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:fmlcore:1.20.1-47.1.44",
-                            "name": "Minecraft Forge (fmlcore)",
-                            "type": "Library",
-                            "classpath": true,
-                            "artifact": {
-                                "size": 117594,
-                                "MD5": "3ce54ed3dd94728049744593c8d3c3c8",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.1.44/fmlcore-1.20.1-47.1.44.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraftforge:javafmllanguage:1.20.1-47.1.44",
-                            "name": "Minecraft Forge (javafmllanguage)",
-                            "type": "Library",
-                            "classpath": true,
-                            "artifact": {
-                                "size": 16376,
-                                "MD5": "7ccad39a1b3dece541d26556bf9f0888",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.1.44/javafmllanguage-1.20.1-47.1.44.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraftforge:mclanguage:1.20.1-47.1.44",
-                            "name": "Minecraft Forge (mclanguage)",
-                            "type": "Library",
-                            "classpath": true,
-                            "artifact": {
-                                "size": 5002,
-                                "MD5": "4ebf5c9cca88e77f21002fa817d3d92d",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.1.44/mclanguage-1.20.1-47.1.44.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraftforge:forge:1.20.1-47.1.44:universal",
-                            "name": "Minecraft Forge (universal jar)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 2671957,
-                                "MD5": "4057fec8b394818ba28274f97748d0c8",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.1.44/forge-1.20.1-47.1.44-universal.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraftforge:forge:1.20.1-47.1.44:client",
-                            "name": "Minecraft Forge (client jar)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 4791107,
-                                "MD5": "81c0f5598327abc64b03e5a467f81a0e",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.1.44/forge-1.20.1-47.1.44-client.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
-                            "name": "Minecraft Forge (client srg)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 18842082,
-                                "MD5": "8bfacfba4f54cda741019756165c5ecf",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
-                            "name": "Minecraft Forge (client slim)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 12592249,
-                                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
-                            "name": "Minecraft Forge (client extra)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 10436626,
-                                "MD5": "da6bb1a2c23108392fd6c103da40867c",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "cpw.mods:securejarhandler:2.1.10",
-                            "name": "Minecraft Forge (securejarhandler)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 88749,
-                                "MD5": "d9ff48d1c68388270388b803fa42611e",
-                                "url": "http://downloads.over.red/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm:9.5",
-                            "name": "Minecraft Forge (asm)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 121863,
-                                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
-                                "url": "http://downloads.over.red/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-commons:9.5",
-                            "name": "Minecraft Forge (asm-commons)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 72209,
-                                "MD5": "7d1fce986192f71722b19754e4cb9e61",
-                                "url": "http://downloads.over.red/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-tree:9.5",
-                            "name": "Minecraft Forge (asm-tree)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 51944,
-                                "MD5": "44755681b7d6fa7143afbb438e55c20c",
-                                "url": "http://downloads.over.red/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-util:9.5",
-                            "name": "Minecraft Forge (asm-util)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 91076,
-                                "MD5": "ad0016249fb68bb9196babefd47b80dc",
-                                "url": "http://downloads.over.red/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-analysis:9.5",
-                            "name": "Minecraft Forge (asm-analysis)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 33978,
-                                "MD5": "4df0adafc78ebba404d4037987d36b61",
-                                "url": "http://downloads.over.red/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:accesstransformers:8.0.4",
-                            "name": "Minecraft Forge (accesstransformers)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 77756,
-                                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
-                            }
-                        },
-                        {
-                            "id": "org.antlr:antlr4-runtime:4.9.1",
-                            "name": "Minecraft Forge (antlr4-runtime)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 337868,
-                                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                                "url": "http://downloads.over.red/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:eventbus:6.0.5",
-                            "name": "Minecraft Forge (eventbus)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 53985,
-                                "MD5": "2a6245210b446b2144071e71ca13432b",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:forgespi:7.0.1",
-                            "name": "Minecraft Forge (forgespi)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 29831,
-                                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:coremods:5.0.1",
-                            "name": "Minecraft Forge (coremods)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 24199,
-                                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "cpw.mods:modlauncher:10.0.9",
-                            "name": "Minecraft Forge (modlauncher)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 130343,
-                                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
-                                "url": "http://downloads.over.red/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:unsafe:0.2.0",
-                            "name": "Minecraft Forge (unsafe)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2834,
-                                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:mergetool:1.1.5:api",
-                            "name": "Minecraft Forge (mergetool)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2572,
-                                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
-                            }
-                        },
-                        {
-                            "id": "com.electronwill.night-config:core:3.6.4",
-                            "name": "Minecraft Forge (core)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 199834,
-                                "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                                "url": "http://downloads.over.red/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
-                            }
-                        },
-                        {
-                            "id": "com.electronwill.night-config:toml:3.6.4",
-                            "name": "Minecraft Forge (toml)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 31816,
-                                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                                "url": "http://downloads.over.red/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
-                            }
-                        },
-                        {
-                            "id": "org.apache.maven:maven-artifact:3.8.5",
-                            "name": "Minecraft Forge (maven-artifact)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 58077,
-                                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                                "url": "http://downloads.over.red/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
-                            }
-                        },
-                        {
-                            "id": "net.jodah:typetools:0.6.3",
-                            "name": "Minecraft Forge (typetools)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 18281,
-                                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                                "url": "http://downloads.over.red/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecrell:terminalconsoleappender:1.2.0",
-                            "name": "Minecraft Forge (terminalconsoleappender)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15977,
-                                "MD5": "679363fa893293791e55a21f81342f87",
-                                "url": "http://downloads.over.red/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-                            }
-                        },
-                        {
-                            "id": "org.jline:jline-reader:3.12.1",
-                            "name": "Minecraft Forge (jline-reader)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 150765,
-                                "MD5": "a2e7b012cd9802f83321187409174a94",
-                                "url": "http://downloads.over.red/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.jline:jline-terminal:3.12.1",
-                            "name": "Minecraft Forge (jline-terminal)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 211712,
-                                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                                "url": "http://downloads.over.red/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.spongepowered:mixin:0.8.5",
-                            "name": "Minecraft Forge (mixin)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1089277,
-                                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                                "url": "http://downloads.over.red/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.openjdk.nashorn:nashorn-core:15.3",
-                            "name": "Minecraft Forge (nashorn-core)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2167288,
-                                "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                                "url": "http://downloads.over.red/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:JarJarSelector:0.3.19",
-                            "name": "Minecraft Forge (JarJarSelector)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 17374,
-                                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:JarJarMetadata:0.3.19",
-                            "name": "Minecraft Forge (JarJarMetadata)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15895,
-                                "MD5": "9633546d299d4282ca68d10582be1c8f",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
-                            }
-                        },
-                        {
-                            "id": "cpw.mods:bootstraplauncher:1.1.2",
-                            "name": "Minecraft Forge (bootstraplauncher)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 8284,
-                                "MD5": "48f5255aa337344c467c0150d347813d",
-                                "url": "http://downloads.over.red/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
-                            "name": "Minecraft Forge (JarJarFileSystems)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32195,
-                                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:fmlloader:1.20.1-47.1.44",
-                            "name": "Minecraft Forge (fmlloader)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 264249,
-                                "MD5": "17f2a4b8b3f0a78a5e8ae5ea6ad24759",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.1.44/fmlloader-1.20.1-47.1.44.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.1.44",
-                            "name": "Minecraft Forge (fmlearlydisplay)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 170338,
-                                "MD5": "456e1b13d7b23910e263624f9624f43a",
-                                "url": "http://downloads.over.red/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.1.44/fmlearlydisplay-1.20.1-47.1.44.jar"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.mgen256.al:additional_lights:2.1.7@jar",
-                    "name": "Additional Lights",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 530405,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/additional_lights-1.20.1-2.1.7.jar",
-                        "MD5": "2a2661fc9399c3fb4a40fda6e6eec0d1"
-                    }
-                },
-                {
-                    "id": "squeek.appleskin:appleskin:2.5.0+mc1.20.1@jar",
-                    "name": "AppleSkin",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 47447,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.0.jar",
-                        "MD5": "e2e1bc69dd56e4945ab47cdb9a92e12b"
-                    }
-                },
-                {
-                    "id": "dev.architectury:architectury:9.0.8@jar",
-                    "name": "Architectury",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 567166,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/architectury-9.0.8-forge.jar",
-                        "MD5": "02ac749cdcd9f064202dd0253b59365c"
-                    }
-                },
-                {
-                    "id": "com.grim3212.assorted.lib:assortedlib:3.0.1@jar",
-                    "name": "Assorted Lib",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 513898,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/assortedlib-forge-1.20.1-3.0.1.jar",
-                        "MD5": "8638cc36d5dcf79dc78c5bb16a772641"
-                    }
-                },
-                {
-                    "id": "com.grim3212.assorted.storage:assortedstorage:10.0.1@jar",
-                    "name": "Assorted Storage",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1602379,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/assortedstorage-forge-1.20.1-10.0.1.jar",
-                        "MD5": "dff8a241d240538b3dd26da1eb280144"
-                    }
-                },
-                {
-                    "id": "io.github.fourmisain:axesareweapons:1.7.0@jar",
-                    "name": "Axes Are Weapons",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 27745,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/AxesAreWeapons-1.7.0-forge-1.19.3.jar",
-                        "MD5": "55afd334042978ba809084444f2b32c1"
-                    }
-                },
-                {
-                    "id": "net.blay09.mods:balm:7.0.4@jar",
-                    "name": "Balm",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 330777,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/balm-forge-1.20-7.0.4.jar",
-                        "MD5": "f5eb8f8dc7b257ff17ca8a3fe28bb61e"
-                    }
-                },
-                {
-                    "id": "me.treyruffy:betterf3:7.0.1@jar",
-                    "name": "BetterF3",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 456795,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/BetterF3-7.0.1-Forge-1.20.1.jar",
-                        "MD5": "59994205b68680095fcc1b9fea447020"
-                    }
-                },
-                {
-                    "id": "com.abdelaziz:canary:0.2.6@jar",
-                    "name": "Canary",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 428448,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/canary-mc1.20(.1)-0.2.6.jar",
-                        "MD5": "a13c32c69731a8d07f6764d2a4151d9c"
-                    }
-                },
-                {
-                    "id": "tschipp.carryon:carryon:2.1.0.1@jar",
-                    "name": "Carry On",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 439103,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/carryon-forge-1.20.1-2.1.0.1.jar",
-                        "MD5": "422a316778f6a4e031002ba12605e03d"
-                    }
-                },
-                {
-                    "id": "com.mrcrayfish:catalogue:1.7.1@jar",
-                    "name": "Catalogue",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 244311,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/catalogue-forge-1.20.1-1.7.1.jar",
-                        "MD5": "5036bf92c0aadbf05c851121c63ecf8d"
-                    }
-                },
-                {
-                    "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
-                    "name": "MrCrayfish's Furniture Mod",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2613393,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
-                        "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
-                    }
-                },
-                {
-                    "id": "dzwdz.chat_heads:chat_heads:0.10.18@jar",
-                    "name": "Chat Heads",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 49230,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/chat_heads-0.10.18-forge-1.20.jar",
-                        "MD5": "3375ab694f84b5eca58844d361d9afdf"
-                    }
-                },
-                {
-                    "id": "io.github.strikerrocker:cleardespawn:1.1.13@jar",
-                    "name": "ClearDespawn",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 20022,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/ClearDespawn-forge-1.20.1-1.1.13.jar",
-                        "MD5": "6065e80e7aae80728b9d6827b3121bdb"
-                    }
-                },
-                {
-                    "id": "me.shedaniel.clothconfig:cloth_config:11.1.106@jar",
-                    "name": "Cloth Config v10 API",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1168375,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/cloth-config-11.1.106-forge.jar",
-                        "MD5": "17794d377921e9cd96b30250a7b13156"
-                    }
-                },
-                {
-                    "id": "com.natamus:collective:6.65@jar",
-                    "name": "Collective",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 618381,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/collective-1.20.1-6.65.jar",
-                        "MD5": "32848eb0fe6cdb0f00224da2864367f6"
-                    }
-                },
-                {
-                    "id": "net.blay09.mods:craftingtweaks:18.0.2@jar",
-                    "name": "CraftingTweaks",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 183519,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/craftingtweaks-forge-1.20-18.0.2.jar",
-                        "MD5": "69e8547b5a260671c68404fb478f74d6"
-                    }
-                },
-                {
-                    "id": "com.simibubi:create:0.5.1.d@jar",
-                    "name": "Create",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 14789680,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/create-1.20.1-0.5.1.d.jar",
-                        "MD5": "1d8596c61219833a7c0dbf47302dd607"
-                    }
-                },
-                {
-                    "id": "com.mrh0:createaddition:1.20.1-1.0.0b@jar",
-                    "name": "Create Crafts & Additions",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1102170,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/createaddition-1.20.1-1.0.0b.jar",
-                        "MD5": "89a31678f0bdf547343ea53daf9402ec"
-                    }
-                },
-                {
-                    "id": "team.creative:creativecore:2.10.31@jar",
-                    "name": "CreativeCore",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1026617,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/CreativeCore_FORGE_v2.10.31_mc1.20.1.jar",
-                        "MD5": "da621334ab635d8199bc8ad78abdc84e"
-                    }
-                },
-                {
-                    "id": "chappie.displaycase:display_case:1.0.5@jar",
-                    "name": "Display Case Mod",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 45633,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/Display%20Case-forge-1.20-1.0.5.jar",
-                        "MD5": "3aaa55508c5b168ab9bf6fa51d758c3d"
-                    }
-                },
-                {
-                    "id": "com.natamus:doubledoors:5.0@jar",
-                    "name": "Double Doors",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 51453,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/doubledoors-1.20.1-5.0.jar",
-                        "MD5": "178ef3c1cdf0a6e9e68c451a7ef7dd10"
-                    }
-                },
-                {
-                    "id": "atomicstryker.dynamiclights.server:dynamiclights:1.20.1.0@jar",
-                    "name": "Dynamic Lights",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 45225,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/dynamiclights-1.20.1.0.jar",
-                        "MD5": "dd0fef7eedc68506900374adf7f11a41"
-                    }
-                },
-                {
-                    "id": "org.dynmap.forge_1_20:dynmap:3.6-beta-1-890@jar",
-                    "name": "Dynmap",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 10358199,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/Dynmap-3.6-beta-1-forge-1.20.jar",
-                        "MD5": "d94b010b212dc951d3b4623c0c017534"
-                    }
-                },
-                {
-                    "id": "fuzs.easymagic:easymagic:8.0.1@jar",
-                    "name": "Easy Magic",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 115947,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/EasyMagic-v8.0.1-1.20.1-Forge.jar",
-                        "MD5": "4818f5240dc07c9da2fafe9b1c344305"
-                    }
-                },
-                {
-                    "id": "dev.tr7zw:entityculling:1.6.2@jar",
-                    "name": "EntityCulling",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 60489,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/entityculling-forge-1.6.2-mc1.20.jar",
-                        "MD5": "70a8664d4f7b153cdc92557d50e6bf35"
-                    }
-                },
-                {
-                    "id": "bre2el.fpsreducer:fpsreducer:1.20-2.5@jar",
-                    "name": "FPS Reducer",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 125347,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/FpsReducer2-forge-1.20-2.5.jar",
-                        "MD5": "667e0ad36f07af69e285d47624b1d084"
-                    }
-                },
-                {
-                    "id": "com.natamus:healingcampfire:5.1@jar",
-                    "name": "Healing Campfire",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 50658,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/healingcampfire-1.20.1-5.1.jar",
-                        "MD5": "f76795be87f367032e2bf0f483847e4d"
-                    }
-                },
-                {
-                    "id": "com.natamus:infinitetrading:4.0@jar",
-                    "name": "Infinite Trading",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 43734,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/infinitetrading-1.20.1-4.0.jar",
-                        "MD5": "0f579e1d35cb0400f372ed4218721ba7"
-                    }
-                },
-                {
-                    "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.6@jar",
-                    "name": "Inventory Profiles Next",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1343696,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/InventoryProfilesNext-forge-1.20-1.10.6.jar",
-                        "MD5": "eb1a6273289ef1a152847dce35302f73"
-                    }
-                },
-                {
-                    "id": "com.natamus:inventorytotem:3.0@jar",
-                    "name": "Inventory Totem",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 22446,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/inventorytotem-1.20.1-3.0.jar",
-                        "MD5": "c57f4f39725e61e64155634061528660"
-                    }
-                },
-                {
-                    "id": "dlovin.inventoryhud:inventoryhud:3.4.13@jar",
-                    "name": "Inventory HUD+(Forge edition)",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 218494,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/invhud.forge.1.20-3.4.13.jar",
-                        "MD5": "0258f9f88b7044bf489624cf2283a780"
-                    }
-                },
-                {
-                    "id": "team.creative:itemphysic:1.6.9@jar",
-                    "name": "ItemPhysic",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 47244,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/ItemPhysic_FORGE_v1.6.9_mc1.20.jar",
-                        "MD5": "aeaab91763265c1cc07244c6edfa54b3"
-                    }
-                },
-                {
-                    "id": "snownee.jade:jade:11.1.4@jar",
-                    "name": "Jade",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 479574,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/Jade-1.20-forge-11.1.4.jar",
-                        "MD5": "60ab1ec7e4d7b13245e139e0314b0eee"
-                    }
-                },
-                {
-                    "id": "mezz.jei:jei:15.2.0.22@jar",
-                    "name": "Just Enough Items",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1112922,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/jei-1.20.1-forge-15.2.0.22.jar",
-                        "MD5": "fbf44cd9b80449ab7bc8fa041e73e33b"
-                    }
-                },
-                {
-                    "id": "journeymap:journeymap:5.9.12@jar",
-                    "name": "Journeymap",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 7102721,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/journeymap-1.20.1-5.9.12-forge.jar",
-                        "MD5": "2eeacde9ac5caca71c994ecccae28105"
-                    }
-                },
-                {
-                    "id": "generated.forgemod:kotlinforforge:4.4.0-all@jar",
-                    "name": "Kotlinforforge",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 7598082,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/kotlinforforge-4.4.0-all.jar",
-                        "MD5": "de59abb1cfcf3d07874819e8b888bca0"
-                    }
-                },
-                {
-                    "id": "org.anti_ad.mc:libipn:3.0.2@jar",
-                    "name": "LibIPN",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 678877,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/libIPN-forge-1.20-3.0.2.jar",
-                        "MD5": "8e90a6dfc9db95e5bde0113c8098ab03"
-                    }
-                },
-                {
-                    "id": "com.mcwbridges.kikoz:mcwbridges:2.1.1@jar",
-                    "name": "Macaw's Bridges",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 745774,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/mcw-bridges-2.1.1-mc1.20.1forge.jar",
-                        "MD5": "2fd10e11adaffb31e9b2f0ae9f391dd7"
-                    }
-                },
-                {
-                    "id": "com.mcwfences.kikoz:mcwfences:1.0.7@jar",
-                    "name": "Macaw's Fences and Walls",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 391919,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/mcw-fences-1.0.7-mc1.20.1forge.jar",
-                        "MD5": "72d46c58d50ed19a58acab42a815ff77"
-                    }
-                },
-                {
-                    "id": "com.mcwlights.kikoz:mcwlights:1.0.6@jar",
-                    "name": "Macaw's Lights and Lamps",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 415180,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/mcw-lights-1.0.6-mc1.20.1forge.jar",
-                        "MD5": "a19a1f72ac7f958f540ef8c71e410336"
-                    }
-                },
-                {
-                    "id": "fuzs.pickupnotifier:pickupnotifier:8.0.0@jar",
-                    "name": "Pick Up Notifier",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 102164,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
-                        "MD5": "c1004011e796ef62010dcb03e9597cdc"
-                    }
-                },
-                {
-                    "id": "com.illusivesoulworks:polymorph:0.49.0+1.20.1@jar",
-                    "name": "Polymorph",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 297448,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/polymorph-forge-0.49.0+1.20.1.jar",
-                        "MD5": "bf22dcae0b8799e0475281dbb3b26165"
-                    }
-                },
-                {
-                    "id": "fuzs.puzzleslib.impl:puzzleslib:8.0.7@jar",
-                    "name": "Puzzles Lib",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 670937,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/PuzzlesLib-v8.0.7-1.20.1-Forge.jar",
-                        "MD5": "81d4d281abf7a4e927245bdddd2371e4"
-                    }
-                },
-                {
-                    "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.5@jar",
-                    "name": "Rubidium",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 605877,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/rubidium-0.6.5.jar",
-                        "MD5": "a452efa401ac9ec14d7232243ee4f3fd"
-                    }
-                },
-                {
-                    "id": "link.infra:screenshotclipboard:1.0.9@jar",
-                    "name": "Screenshot to Clipboard",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 16472,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/screenshot-to-clipboard-1.0.9-forge.jar",
-                        "MD5": "8d20d50d2bd041ecda38d2f1a1949b90"
-                    }
-                },
-                {
-                    "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.20.1-3.18.54.870@jar",
-                    "name": "Sophisticated Backpacks",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 786298,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.18.54.870.jar",
-                        "MD5": "738a039e233c1cd4082e45e5375a26b2"
-                    }
-                },
-                {
-                    "id": "net.p3pp3rf1y:sophisticatedcore:1.20.1-0.5.77.347@jar",
-                    "name": "Sophisticated Core",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 978229,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/sophisticatedcore-1.20.1-0.5.77.347.jar",
-                        "MD5": "df1f8d435ad8af5ce2307cbd4bf2c52e"
-                    }
-                },
-                {
-                    "id": "com.natamus:stackrefill:4.0@jar",
-                    "name": "Stack Refill",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 34660,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/stackrefill-1.20.1-4.0.jar",
-                        "MD5": "7c8e77fcb2ea9e753d5cf1207e355ed5"
-                    }
-                },
-                {
-                    "id": "org.tlauncher:tlskincape:1.32@jar",
-                    "name": "TLSkinCape",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 715179,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/tl_skin_cape_forge_1.20_1.20.1-1.32.jar",
-                        "MD5": "4a94ba5350850dec78dba59c2988eb43"
-                    }
-                },
-                {
-                    "id": "com.tom.storagemod:toms_storage:1.6.4@jar",
-                    "name": "Tom's Simple Storage Mod",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 504999,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/toms_storage-1.20-1.6.4.jar",
-                        "MD5": "054f9a072ea3505db17085d083e21093"
-                    }
-                },
-                {
-                    "id": "net.blay09.mods:trashslot:15.0.0@jar",
-                    "name": "TrashSlot",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 113495,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/trashslot-forge-1.20-15.0.0.jar",
-                        "MD5": "2a7599b96bfd5d7b77617eeee8fd52a3"
-                    }
-                },
-                {
-                    "id": "fuzs.visualworkbench:visualworkbench:8.0.0@jar",
-                    "name": "Visual Workbench",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 82055,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/forgemods/required/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
-                        "MD5": "d741bc2d4d3a385116d094b874474a6b"
-                    }
-                },
-                {
-                    "id": "servers.dat",
-                    "name": "servers.dat",
-                    "type": "File",
-                    "artifact": {
-                        "size": 129,
-                        "url": "http://downloads.over.red/servers/test-1.20.1/files/servers.dat",
-                        "MD5": "028c3ef8b9d60de944f31badca2f7985",
-                        "path": "servers.dat"
-                    }
-                }
-            ]
-        },
-        {
             "id": "water-1.20.1",
             "name": "MNCRED Water [TEST]",
             "description": "Тестовый сервер по красоте",
@@ -2648,6 +1685,1777 @@
                         "size": 397719,
                         "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/xercapaint-1.20.1-1.0.0.jar",
                         "MD5": "553f1fbfd40fc86fe71a342c7be3091d"
+                    }
+                },
+                {
+                    "id": "MouseTweaks.cfg",
+                    "name": "MouseTweaks.cfg",
+                    "type": "File",
+                    "artifact": {
+                        "size": 135,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/MouseTweaks.cfg",
+                        "MD5": "ff577ca09e989c07c056c7cdff465be3",
+                        "path": "config/MouseTweaks.cfg"
+                    }
+                },
+                {
+                    "id": "NCR-Client.json",
+                    "name": "NCR-Client.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 565,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/NoChatReports/NCR-Client.json",
+                        "MD5": "37b8f0ed4931d2d3e87b0f4831a95d2e",
+                        "path": "config/NoChatReports/NCR-Client.json"
+                    }
+                },
+                {
+                    "id": "NCR-Common.json",
+                    "name": "NCR-Common.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 230,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/NoChatReports/NCR-Common.json",
+                        "MD5": "50bbc81415d36251933350271692eeba",
+                        "path": "config/NoChatReports/NCR-Common.json"
+                    }
+                },
+                {
+                    "id": "NCR-Encryption.json",
+                    "name": "NCR-Encryption.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 520,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/NoChatReports/NCR-Encryption.json",
+                        "MD5": "137196dfc1619ce0f3b341713498c7c3",
+                        "path": "config/NoChatReports/NCR-Encryption.json"
+                    }
+                },
+                {
+                    "id": "NCR-ServerPreferences.json",
+                    "name": "NCR-ServerPreferences.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 58,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/NoChatReports/NCR-ServerPreferences.json",
+                        "MD5": "25c98c593e722381ff3cc52200e2dd52",
+                        "path": "config/NoChatReports/NCR-ServerPreferences.json"
+                    }
+                },
+                {
+                    "id": "README.md",
+                    "name": "README.md",
+                    "type": "File",
+                    "artifact": {
+                        "size": 167,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/NoChatReports/README.md",
+                        "MD5": "964a995c80aa43cc34d780276a65b898",
+                        "path": "config/NoChatReports/README.md"
+                    }
+                },
+                {
+                    "id": "SeasonHUD-client.toml",
+                    "name": "SeasonHUD-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1248,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/SeasonHUD-client.toml",
+                        "MD5": "88e822778db1b1672845b44afd34cff5",
+                        "path": "config/SeasonHUD-client.toml"
+                    }
+                },
+                {
+                    "id": "splash.txt",
+                    "name": "splash.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 0,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/TitleChanger/splash.txt",
+                        "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+                        "path": "config/TitleChanger/splash.txt"
+                    }
+                },
+                {
+                    "id": "TitleChanger-1.toml.bak",
+                    "name": "TitleChanger-1.toml.bak",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2180,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/TitleChanger-1.toml.bak",
+                        "MD5": "b902ce7edfb0b4bbe9758fe7309ee8ba",
+                        "path": "config/TitleChanger-1.toml.bak"
+                    }
+                },
+                {
+                    "id": "TitleChanger-2.toml.bak",
+                    "name": "TitleChanger-2.toml.bak",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2180,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/TitleChanger-2.toml.bak",
+                        "MD5": "b902ce7edfb0b4bbe9758fe7309ee8ba",
+                        "path": "config/TitleChanger-2.toml.bak"
+                    }
+                },
+                {
+                    "id": "TitleChanger-3.toml.bak",
+                    "name": "TitleChanger-3.toml.bak",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2180,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/TitleChanger-3.toml.bak",
+                        "MD5": "b902ce7edfb0b4bbe9758fe7309ee8ba",
+                        "path": "config/TitleChanger-3.toml.bak"
+                    }
+                },
+                {
+                    "id": "TitleChanger-4.toml.bak",
+                    "name": "TitleChanger-4.toml.bak",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2180,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/TitleChanger-4.toml.bak",
+                        "MD5": "b902ce7edfb0b4bbe9758fe7309ee8ba",
+                        "path": "config/TitleChanger-4.toml.bak"
+                    }
+                },
+                {
+                    "id": "TitleChanger.toml",
+                    "name": "TitleChanger.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2180,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/TitleChanger.toml",
+                        "MD5": "b902ce7edfb0b4bbe9758fe7309ee8ba",
+                        "path": "config/TitleChanger.toml"
+                    }
+                },
+                {
+                    "id": "ambientsounds-client.json",
+                    "name": "ambientsounds-client.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3212,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/ambientsounds-client.json",
+                        "MD5": "2895f33c90a2b5e4e13ede9a6fcb0678",
+                        "path": "config/ambientsounds-client.json"
+                    }
+                },
+                {
+                    "id": "appleskin-client.toml",
+                    "name": "appleskin-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1337,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/appleskin-client.toml",
+                        "MD5": "231dc83013e53ea576f6b38629efb713",
+                        "path": "config/appleskin-client.toml"
+                    }
+                },
+                {
+                    "id": "areas.json5",
+                    "name": "areas.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2078,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/areas.json5",
+                        "MD5": "81cee6ccd55bfe741c7a557538b0d71c",
+                        "path": "config/areas.json5"
+                    }
+                },
+                {
+                    "id": "assortedworld-common.toml",
+                    "name": "assortedworld-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 535,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/assortedworld-common.toml",
+                        "MD5": "af82048ad227e8faef9cfa7f8797a376",
+                        "path": "config/assortedworld-common.toml"
+                    }
+                },
+                {
+                    "id": "axesareweapons.json5",
+                    "name": "axesareweapons.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 425,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/axesareweapons.json5",
+                        "MD5": "e5807d196ba852669ce79f4ab8ea1a93",
+                        "path": "config/axesareweapons.json5"
+                    }
+                },
+                {
+                    "id": "bagus_lib-client.toml",
+                    "name": "bagus_lib-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 117,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/bagus_lib-client.toml",
+                        "MD5": "e374b60eec020d367bc9b90e597509cc",
+                        "path": "config/bagus_lib-client.toml"
+                    }
+                },
+                {
+                    "id": "bagus_lib-common.toml",
+                    "name": "bagus_lib-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 100,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/bagus_lib-common.toml",
+                        "MD5": "9e61f193da40e7fdc3a6c47a38556dab",
+                        "path": "config/bagus_lib-common.toml"
+                    }
+                },
+                {
+                    "id": "balm-common.toml",
+                    "name": "balm-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 534,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/balm-common.toml",
+                        "MD5": "ba7967790e6cdfbdcde60111cb48fe2f",
+                        "path": "config/balm-common.toml"
+                    }
+                },
+                {
+                    "id": "betteranimationscollection-client.toml",
+                    "name": "betteranimationscollection-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 9624,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/betteranimationscollection-client.toml",
+                        "MD5": "6d36bcd308aa6a3222e8ce371ef90376",
+                        "path": "config/betteranimationscollection-client.toml"
+                    }
+                },
+                {
+                    "id": "client.json5",
+                    "name": "client.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 488,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/bettercombat/client.json5",
+                        "MD5": "64571b3aa06be6bddb44ff75739d0e38",
+                        "path": "config/bettercombat/client.json5"
+                    }
+                },
+                {
+                    "id": "fallback_compatibility.json",
+                    "name": "fallback_compatibility.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2717,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/bettercombat/fallback_compatibility.json",
+                        "MD5": "bc744874770adc34e2fb97f2ca1c1446",
+                        "path": "config/bettercombat/fallback_compatibility.json"
+                    }
+                },
+                {
+                    "id": "server.json5",
+                    "name": "server.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 5169,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/bettercombat/server.json5",
+                        "MD5": "85bbe0d3fa71e57e5b927571ac7f03fa",
+                        "path": "config/bettercombat/server.json5"
+                    }
+                },
+                {
+                    "id": "biome_toggles.json",
+                    "name": "biome_toggles.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1999,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/biomesoplenty/biome_toggles.json",
+                        "MD5": "ef74c4378e87db15c420c2d8435870b6",
+                        "path": "config/biomesoplenty/biome_toggles.json"
+                    }
+                },
+                {
+                    "id": "generation.toml",
+                    "name": "generation.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 600,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/biomesoplenty/generation.toml",
+                        "MD5": "8fe8bdbb6b753f0270f3f4ef91af94ac",
+                        "path": "config/biomesoplenty/generation.toml"
+                    }
+                },
+                {
+                    "id": "blossom.json",
+                    "name": "blossom.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 79,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/blossom.json",
+                        "MD5": "3e1e6e66617373584fbd7e9ec975a978",
+                        "path": "config/blossom.json"
+                    }
+                },
+                {
+                    "id": "buildersaddition-common.toml",
+                    "name": "buildersaddition-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 765,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/buildersaddition-common.toml",
+                        "MD5": "c424b0967d5ef2908be501a77446ef31",
+                        "path": "config/buildersaddition-common.toml"
+                    }
+                },
+                {
+                    "id": "canary.properties",
+                    "name": "canary.properties",
+                    "type": "File",
+                    "artifact": {
+                        "size": 422,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/canary.properties",
+                        "MD5": "5e84ee15acacbd2745a782e9fd878605",
+                        "path": "config/canary.properties"
+                    }
+                },
+                {
+                    "id": "carryon-client.toml",
+                    "name": "carryon-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 583,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/carryon-client.toml",
+                        "MD5": "6c1101854b76fcb96687535b98a8218e",
+                        "path": "config/carryon-client.toml"
+                    }
+                },
+                {
+                    "id": "carryon-common.toml",
+                    "name": "carryon-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 6959,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/carryon-common.toml",
+                        "MD5": "dcf170fe8da146de1897cd2ebed325f6",
+                        "path": "config/carryon-common.toml"
+                    }
+                },
+                {
+                    "id": "chat_heads.json5",
+                    "name": "chat_heads.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 121,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/chat_heads.json5",
+                        "MD5": "aeffe590e7d630b40cf91b6ff82b5f96",
+                        "path": "config/chat_heads.json5"
+                    }
+                },
+                {
+                    "id": "chunkanimator-client.toml",
+                    "name": "chunkanimator-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1066,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/chunkanimator-client.toml",
+                        "MD5": "23e7cbad473dd1188e726eed1730b16f",
+                        "path": "config/chunkanimator-client.toml"
+                    }
+                },
+                {
+                    "id": "clean_tooltips-client.toml",
+                    "name": "clean_tooltips-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1087,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/clean_tooltips-client.toml",
+                        "MD5": "f33671ab3c56d038557ebcb9edf76455",
+                        "path": "config/clean_tooltips-client.toml"
+                    }
+                },
+                {
+                    "id": "cleardespawn-client.toml",
+                    "name": "cleardespawn-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 339,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/cleardespawn-client.toml",
+                        "MD5": "63d4dbc27b4fc01f7017c17b8746c450",
+                        "path": "config/cleardespawn-client.toml"
+                    }
+                },
+                {
+                    "id": "collective.json5",
+                    "name": "collective.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 960,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/collective.json5",
+                        "MD5": "0966eae411065e30c194c91f61d887d4",
+                        "path": "config/collective.json5"
+                    }
+                },
+                {
+                    "id": "craftingtweaks-common.toml",
+                    "name": "craftingtweaks-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 978,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/craftingtweaks-common.toml",
+                        "MD5": "21e2d787b7623d4a87bddbcdc4fa2bd9",
+                        "path": "config/craftingtweaks-common.toml"
+                    }
+                },
+                {
+                    "id": "create-client.toml",
+                    "name": "create-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 4774,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/create-client.toml",
+                        "MD5": "0e3e9bb5f637bda81bf1c38e68d835d1",
+                        "path": "config/create-client.toml"
+                    }
+                },
+                {
+                    "id": "create-common.toml",
+                    "name": "create-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 148,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/create-common.toml",
+                        "MD5": "b4921f5f493e86417f451cad5fba8c5e",
+                        "path": "config/create-common.toml"
+                    }
+                },
+                {
+                    "id": "createaddition-common.toml",
+                    "name": "createaddition-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 4129,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/createaddition-common.toml",
+                        "MD5": "4b4745831d3850a241011b601ba444be",
+                        "path": "config/createaddition-common.toml"
+                    }
+                },
+                {
+                    "id": "minecraftED.json5",
+                    "name": "minecraftED.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1476,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/cristellib/minecraftED.json5",
+                        "MD5": "196b97a9fc30973c513ee74e6b992fd3",
+                        "path": "config/cristellib/minecraftED.json5"
+                    }
+                },
+                {
+                    "id": "minecraftP.json5",
+                    "name": "minecraftP.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1752,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/cristellib/minecraftP.json5",
+                        "MD5": "1d8b9b72253a97231ff416174c2eb646",
+                        "path": "config/cristellib/minecraftP.json5"
+                    }
+                },
+                {
+                    "id": "cullleaves.json",
+                    "name": "cullleaves.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 42,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/cullleaves.json",
+                        "MD5": "727604a10633c683eb5b0b24985f2db2",
+                        "path": "config/cullleaves.json"
+                    }
+                },
+                {
+                    "id": "config.cfg",
+                    "name": "config.cfg",
+                    "type": "File",
+                    "artifact": {
+                        "size": 304,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/drippyloadingscreen/config.cfg",
+                        "MD5": "4a985a22d6774a8c798867da940a0c66",
+                        "path": "config/drippyloadingscreen/config.cfg"
+                    }
+                },
+                {
+                    "id": "dynamic_lights_reforged.toml",
+                    "name": "dynamic_lights_reforged.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 290,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/dynamic_lights_reforged.toml",
+                        "MD5": "c14334038e511f8a6cdad4771f556c6b",
+                        "path": "config/dynamic_lights_reforged.toml"
+                    }
+                },
+                {
+                    "id": "dynamiclights.cfg",
+                    "name": "dynamiclights.cfg",
+                    "type": "File",
+                    "artifact": {
+                        "size": 64,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/dynamiclights.cfg",
+                        "MD5": "9d3a71e89f8b810952c79b873365788b",
+                        "path": "config/dynamiclights.cfg"
+                    }
+                },
+                {
+                    "id": "dynamiclights_droppeditems.cfg",
+                    "name": "dynamiclights_droppeditems.cfg",
+                    "type": "File",
+                    "artifact": {
+                        "size": 195,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/dynamiclights_droppeditems.cfg",
+                        "MD5": "7cf8e256d27a315e8a82e64a8a97bec9",
+                        "path": "config/dynamiclights_droppeditems.cfg"
+                    }
+                },
+                {
+                    "id": "dynamiclights_selflight.cfg",
+                    "name": "dynamiclights_selflight.cfg",
+                    "type": "File",
+                    "artifact": {
+                        "size": 195,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/dynamiclights_selflight.cfg",
+                        "MD5": "7cf8e256d27a315e8a82e64a8a97bec9",
+                        "path": "config/dynamiclights_selflight.cfg"
+                    }
+                },
+                {
+                    "id": "easymagic-client.toml",
+                    "name": "easymagic-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 958,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/easymagic-client.toml",
+                        "MD5": "29a957d860d369286d4d8b327dcfb7f2",
+                        "path": "config/easymagic-client.toml"
+                    }
+                },
+                {
+                    "id": "easymagic-server.toml",
+                    "name": "easymagic-server.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1877,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/easymagic-server.toml",
+                        "MD5": "9f6c1ea0d655eefe27bc28f09c00df8b",
+                        "path": "config/easymagic-server.toml"
+                    }
+                },
+                {
+                    "id": "emotecraft.json",
+                    "name": "emotecraft.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 647,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/emotecraft.json",
+                        "MD5": "69f239dffd22a7ad53e6bbc3da08f50d",
+                        "path": "config/emotecraft.json"
+                    }
+                },
+                {
+                    "id": "emotecraft_emote_map.json",
+                    "name": "emotecraft_emote_map.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 117,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/emotecraft_emote_map.json",
+                        "MD5": "fdcffe9e7eaa4949ee1d33d613a7c2eb",
+                        "path": "config/emotecraft_emote_map.json"
+                    }
+                },
+                {
+                    "id": "enchdesc.json",
+                    "name": "enchdesc.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 146,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/enchdesc.json",
+                        "MD5": "8371cbef0f8927bf8a24b78fce1211fa",
+                        "path": "config/enchdesc.json"
+                    }
+                },
+                {
+                    "id": "config.txt",
+                    "name": "config.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1648,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/config.txt",
+                        "MD5": "fa76964d0074bfd10d6d4db8040ae0e8",
+                        "path": "config/fancymenu/config.txt"
+                    }
+                },
+                {
+                    "id": "customizablemenus.txt",
+                    "name": "customizablemenus.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 387,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/customizablemenus.txt",
+                        "MD5": "b45045b8e8bb93de6ddbe23c0cec137f",
+                        "path": "config/fancymenu/customizablemenus.txt"
+                    }
+                },
+                {
+                    "id": "config.txt",
+                    "name": "config.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1848,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/customization/config.txt",
+                        "MD5": "b79094d20c62928dffe306a89cf21cdd",
+                        "path": "config/fancymenu/customization/config.txt"
+                    }
+                },
+                {
+                    "id": "default.txt",
+                    "name": "default.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3615,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/customization/default.txt",
+                        "MD5": "1e0d5782f9af88843404e9d1b5f0493c",
+                        "path": "config/fancymenu/customization/default.txt"
+                    }
+                },
+                {
+                    "id": "multiplayer.txt",
+                    "name": "multiplayer.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1651,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/customization/multiplayer.txt",
+                        "MD5": "6a640398fecf93e6d45f50b9653512fd",
+                        "path": "config/fancymenu/customization/multiplayer.txt"
+                    }
+                },
+                {
+                    "id": "pause.txt",
+                    "name": "pause.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1909,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/customization/pause.txt",
+                        "MD5": "7aeb02ca76a46fbf36931f6456898a30",
+                        "path": "config/fancymenu/customization/pause.txt"
+                    }
+                },
+                {
+                    "id": "de_de.local",
+                    "name": "de_de.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 27376,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/locals/de_de.local",
+                        "MD5": "f43e602abc1b3081611a3ee39efa0bdd",
+                        "path": "config/fancymenu/locals/de_de.local"
+                    }
+                },
+                {
+                    "id": "en_us.local",
+                    "name": "en_us.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 113824,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/locals/en_us.local",
+                        "MD5": "320e2ec6fee20689004105d94cd809af",
+                        "path": "config/fancymenu/locals/en_us.local"
+                    }
+                },
+                {
+                    "id": "pl_pl.local",
+                    "name": "pl_pl.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 13858,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/locals/pl_pl.local",
+                        "MD5": "22c68afab02c97f21832b904a5e4413c",
+                        "path": "config/fancymenu/locals/pl_pl.local"
+                    }
+                },
+                {
+                    "id": "pt_br.local",
+                    "name": "pt_br.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 14283,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/locals/pt_br.local",
+                        "MD5": "9a91316e7c6e61a7a1e0874f34f77482",
+                        "path": "config/fancymenu/locals/pt_br.local"
+                    }
+                },
+                {
+                    "id": "ru_ru.local",
+                    "name": "ru_ru.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 155574,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/locals/ru_ru.local",
+                        "MD5": "06d4d09969aa81e24ad92ab8d00b178c",
+                        "path": "config/fancymenu/locals/ru_ru.local"
+                    }
+                },
+                {
+                    "id": "uk_ua.local",
+                    "name": "uk_ua.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 147984,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/locals/uk_ua.local",
+                        "MD5": "617020e85943f6f8e44662d128945f46",
+                        "path": "config/fancymenu/locals/uk_ua.local"
+                    }
+                },
+                {
+                    "id": "zh_cn.local",
+                    "name": "zh_cn.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 52106,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/locals/zh_cn.local",
+                        "MD5": "20a74fbf1560def5e5528b78fb30fbfe",
+                        "path": "config/fancymenu/locals/zh_cn.local"
+                    }
+                },
+                {
+                    "id": "menu_identifiers.db",
+                    "name": "menu_identifiers.db",
+                    "type": "File",
+                    "artifact": {
+                        "size": 10497,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/menu_identifiers.db",
+                        "MD5": "7ea7268db5d58f0ed6b4ffe8bec943b9",
+                        "path": "config/fancymenu/menu_identifiers.db"
+                    }
+                },
+                {
+                    "id": "2023-08-31_18.29.42.png",
+                    "name": "2023-08-31_18.29.42.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1623587,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/slideshows/default/images/2023-08-31_18.29.42.png",
+                        "MD5": "0a111a2d2fb941d3715219a01a80682b",
+                        "path": "config/fancymenu/slideshows/default/images/2023-08-31_18.29.42.png"
+                    }
+                },
+                {
+                    "id": "2023-08-31_18.29.54.png",
+                    "name": "2023-08-31_18.29.54.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1734456,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/slideshows/default/images/2023-08-31_18.29.54.png",
+                        "MD5": "1a9d6c9426d41b0cf9356e772133f931",
+                        "path": "config/fancymenu/slideshows/default/images/2023-08-31_18.29.54.png"
+                    }
+                },
+                {
+                    "id": "2023-08-31_18.32.59.png",
+                    "name": "2023-08-31_18.32.59.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1684091,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/slideshows/default/images/2023-08-31_18.32.59.png",
+                        "MD5": "ee384122569375468d7029f2127c7ef2",
+                        "path": "config/fancymenu/slideshows/default/images/2023-08-31_18.32.59.png"
+                    }
+                },
+                {
+                    "id": "2023-08-31_18.34.58.png",
+                    "name": "2023-08-31_18.34.58.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2087858,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/slideshows/default/images/2023-08-31_18.34.58.png",
+                        "MD5": "635423f9403a840b330ac4274bc16769",
+                        "path": "config/fancymenu/slideshows/default/images/2023-08-31_18.34.58.png"
+                    }
+                },
+                {
+                    "id": "2023-08-31_18.35.37.png",
+                    "name": "2023-08-31_18.35.37.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1689773,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/slideshows/default/images/2023-08-31_18.35.37.png",
+                        "MD5": "d6d00f522744a1a4063f8d1308374930",
+                        "path": "config/fancymenu/slideshows/default/images/2023-08-31_18.35.37.png"
+                    }
+                },
+                {
+                    "id": "2023-08-31_18.36.44.png",
+                    "name": "2023-08-31_18.36.44.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1819431,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/slideshows/default/images/2023-08-31_18.36.44.png",
+                        "MD5": "13971a339bca686699956d91568bc7cf",
+                        "path": "config/fancymenu/slideshows/default/images/2023-08-31_18.36.44.png"
+                    }
+                },
+                {
+                    "id": "2023-08-31_18.40.25.png",
+                    "name": "2023-08-31_18.40.25.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1612186,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/slideshows/default/images/2023-08-31_18.40.25.png",
+                        "MD5": "139c16d9d8eca3e42cbe830ea9db795a",
+                        "path": "config/fancymenu/slideshows/default/images/2023-08-31_18.40.25.png"
+                    }
+                },
+                {
+                    "id": "2023-08-31_18.41.28.png",
+                    "name": "2023-08-31_18.41.28.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1200859,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/slideshows/default/images/2023-08-31_18.41.28.png",
+                        "MD5": "4ee51d4583d35f6fadf75fc9f997ecd0",
+                        "path": "config/fancymenu/slideshows/default/images/2023-08-31_18.41.28.png"
+                    }
+                },
+                {
+                    "id": "properties.txt",
+                    "name": "properties.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 150,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/slideshows/default/properties.txt",
+                        "MD5": "74ac308ef61cade19f5a966405f985ce",
+                        "path": "config/fancymenu/slideshows/default/properties.txt"
+                    }
+                },
+                {
+                    "id": "user_variables.db",
+                    "name": "user_variables.db",
+                    "type": "File",
+                    "artifact": {
+                        "size": 40,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fancymenu/user_variables.db",
+                        "MD5": "eec0f310caf96daa823c26b23cdc031a",
+                        "path": "config/fancymenu/user_variables.db"
+                    }
+                },
+                {
+                    "id": "farmersdelight-client.toml",
+                    "name": "farmersdelight-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 359,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/farmersdelight-client.toml",
+                        "MD5": "d2c50add772ce51d7acacf6b7546b95e",
+                        "path": "config/farmersdelight-client.toml"
+                    }
+                },
+                {
+                    "id": "farmersdelight-common.toml",
+                    "name": "farmersdelight-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 4310,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/farmersdelight-common.toml",
+                        "MD5": "8153b4a7ff6a701aac71c639869d1224",
+                        "path": "config/farmersdelight-common.toml"
+                    }
+                },
+                {
+                    "id": "firstperson.json",
+                    "name": "firstperson.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 366,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/firstperson.json",
+                        "MD5": "266272e8a00c590cdde3d29ee7112a79",
+                        "path": "config/firstperson.json"
+                    }
+                },
+                {
+                    "id": "flywheel-client.toml",
+                    "name": "flywheel-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 266,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/flywheel-client.toml",
+                        "MD5": "f8e32be300f0ee9f11732dedb7e428cc",
+                        "path": "config/flywheel-client.toml"
+                    }
+                },
+                {
+                    "id": "fml.toml",
+                    "name": "fml.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 861,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/fml.toml",
+                        "MD5": "5bb78261aad4b80eee824da2025d0d25",
+                        "path": "config/fml.toml"
+                    }
+                },
+                {
+                    "id": "footprintparticle.json",
+                    "name": "footprintparticle.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1415,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/footprintparticle.json",
+                        "MD5": "47fde09358eb009d5dd8a1cb29b7fc1e",
+                        "path": "config/footprintparticle.json"
+                    }
+                },
+                {
+                    "id": "forge-client.toml",
+                    "name": "forge-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 862,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/forge-client.toml",
+                        "MD5": "e77d6db7edf37575a93f24afbc054aeb",
+                        "path": "config/forge-client.toml"
+                    }
+                },
+                {
+                    "id": "hunters_return-common.toml",
+                    "name": "hunters_return-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 571,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/hunters_return-common.toml",
+                        "MD5": "8fa6602053045de92a781a3f4f863db5",
+                        "path": "config/hunters_return-common.toml"
+                    }
+                },
+                {
+                    "id": "hide-blocks.json",
+                    "name": "hide-blocks.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 207,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/jade/hide-blocks.json",
+                        "MD5": "96a520226b75288fb7bcacc90ef64579",
+                        "path": "config/jade/hide-blocks.json"
+                    }
+                },
+                {
+                    "id": "hide-entities.json",
+                    "name": "hide-entities.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 309,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/jade/hide-entities.json",
+                        "MD5": "352007cefa34b15aa3f1068475ec87cc",
+                        "path": "config/jade/hide-entities.json"
+                    }
+                },
+                {
+                    "id": "jade.json",
+                    "name": "jade.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 943,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/jade/jade.json",
+                        "MD5": "020e0425316d0c932c659375774a9d5a",
+                        "path": "config/jade/jade.json"
+                    }
+                },
+                {
+                    "id": "plugins.json",
+                    "name": "plugins.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1980,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/jade/plugins.json",
+                        "MD5": "4c7c3b918fdb6d9d0279187a42ac932b",
+                        "path": "config/jade/plugins.json"
+                    }
+                },
+                {
+                    "id": "sort-order.json",
+                    "name": "sort-order.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3530,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/jade/sort-order.json",
+                        "MD5": "03ac34a8a9a455267ac81b0ce71226d9",
+                        "path": "config/jade/sort-order.json"
+                    }
+                },
+                {
+                    "id": "de_de.local",
+                    "name": "de_de.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 369,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/konkrete/locals/de_de.local",
+                        "MD5": "3aac3df2519057d2305f894c37771e30",
+                        "path": "config/konkrete/locals/de_de.local"
+                    }
+                },
+                {
+                    "id": "en_us.local",
+                    "name": "en_us.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 426,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/konkrete/locals/en_us.local",
+                        "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+                        "path": "config/konkrete/locals/en_us.local"
+                    }
+                },
+                {
+                    "id": "pl_pl.local",
+                    "name": "pl_pl.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 313,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/konkrete/locals/pl_pl.local",
+                        "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+                        "path": "config/konkrete/locals/pl_pl.local"
+                    }
+                },
+                {
+                    "id": "pt_br.local",
+                    "name": "pt_br.local",
+                    "type": "File",
+                    "artifact": {
+                        "size": 322,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/konkrete/locals/pt_br.local",
+                        "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+                        "path": "config/konkrete/locals/pt_br.local"
+                    }
+                },
+                {
+                    "id": "leavemybarsalone-client.toml",
+                    "name": "leavemybarsalone-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 131,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/leavemybarsalone-client.toml",
+                        "MD5": "612eb6907ec685b4b2f684adbb111fdf",
+                        "path": "config/leavemybarsalone-client.toml"
+                    }
+                },
+                {
+                    "id": "config.cfg",
+                    "name": "config.cfg",
+                    "type": "File",
+                    "artifact": {
+                        "size": 79,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/loadmyresources/config.cfg",
+                        "MD5": "d1d8051f7bab6317a6b749658580c4e3",
+                        "path": "config/loadmyresources/config.cfg"
+                    }
+                },
+                {
+                    "id": "midnightlib.json",
+                    "name": "midnightlib.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 34,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/midnightlib.json",
+                        "MD5": "96bc8c4809d1b71f3fb24d7b83aaa56e",
+                        "path": "config/midnightlib.json"
+                    }
+                },
+                {
+                    "id": "client.json5",
+                    "name": "client.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 158,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/minemention/client.json5",
+                        "MD5": "71fb5c0491295a2130e59deb0903d06f",
+                        "path": "config/minemention/client.json5"
+                    }
+                },
+                {
+                    "id": "mentions.json5",
+                    "name": "mentions.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 371,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/minemention/mentions.json5",
+                        "MD5": "d734cf4f5f91d94b139c0d689e89e2f3",
+                        "path": "config/minemention/mentions.json5"
+                    }
+                },
+                {
+                    "id": "moonlight-client.toml",
+                    "name": "moonlight-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 117,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/moonlight-client.toml",
+                        "MD5": "c907c9f22527fb4e345593f1807f8fd9",
+                        "path": "config/moonlight-client.toml"
+                    }
+                },
+                {
+                    "id": "notenoughanimations.json",
+                    "name": "notenoughanimations.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1390,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/notenoughanimations.json",
+                        "MD5": "243674685d038037018aae745be6fcbf",
+                        "path": "config/notenoughanimations.json"
+                    }
+                },
+                {
+                    "id": "notenoughcrashes.json",
+                    "name": "notenoughcrashes.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 156,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/notenoughcrashes.json",
+                        "MD5": "31461b5763f73ea1074a172ac13665cf",
+                        "path": "config/notenoughcrashes.json"
+                    }
+                },
+                {
+                    "id": "nyfsspiders.toml",
+                    "name": "nyfsspiders.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 186,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/nyfsspiders.toml",
+                        "MD5": "05bba22ded0b5eb6cd15e96edb38bd43",
+                        "path": "config/nyfsspiders.toml"
+                    }
+                },
+                {
+                    "id": "oculus.properties",
+                    "name": "oculus.properties",
+                    "type": "File",
+                    "artifact": {
+                        "size": 286,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/oculus.properties",
+                        "MD5": "620345beeb0510a1c15378ae99ffa17f",
+                        "path": "config/oculus.properties"
+                    }
+                },
+                {
+                    "id": "online_emotes.toml",
+                    "name": "online_emotes.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 187,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/online_emotes.toml",
+                        "MD5": "4c1f4e89fb3df22ab77c5bd40c09192a",
+                        "path": "config/online_emotes.toml"
+                    }
+                },
+                {
+                    "id": "particle_spawner-client.toml",
+                    "name": "particle_spawner-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 74,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/particle_spawner-client.toml",
+                        "MD5": "ba40270a27e9c0b8978f08dc7ff14c29",
+                        "path": "config/particle_spawner-client.toml"
+                    }
+                },
+                {
+                    "id": "particle_spawner-common.toml",
+                    "name": "particle_spawner-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 217,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/particle_spawner-common.toml",
+                        "MD5": "db19dde07df0dc14651ce9a0da01d4a3",
+                        "path": "config/particle_spawner-common.toml"
+                    }
+                },
+                {
+                    "id": "pickupnotifier-client.toml",
+                    "name": "pickupnotifier-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3287,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/pickupnotifier/pickupnotifier-client.toml",
+                        "MD5": "960382fce071530865cdc91b9874fe6d",
+                        "path": "config/pickupnotifier/pickupnotifier-client.toml"
+                    }
+                },
+                {
+                    "id": "pickupnotifier-server.toml",
+                    "name": "pickupnotifier-server.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 479,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/pickupnotifier/pickupnotifier-server.toml",
+                        "MD5": "44bb7f25ef0c02af30b9337f811efb83",
+                        "path": "config/pickupnotifier/pickupnotifier-server.toml"
+                    }
+                },
+                {
+                    "id": "polymorph-integrations.toml",
+                    "name": "polymorph-integrations.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 327,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/polymorph-integrations.toml",
+                        "MD5": "7e184f8ccfbf8dc4f3873c80f8dfe9c3",
+                        "path": "config/polymorph-integrations.toml"
+                    }
+                },
+                {
+                    "id": "realcamera.json",
+                    "name": "realcamera.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1769,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/realcamera.json",
+                        "MD5": "a8039472005fbe7a6b29c63a98e144c2",
+                        "path": "config/realcamera.json"
+                    }
+                },
+                {
+                    "id": "reblured-client.toml",
+                    "name": "reblured-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 546,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/reblured-client.toml",
+                        "MD5": "0fae820c8adc17295d0038645d3d05ea",
+                        "path": "config/reblured-client.toml"
+                    }
+                },
+                {
+                    "id": "ru-common.toml",
+                    "name": "ru-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3525,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/regions_unexplored/ru-common.toml",
+                        "MD5": "287141e11fe6dea585ded7c3d0f3eb2c",
+                        "path": "config/regions_unexplored/ru-common.toml"
+                    }
+                },
+                {
+                    "id": "ru-primary-region.toml",
+                    "name": "ru-primary-region.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 13521,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/regions_unexplored/ru-primary-region.toml",
+                        "MD5": "8c5a99c3a04813ff3f6f26a3e5214c6d",
+                        "path": "config/regions_unexplored/ru-primary-region.toml"
+                    }
+                },
+                {
+                    "id": "ru-secondary-region.toml",
+                    "name": "ru-secondary-region.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 13456,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/regions_unexplored/ru-secondary-region.toml",
+                        "MD5": "577449cc7faf931fc5e03be750d38a0c",
+                        "path": "config/regions_unexplored/ru-secondary-region.toml"
+                    }
+                },
+                {
+                    "id": "changelog.txt",
+                    "name": "changelog.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 6,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/roughlyenoughitems/changelog.txt",
+                        "MD5": "59311bc5d6875fc63a1cc3daf1306034",
+                        "path": "config/roughlyenoughitems/changelog.txt"
+                    }
+                },
+                {
+                    "id": "config.json5",
+                    "name": "config.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 5486,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/roughlyenoughitems/config.json5",
+                        "MD5": "50487451696132c06b57cd24551b4597",
+                        "path": "config/roughlyenoughitems/config.json5"
+                    }
+                },
+                {
+                    "id": "hints.json",
+                    "name": "hints.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 59,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/roughlyenoughitems/hints.json",
+                        "MD5": "a15841886d710ad696f4b63054d0acd2",
+                        "path": "config/roughlyenoughitems/hints.json"
+                    }
+                },
+                {
+                    "id": "pinyin.properties",
+                    "name": "pinyin.properties",
+                    "type": "File",
+                    "artifact": {
+                        "size": 46,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/roughlyenoughitems/pinyin.properties",
+                        "MD5": "23731853941ea9430f606701b176a42e",
+                        "path": "config/roughlyenoughitems/pinyin.properties"
+                    }
+                },
+                {
+                    "id": "pinyin_double.properties",
+                    "name": "pinyin_double.properties",
+                    "type": "File",
+                    "artifact": {
+                        "size": 70,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/roughlyenoughitems/pinyin_double.properties",
+                        "MD5": "7291d25a830eda87ae850bb40a5f58b1",
+                        "path": "config/roughlyenoughitems/pinyin_double.properties"
+                    }
+                },
+                {
+                    "id": "rrls.toml",
+                    "name": "rrls.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 119,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/rrls.toml",
+                        "MD5": "e73249c5b9101aac441f6e9862b2be5a",
+                        "path": "config/rrls.toml"
+                    }
+                },
+                {
+                    "id": "rubidium-mixins.properties",
+                    "name": "rubidium-mixins.properties",
+                    "type": "File",
+                    "artifact": {
+                        "size": 268,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/rubidium-mixins.properties",
+                        "MD5": "930aecb1937f8b4122ce63b01b1e5ad3",
+                        "path": "config/rubidium-mixins.properties"
+                    }
+                },
+                {
+                    "id": "rubidium-options.json",
+                    "name": "rubidium-options.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 625,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/rubidium-options.json",
+                        "MD5": "16ba0e8a206b6dae405951ff841b41ca",
+                        "path": "config/rubidium-options.json"
+                    }
+                },
+                {
+                    "id": "rubidium_extras.toml",
+                    "name": "rubidium_extras.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1861,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/rubidium_extras.toml",
+                        "MD5": "02bba5825be0a951a5f4f17a8eb2a2da",
+                        "path": "config/rubidium_extras.toml"
+                    }
+                },
+                {
+                    "id": "fertility.toml",
+                    "name": "fertility.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 522,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/sereneseasons/fertility.toml",
+                        "MD5": "618357d7bd57e19c5927f03752b2df44",
+                        "path": "config/sereneseasons/fertility.toml"
+                    }
+                },
+                {
+                    "id": "seasons.toml",
+                    "name": "seasons.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 353,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/sereneseasons/seasons.toml",
+                        "MD5": "b9aadf8129e8f367ad6b8e8c268133a0",
+                        "path": "config/sereneseasons/seasons.toml"
+                    }
+                },
+                {
+                    "id": "servercountryflags.properties",
+                    "name": "servercountryflags.properties",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1706,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/servercountryflags/servercountryflags.properties",
+                        "MD5": "43eb480a9c0e5b0d4681246fbd9a904e",
+                        "path": "config/servercountryflags/servercountryflags.properties"
+                    }
+                },
+                {
+                    "id": "sophisticatedbackpacks-common.toml",
+                    "name": "sophisticatedbackpacks-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 116,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/sophisticatedbackpacks-common.toml",
+                        "MD5": "111ceedce24044b002f50efca5134d18",
+                        "path": "config/sophisticatedbackpacks-common.toml"
+                    }
+                },
+                {
+                    "id": "sophisticatedcore-client.toml",
+                    "name": "sophisticatedcore-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 358,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/sophisticatedcore-client.toml",
+                        "MD5": "7e184a7d80acc45683e7e59bd3de6b54",
+                        "path": "config/sophisticatedcore-client.toml"
+                    }
+                },
+                {
+                    "id": "spawnermod.json",
+                    "name": "spawnermod.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2702,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/spawnermod.json",
+                        "MD5": "2b100552db123416b9c38fda421c7b03",
+                        "path": "config/spawnermod.json"
+                    }
+                },
+                {
+                    "id": "splashy.json",
+                    "name": "splashy.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 411,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/splashy.json",
+                        "MD5": "60d504a5354e108799761da25ce1cca6",
+                        "path": "config/splashy.json"
+                    }
+                },
+                {
+                    "id": "terrablender.toml",
+                    "name": "terrablender.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 534,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/terrablender.toml",
+                        "MD5": "7908f5fd322c39eceb8e469bd5328108",
+                        "path": "config/terrablender.toml"
+                    }
+                },
+                {
+                    "id": "tips.json",
+                    "name": "tips.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 78,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/tips.json",
+                        "MD5": "5235db24ef6ce02cd403c35234e8cc53",
+                        "path": "config/tips.json"
+                    }
+                },
+                {
+                    "id": "toms_storage-common.toml",
+                    "name": "toms_storage-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 734,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/toms_storage-common.toml",
+                        "MD5": "ad6b6b05b847c66aaab6c5802925ef2d",
+                        "path": "config/toms_storage-common.toml"
+                    }
+                },
+                {
+                    "id": "tradeuses_text.txt",
+                    "name": "tradeuses_text.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 28,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/tradeuses_text.txt",
+                        "MD5": "a4515d64d3c3a7fc362b5944356b7792",
+                        "path": "config/tradeuses_text.txt"
+                    }
+                },
+                {
+                    "id": "visual_workbench.json",
+                    "name": "visual_workbench.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 11520,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/visual_workbench.json",
+                        "MD5": "7c4eddfce31cc30fdf0c293a2142d4bd",
+                        "path": "config/visual_workbench.json"
+                    }
+                },
+                {
+                    "id": "visualworkbench-client.toml",
+                    "name": "visualworkbench-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 308,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/visualworkbench-client.toml",
+                        "MD5": "f625ffc2203cfa5c119ef4aea8d48550",
+                        "path": "config/visualworkbench-client.toml"
+                    }
+                },
+                {
+                    "id": "xaerominimap.txt",
+                    "name": "xaerominimap.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3477,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/xaerominimap.txt",
+                        "MD5": "287a2cee3d68d4165d8c038653e2066f",
+                        "path": "config/xaerominimap.txt"
+                    }
+                },
+                {
+                    "id": "xaerominimap_entities.json",
+                    "name": "xaerominimap_entities.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 4714,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/xaerominimap_entities.json",
+                        "MD5": "68dd54a5c2b417fb739e99d644bfd246",
+                        "path": "config/xaerominimap_entities.json"
+                    }
+                },
+                {
+                    "id": "xaeropatreon.txt",
+                    "name": "xaeropatreon.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 0,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/xaeropatreon.txt",
+                        "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+                        "path": "config/xaeropatreon.txt"
+                    }
+                },
+                {
+                    "id": "xaeroworldmap.txt",
+                    "name": "xaeroworldmap.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1118,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/config/xaeroworldmap.txt",
+                        "MD5": "87cfdfe47ffd6321c9cefac894f36299",
+                        "path": "config/xaeroworldmap.txt"
+                    }
+                },
+                {
+                    "id": "last_world.fmdata",
+                    "name": "last_world.fmdata",
+                    "type": "File",
+                    "artifact": {
+                        "size": 89,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/fancymenu_data/last_world.fmdata",
+                        "MD5": "dbf5fab8fe609044e4997c62e16fd92a",
+                        "path": "fancymenu_data/last_world.fmdata"
+                    }
+                },
+                {
+                    "id": "options.txt",
+                    "name": "options.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 7833,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/options.txt",
+                        "MD5": "7b5d64e5d620489ba9926a274f847cb8",
+                        "path": "options.txt"
+                    }
+                },
+                {
+                    "id": "realms_persistence.json",
+                    "name": "realms_persistence.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 120,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/realms_persistence.json",
+                        "MD5": "4692b880a0c02b80a79a4d57b7b128d8",
+                        "path": "realms_persistence.json"
+                    }
+                },
+                {
+                    "id": "servers.dat",
+                    "name": "servers.dat",
+                    "type": "File",
+                    "artifact": {
+                        "size": 99,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/servers.dat",
+                        "MD5": "3085b8e039739fa7f85a9c5950e3d62e",
+                        "path": "servers.dat"
+                    }
+                },
+                {
+                    "id": "[Heavy 102] [All] Complementary Reimagined.zip",
+                    "name": "[Heavy 102] [All] Complementary Reimagined.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 409711,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Heavy%20102]%20[All]%20Complementary%20Reimagined.zip",
+                        "MD5": "1ec0f14ed6fd8567c23249abe50513c9",
+                        "path": "shaderpacks/[Heavy 102] [All] Complementary Reimagined.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 102] [All] Shrimple.zip",
+                    "name": "[Heavy 102] [All] Shrimple.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 9981215,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Heavy%20102]%20[All]%20Shrimple.zip",
+                        "MD5": "aade7e7e116fab6c4928d7f70a42b436",
+                        "path": "shaderpacks/[Heavy 102] [All] Shrimple.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 105] [All] VanillaPlus.zip",
+                    "name": "[Heavy 105] [All] VanillaPlus.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 438527,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Heavy%20105]%20[All]%20VanillaPlus.zip",
+                        "MD5": "9e4ae13c6fc67557df80642285769ece",
+                        "path": "shaderpacks/[Heavy 105] [All] VanillaPlus.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 112] [All] Bliss.zip",
+                    "name": "[Heavy 112] [All] Bliss.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1669167,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Heavy%20112]%20[All]%20Bliss.zip",
+                        "MD5": "fb757db17e378d3174611d4d0698280d",
+                        "path": "shaderpacks/[Heavy 112] [All] Bliss.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 82] [All] SEUS Renewed.zip",
+                    "name": "[Heavy 82] [All] SEUS Renewed.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 7062638,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Heavy%2082]%20[All]%20SEUS%20Renewed.zip",
+                        "MD5": "8faeb04d9953c9b10b0794acafc4c1aa",
+                        "path": "shaderpacks/[Heavy 82] [All] SEUS Renewed.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 85] [All] FastPBR.zip",
+                    "name": "[Heavy 85] [All] FastPBR.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1103383,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Heavy%2085]%20[All]%20FastPBR.zip",
+                        "MD5": "e1dfee420fabdd943af788d3855e194e",
+                        "path": "shaderpacks/[Heavy 85] [All] FastPBR.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 95] [All] Complementary.zip",
+                    "name": "[Heavy 95] [All] Complementary.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3456306,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Heavy%2095]%20[All]%20Complementary.zip",
+                        "MD5": "9eab6a42fd4c81b8e0837aacab3f0435",
+                        "path": "shaderpacks/[Heavy 95] [All] Complementary.zip"
+                    }
+                },
+                {
+                    "id": "[Light 177] [Intel] Chronos.zip",
+                    "name": "[Light 177] [Intel] Chronos.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 18093007,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Light%20177]%20[Intel]%20Chronos.zip",
+                        "MD5": "909aeaf877dfe61a4f2f3a539e021637",
+                        "path": "shaderpacks/[Light 177] [Intel] Chronos.zip"
+                    }
+                },
+                {
+                    "id": "[Light 230] [Nvidia] Tea.zip",
+                    "name": "[Light 230] [Nvidia] Tea.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 166096,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Light%20230]%20[Nvidia]%20Tea.zip",
+                        "MD5": "fbbd7457f392aa657cd97a449bb57f25",
+                        "path": "shaderpacks/[Light 230] [Nvidia] Tea.zip"
+                    }
+                },
+                {
+                    "id": "[Light 285] [All] Cyanide.zip",
+                    "name": "[Light 285] [All] Cyanide.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 18544,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Light%20285]%20[All]%20Cyanide.zip",
+                        "MD5": "c6d1626d7345dea75f4f26f98c643208",
+                        "path": "shaderpacks/[Light 285] [All] Cyanide.zip"
+                    }
+                },
+                {
+                    "id": "[Medium 147] [All] SuperDuperVanilla.zip",
+                    "name": "[Medium 147] [All] SuperDuperVanilla.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2482875,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Medium%20147]%20[All]%20SuperDuperVanilla.zip",
+                        "MD5": "4ea583d43ebfe5712b441d37062f973e",
+                        "path": "shaderpacks/[Medium 147] [All] SuperDuperVanilla.zip"
+                    }
+                },
+                {
+                    "id": "[Medium 152] [All] Simplicissimus.zip",
+                    "name": "[Medium 152] [All] Simplicissimus.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 90938,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Medium%20152]%20[All]%20Simplicissimus.zip",
+                        "MD5": "c70e0e442863d6ab8700f99814560a5b",
+                        "path": "shaderpacks/[Medium 152] [All] Simplicissimus.zip"
+                    }
+                },
+                {
+                    "id": "[Medium 187] [All] Potato.zip",
+                    "name": "[Medium 187] [All] Potato.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 390552,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Medium%20187]%20[All]%20Potato.zip",
+                        "MD5": "1a31d59c5980154a3ef81f2d1a92ee5d",
+                        "path": "shaderpacks/[Medium 187] [All] Potato.zip"
+                    }
+                },
+                {
+                    "id": "[Ultra-Heavy 30] [All] Rethinking Voxels.zip",
+                    "name": "[Ultra-Heavy 30] [All] Rethinking Voxels.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 361612,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Ultra-Heavy%2030]%20[All]%20Rethinking%20Voxels.zip",
+                        "MD5": "5a9650c5022e53ce3fa75607b4d548cc",
+                        "path": "shaderpacks/[Ultra-Heavy 30] [All] Rethinking Voxels.zip"
+                    }
+                },
+                {
+                    "id": "[Ultra-Heavy 57] [All] RedHat.zip",
+                    "name": "[Ultra-Heavy 57] [All] RedHat.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 196654,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/shaderpacks/[Ultra-Heavy%2057]%20[All]%20RedHat.zip",
+                        "MD5": "7100157d179f268fee9f7a2b6b5d11a0",
+                        "path": "shaderpacks/[Ultra-Heavy 57] [All] RedHat.zip"
                     }
                 }
             ]
