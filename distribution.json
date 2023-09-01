@@ -975,7 +975,7 @@
             "name": "MNCRED Water [TEST]",
             "description": "Тестовый сервер по красоте",
             "icon": "https://downloads.over.red/default_icon.png",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "address": "water.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
             "mainServer": false,
