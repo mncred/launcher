@@ -1801,6 +1801,16 @@
                     }
                 },
                 {
+                    "id": "dev.lambdaurora.lambdynlights:dynamiclightsreforged:1.20.1_v1.6.0@jar",
+                    "name": "Rubidium Dynamic Lights",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 94614,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/dynamiclightsreforged-1.20.1_v1.6.0.jar",
+                        "MD5": "f8f506d864082aa61b3e38d249542f40"
+                    }
+                },
+                {
                     "id": "fuzs.easymagic:easymagic:8.0.1@jar",
                     "name": "Easy Magic",
                     "type": "ForgeMod",
@@ -1818,6 +1828,16 @@
                         "size": 435042,
                         "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/ecosphericalexpansion-1.20.1-1.2.1.jar",
                         "MD5": "e1d279c47c813d55fbafa4c8f8c82d2a"
+                    }
+                },
+                {
+                    "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+                    "name": "Emotecraft",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 680255,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+                        "MD5": "636c62379cd7c5201a70fd457808e331"
                     }
                 },
                 {
@@ -2251,6 +2271,26 @@
                     }
                 },
                 {
+                    "id": "net.coderbot.iris:oculus:1.6.4@jar",
+                    "name": "Oculus",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2849391,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/oculus-mc1.20-1.6.4.jar",
+                        "MD5": "5a5931227b842d89f2ace93625b22739"
+                    }
+                },
+                {
+                    "id": "com.github.dima_dencep.mods:online_emotes:2.1.0-forge@jar",
+                    "name": "Online Emotes",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 778243,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/online-emotes-2.1.0-forge.jar",
+                        "MD5": "e7a6e31069510ade48ee24fbc6c4fbb1"
+                    }
+                },
+                {
                     "id": "xaero.pac:openpartiesandclaims:0.19.3@jar",
                     "name": "Open Parties and Claims",
                     "type": "ForgeMod",
@@ -2341,6 +2381,16 @@
                     }
                 },
                 {
+                    "id": "me.shedaniel.rei:roughlyenoughitems:12.0.645@jar",
+                    "name": "Roughly Enough Items (REI)",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2197199,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/RoughlyEnoughItems-12.0.645.jar",
+                        "MD5": "a88944ef972ba6aac0d55117eac7e3a6"
+                    }
+                },
+                {
                     "id": "com.github.dimadencep.mods:rrls:1.20.1-3.1.1-forge@jar",
                     "name": "Remove Reloading Screen",
                     "type": "ForgeMod",
@@ -2348,6 +2398,26 @@
                         "size": 185508,
                         "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/Rrls-1.20.1-3.1.1-forge.jar",
                         "MD5": "22e0481f2edb9bf5a13c95cb40aa07b6"
+                    }
+                },
+                {
+                    "id": "vice.rubidium_extras:rubidium_extras:1.20.1_v1.4.3@jar",
+                    "name": "Rubidium Extras",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 63231,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/rubidium_extras-1.20.1_v1.4.3.jar",
+                        "MD5": "4c33dddad21a37150873a59afcc145d4"
+                    }
+                },
+                {
+                    "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.5@jar",
+                    "name": "Rubidium",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 605877,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/rubidium-0.6.5.jar",
+                        "MD5": "a452efa401ac9ec14d7232243ee4f3fd"
                     }
                 },
                 {
@@ -4142,6 +4212,17 @@
                         "url": "https://downloads.over.red/servers/water-1.20.1/files/options.txt",
                         "MD5": "7b5d64e5d620489ba9926a274f847cb8",
                         "path": "options.txt"
+                    }
+                },
+                {
+                    "id": "servers.dat",
+                    "name": "servers.dat",
+                    "type": "File",
+                    "artifact": {
+                        "size": 99,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/files/servers.dat",
+                        "MD5": "3085b8e039739fa7f85a9c5950e3d62e",
+                        "path": "servers.dat"
                     }
                 },
                 {
