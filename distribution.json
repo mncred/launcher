@@ -1541,6 +1541,116 @@
                     }
                 },
                 {
+                    "id": "net.bettercombat:bettercombat:1.7.3+1.20.1@jar",
+                    "name": "Better Combat",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 910972,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/bettercombat-forge-1.7.3+1.20.1.jar",
+                        "MD5": "73b5e68e7ac9b3cdfc50bc7a3b9499ea"
+                    }
+                },
+                {
+                    "id": "me.treyruffy:betterf3:7.0.1@jar",
+                    "name": "BetterF3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 456795,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/BetterF3-7.0.1-Forge-1.20.1.jar",
+                        "MD5": "59994205b68680095fcc1b9fea447020"
+                    }
+                },
+                {
+                    "id": "net.morimori0317:bettertaskbar:1.7.0@jar",
+                    "name": "Better Taskbar",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 177956,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/bettertaskbar-forge-mc1.20-1.7.0.jar",
+                        "MD5": "1d7798fb2e643f4e340e0c7f480a7d8b"
+                    }
+                },
+                {
+                    "id": "biomesoplenty.core:biomesoplenty:18.0.0.597@jar",
+                    "name": "Biomes O' Plenty",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 21800750,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/BiomesOPlenty-1.20.1-18.0.0.597.jar",
+                        "MD5": "e9615ebf374b3bff3ab87f3e39c32fd4"
+                    }
+                },
+                {
+                    "id": "dev.yurisuika:blossom:1.0.7@jar",
+                    "name": "Blossom",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 60615,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/blossom-forge-1.20.1-1.0.7.jar",
+                        "MD5": "333e5a14e1b569442c7a7de7468089b7"
+                    }
+                },
+                {
+                    "id": "net.darkhax:bookshelf:20.0.3@jar",
+                    "name": "Bookshelf",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 336061,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/Bookshelf-Forge-1.20.1-20.0.3.jar",
+                        "MD5": "7dc49e36b29924fcc4d2368f4ab18e06"
+                    }
+                },
+                {
+                    "id": "com.mrh0:buildersaddition:1.20.1-20230723a@jar",
+                    "name": "Builders Crafts & Additions",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2238379,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/buildersaddition-1.20.1-20230723a.jar",
+                        "MD5": "82612d2db004cd2155ae2fabbdb19a66"
+                    }
+                },
+                {
+                    "id": "com.abdelaziz:canary:0.2.7@jar",
+                    "name": "Canary",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 431313,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/canary-mc1.20.1-0.2.7.jar",
+                        "MD5": "b34dd200e9e18591824a3d4e46546df4"
+                    }
+                },
+                {
+                    "id": "tschipp.carryon:carryon:2.1.2.5@jar",
+                    "name": "Carry On",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 439290,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/carryon-forge-1.20.1-2.1.2.5.jar",
+                        "MD5": "bd32072610f8a44069680ffe26d6a38f"
+                    }
+                },
+                {
+                    "id": "dzwdz.chat_heads:chat_heads:0.10.20@jar",
+                    "name": "Chat Heads",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 51767,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/chat_heads-0.10.20-forge-1.20.jar",
+                        "MD5": "e84cf5da6293622243e9a270225ce4ef"
+                    }
+                },
+                {
+                    "id": "lumien.chunkanimator:chunkanimator:1.20.1-1.3.7@jar",
+                    "name": "Chunk Animator",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 35464,
+                        "url": "https://downloads.over.red/servers/water-1.20.1/forgemods/required/ChunkAnimator-1.20.1-1.3.7.jar.disabled",
+                        "MD5": "c021e565bc11bd2cb20634c7f0d20841"
+                    }
+                },
+                {
                     "id": "link.infra:screenshotclipboard:1.0.9@jar",
                     "name": "Screenshot to Clipboard",
                     "type": "ForgeMod",
