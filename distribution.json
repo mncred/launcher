@@ -4245,17 +4245,6 @@
                     }
                 },
                 {
-                    "id": "realms_persistence.json",
-                    "name": "realms_persistence.json",
-                    "type": "File",
-                    "artifact": {
-                        "size": 120,
-                        "url": "https://downloads.over.red/servers/water-1.20.1/files/realms_persistence.json",
-                        "MD5": "4692b880a0c02b80a79a4d57b7b128d8",
-                        "path": "realms_persistence.json"
-                    }
-                },
-                {
                     "id": "servers.dat",
                     "name": "servers.dat",
                     "type": "File",
@@ -4264,17 +4253,6 @@
                         "url": "https://downloads.over.red/servers/water-1.20.1/files/servers.dat",
                         "MD5": "3085b8e039739fa7f85a9c5950e3d62e",
                         "path": "servers.dat"
-                    }
-                },
-                {
-                    "id": "servers.dat_old",
-                    "name": "servers.dat_old",
-                    "type": "File",
-                    "artifact": {
-                        "size": 99,
-                        "url": "https://downloads.over.red/servers/water-1.20.1/files/servers.dat_old",
-                        "MD5": "90b42da76f8e1c274be9183be8c15948",
-                        "path": "servers.dat_old"
                     }
                 },
                 {
