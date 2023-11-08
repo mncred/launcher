@@ -538,6 +538,16 @@
                     }
                 },
                 {
+                    "id": "net.jsa2025:calcmod:1.3.0@jar",
+                    "name": "CalcMod",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 528761,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/calcmod-forge-1.20.1-1.3.0.jar",
+                        "MD5": "472852ffe9b14e38e87111dd056c4834"
+                    }
+                },
+                {
                     "id": "com.abdelaziz:canary:0.2.6@jar",
                     "name": "Canary",
                     "type": "ForgeMod",
@@ -598,6 +608,16 @@
                     }
                 },
                 {
+                    "id": "portb.chatcolours:chatcolours:1.19-1.0@jar",
+                    "name": "ChatColours",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 10078,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/chatcolours-1.19-1.0.jar",
+                        "MD5": "68321e376752234372cce1171de12f65"
+                    }
+                },
+                {
                     "id": "io.github.strikerrocker:cleardespawn:1.1.13@jar",
                     "name": "ClearDespawn",
                     "type": "ForgeMod",
@@ -618,13 +638,13 @@
                     }
                 },
                 {
-                    "id": "com.natamus:collective:6.65@jar",
+                    "id": "com.natamus:collective:7.3@jar",
                     "name": "Collective",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 618381,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/collective-1.20.1-6.65.jar",
-                        "MD5": "32848eb0fe6cdb0f00224da2864367f6"
+                        "size": 530909,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/collective-1.20.1-7.3.jar",
+                        "MD5": "82fee47565c2947e866347a9d1707ea3"
                     }
                 },
                 {
@@ -695,16 +715,6 @@
                         "size": 51453,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/doubledoors-1.20.1-5.0.jar",
                         "MD5": "178ef3c1cdf0a6e9e68c451a7ef7dd10"
-                    }
-                },
-                {
-                    "id": "com.hexagram2021:dyeable_redstone_signal:3.0.0@jar",
-                    "name": "Dyeable Redstone Signal",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 233209,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/dyeable_redstone_signal-3.0.0.jar",
-                        "MD5": "55646fec09249bf015c39045645339c8"
                     }
                 },
                 {
@@ -795,6 +805,16 @@
                         "size": 50658,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/healingcampfire-1.20.1-5.1.jar",
                         "MD5": "f76795be87f367032e2bf0f483847e4d"
+                    }
+                },
+                {
+                    "id": "dev.felnull.imp:iammusicplayer:3.22.0-alpha.2@jar",
+                    "name": "Iam Music Player",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 9915642,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/iammusicplayer-forge-mc1.20-3.22.0-alpha.2.jar",
+                        "MD5": "6fba73745f5c73fb5f627615fba79d6d"
                     }
                 },
                 {
@@ -918,6 +938,16 @@
                     }
                 },
                 {
+                    "id": "net.longerchathistory:longerchathistory:1.3@jar",
+                    "name": "Longer Chat History",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 7757,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/LongerChatHistory-1.3-Forge.jar",
+                        "MD5": "f0a3e89a3e42f1db2ef27e4744c34b0b"
+                    }
+                },
+                {
                     "id": "com.mcwbridges.kikoz:mcwbridges:2.1.1@jar",
                     "name": "Macaw's Bridges",
                     "type": "ForgeMod",
@@ -965,6 +995,46 @@
                         "size": 1109166,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/moonlight-1.20-2.8.56-forge.jar",
                         "MD5": "738d01da15fcd367764879a740ce6c90"
+                    }
+                },
+                {
+                    "id": "commoble.morered:morered:4.0.0.4@jar",
+                    "name": "More Red",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 756905,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/morered-1.20.1-4.0.0.4.jar",
+                        "MD5": "ea6af92f666cdff46a0a22ea68aa532f"
+                    }
+                },
+                {
+                    "id": "ru.yurannnzzz.moreredcccompat:moreredxcctcompat:1.20.1-1.0.0@jar",
+                    "name": "More Red x CC:Tweaked Compat",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 9388,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/MoreRed-CCT-Compat-1.20.1-1.0.0.jar",
+                        "MD5": "6e31e60032216fe7bb015026c1c0be5a"
+                    }
+                },
+                {
+                    "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
+                    "name": "No Chat Reports",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 272740,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+                        "MD5": "3153d1e860c6fefe6dac26efdb5c40c6"
+                    }
+                },
+                {
+                    "id": "dev.felnull:otyacraftengine:3.7.0-alpha.2@jar",
+                    "name": "Otyacraft Engine",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 655951,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/otyacraftengine-forge-mc1.20-3.7.0-alpha.2.jar",
+                        "MD5": "9e7104fba0208a364b159aff60fb47f3"
                     }
                 },
                 {
@@ -1118,6 +1188,16 @@
                     }
                 },
                 {
+                    "id": "com.natamus:vanillazoom:2.2@jar",
+                    "name": "Vanilla Zoom",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 26606,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/vanillazoom-1.20.1-2.2.jar",
+                        "MD5": "44c6cb759f2a69de762a624316e4d29d"
+                    }
+                },
+                {
                     "id": "fuzs.visualworkbench:visualworkbench:8.0.0@jar",
                     "name": "Visual Workbench",
                     "type": "ForgeMod",
@@ -1125,6 +1205,16 @@
                         "size": 82055,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
                         "MD5": "d741bc2d4d3a385116d094b874474a6b"
+                    }
+                },
+                {
+                    "id": "de.maxhenkel:voicechat:1.20.1-2.4.28@jar",
+                    "name": "Simple Voice Chat",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 7654111,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.4.28.jar",
+                        "MD5": "112c51d3f202e40a06cd8bbcc71693c8"
                     }
                 },
                 {
