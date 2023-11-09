@@ -528,16 +528,6 @@
                     }
                 },
                 {
-                    "id": "top.theillusivec4:caelus:3.1.0+1.20@jar",
-                    "name": "Caelus API",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 38169,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/caelus-forge-3.1.0+1.20.jar",
-                        "MD5": "01003de5f2ea85558d3b336f0a386966"
-                    }
-                },
-                {
                     "id": "net.jsa2025:calcmod:1.3.0@jar",
                     "name": "CalcMod",
                     "type": "ForgeMod",
@@ -575,16 +565,6 @@
                         "size": 244311,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/catalogue-forge-1.20.1-1.7.1.jar",
                         "MD5": "5036bf92c0aadbf05c851121c63ecf8d"
-                    }
-                },
-                {
-                    "id": "dan200.computercraft:computercraft:1.108.4@jar",
-                    "name": "CC: Tweaked",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 3097590,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/cc-tweaked-1.20.1-forge-1.108.4.jar",
-                        "MD5": "6f73df198036c920c1eded57eab4327f"
                     }
                 },
                 {
@@ -688,16 +668,6 @@
                     }
                 },
                 {
-                    "id": "top.theillusivec4:curios:5.4.2+1.20.1@jar",
-                    "name": "Curios API",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 307735,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/curios-forge-5.4.2+1.20.1.jar",
-                        "MD5": "6c43b6b10485e95287855c3a20283fa7"
-                    }
-                },
-                {
                     "id": "chappie.displaycase:display_case:1.0.5@jar",
                     "name": "Display Case Mod",
                     "type": "ForgeMod",
@@ -728,16 +698,6 @@
                     }
                 },
                 {
-                    "id": "fuzs.easyanvils:easyanvils:8.0.1@jar",
-                    "name": "Easy Anvils",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 141075,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/EasyAnvils-v8.0.1-1.20.1-Forge.jar",
-                        "MD5": "c6bd79a6d4d550fb2d2f80988faef63d"
-                    }
-                },
-                {
                     "id": "fuzs.easymagic:easymagic:8.0.1@jar",
                     "name": "Easy Magic",
                     "type": "ForgeMod",
@@ -748,16 +708,6 @@
                     }
                 },
                 {
-                    "id": "com.illusivesoulworks:elytraslot:6.3.0+1.20.1@jar",
-                    "name": "Elytra Slot",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 56985,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/elytraslot-forge-6.3.0+1.20.1.jar",
-                        "MD5": "3ab79b2737d6da307bdfc2c9891ceb98"
-                    }
-                },
-                {
                     "id": "dev.tr7zw:entityculling:1.6.2@jar",
                     "name": "EntityCulling",
                     "type": "ForgeMod",
@@ -765,26 +715,6 @@
                         "size": 60489,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/entityculling-forge-1.6.2-mc1.20.jar",
                         "MD5": "70a8664d4f7b153cdc92557d50e6bf35"
-                    }
-                },
-                {
-                    "id": "xyz.apex.forge.fantasyfurniture.core:fantasyfurniture:9.0.0@jar",
-                    "name": "Fantasy's Furniture",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 3202951,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/fantasyfurniture-1.20.1-9.0.0.jar",
-                        "MD5": "0712007756c04d20100121c31510d346"
-                    }
-                },
-                {
-                    "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.3@jar",
-                    "name": "Farmer's Delight",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2898860,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.3.jar",
-                        "MD5": "3fa71a0df7af96333247851c6e168f9c"
                     }
                 },
                 {
@@ -815,16 +745,6 @@
                         "size": 9915642,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/iammusicplayer-forge-mc1.20-3.22.0-alpha.2.jar",
                         "MD5": "6fba73745f5c73fb5f627615fba79d6d"
-                    }
-                },
-                {
-                    "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
-                    "name": "Immersive Paintings",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 4841253,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/immersive_paintings-0.6.7+1.20.1-forge.jar",
-                        "MD5": "e010b70ceecf34f91f223b8981f50f40"
                     }
                 },
                 {
@@ -918,16 +838,6 @@
                     }
                 },
                 {
-                    "id": "net.mehvahdjukaar:labels:1.20-1.16@jar",
-                    "name": "Labels",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 92896,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/labels-1.20-1.16.jar",
-                        "MD5": "fd8b62d4696d383be35851f1a279ad2c"
-                    }
-                },
-                {
                     "id": "org.anti_ad.mc:libipn:3.0.2@jar",
                     "name": "LibIPN",
                     "type": "ForgeMod",
@@ -985,36 +895,6 @@
                         "size": 11694,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/merenc-forge-1.20.x-v3.2.jar",
                         "MD5": "7bfcc2b1243e4c7ca0a60230d32b5e1a"
-                    }
-                },
-                {
-                    "id": "net.mehvahdjukaar:moonlight:1.20-2.8.56@jar",
-                    "name": "Moonlight Library",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1109166,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/moonlight-1.20-2.8.56-forge.jar",
-                        "MD5": "738d01da15fcd367764879a740ce6c90"
-                    }
-                },
-                {
-                    "id": "commoble.morered:morered:4.0.0.4@jar",
-                    "name": "More Red",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 756905,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/morered-1.20.1-4.0.0.4.jar",
-                        "MD5": "ea6af92f666cdff46a0a22ea68aa532f"
-                    }
-                },
-                {
-                    "id": "ru.yurannnzzz.moreredcccompat:moreredxcctcompat:1.20.1-1.0.0@jar",
-                    "name": "More Red x CC:Tweaked Compat",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 9388,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/MoreRed-CCT-Compat-1.20.1-1.0.0.jar",
-                        "MD5": "6e31e60032216fe7bb015026c1c0be5a"
                     }
                 },
                 {
@@ -1125,16 +1005,6 @@
                         "size": 34660,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/stackrefill-1.20.1-4.0.jar",
                         "MD5": "7c8e77fcb2ea9e753d5cf1207e355ed5"
-                    }
-                },
-                {
-                    "id": "net.mehvahdjukaar:supplementaries:1.20-2.6.19@jar",
-                    "name": "Supplementaries",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 14831903,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/supplementaries-1.20-2.6.19.jar",
-                        "MD5": "d7b2c5ad68f1a616c3410593d12219f3"
                     }
                 },
                 {
