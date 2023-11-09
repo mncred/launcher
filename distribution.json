@@ -998,16 +998,6 @@
                     }
                 },
                 {
-                    "id": "ru.yurannnzzz.moreredcccompat:moreredxcctcompat:1.20.1-1.0.0@jar",
-                    "name": "More Red x CC:Tweaked Compat",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 9388,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/MoreRed-CCT-Compat-1.20.1-1.0.0.jar",
-                        "MD5": "6e31e60032216fe7bb015026c1c0be5a"
-                    }
-                },
-                {
                     "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
                     "name": "No Chat Reports",
                     "type": "ForgeMod",
