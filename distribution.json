@@ -738,16 +738,6 @@
                     }
                 },
                 {
-                    "id": "dev.felnull.imp:iammusicplayer:3.22.0-alpha.2@jar",
-                    "name": "Iam Music Player",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 9915642,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/iammusicplayer-forge-mc1.20-3.22.0-alpha.2.jar",
-                        "MD5": "6fba73745f5c73fb5f627615fba79d6d"
-                    }
-                },
-                {
                     "id": "com.natamus:infinitetrading:4.0@jar",
                     "name": "Infinite Trading",
                     "type": "ForgeMod",
@@ -1085,16 +1075,6 @@
                         "size": 7654111,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.4.28.jar",
                         "MD5": "112c51d3f202e40a06cd8bbcc71693c8"
-                    }
-                },
-                {
-                    "id": "cech12.woodenhopper:woodenhopper:1.20.1-1.6.0.1@jar",
-                    "name": "Wooden Hopper",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 42531,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/woodenhopper-1.20.1-1.6.0.1.jar",
-                        "MD5": "99129fadcb45608b50eb641af4b3592f"
                     }
                 },
                 {
