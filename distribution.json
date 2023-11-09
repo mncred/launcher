@@ -578,6 +578,16 @@
                     }
                 },
                 {
+                    "id": "dan200.computercraft:computercraft:1.108.4@jar",
+                    "name": "CC: Tweaked",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3097590,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/cc-tweaked-1.20.1-forge-1.108.4.jar",
+                        "MD5": "6f73df198036c920c1eded57eab4327f"
+                    }
+                },
+                {
                     "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
                     "name": "MrCrayfish's Furniture Mod",
                     "type": "ForgeMod",
@@ -995,6 +1005,16 @@
                         "size": 756905,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/morered-1.20.1-4.0.0.4.jar",
                         "MD5": "ea6af92f666cdff46a0a22ea68aa532f"
+                    }
+                },
+                {
+                    "id": "ru.yurannnzzz.moreredcccompat:moreredxcctcompat:1.20.1-1.0.0@jar",
+                    "name": "More Red x CC:Tweaked Compat",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 9388,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/MoreRed-CCT-Compat-1.20.1-1.0.0.jar",
+                        "MD5": "6e31e60032216fe7bb015026c1c0be5a"
                     }
                 },
                 {
