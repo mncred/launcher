@@ -728,6 +728,26 @@
                     }
                 },
                 {
+                    "id": "xyz.apex.forge.fantasyfurniture.core:fantasyfurniture:9.0.0@jar",
+                    "name": "Fantasy's Furniture",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3202951,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/fantasyfurniture-1.20.1-9.0.0.jar",
+                        "MD5": "0712007756c04d20100121c31510d346"
+                    }
+                },
+                {
+                    "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.3@jar",
+                    "name": "Farmer's Delight",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2898860,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.3.jar",
+                        "MD5": "3fa71a0df7af96333247851c6e168f9c"
+                    }
+                },
+                {
                     "id": "bre2el.fpsreducer:fpsreducer:1.20-2.5@jar",
                     "name": "FPS Reducer",
                     "type": "ForgeMod",
@@ -755,6 +775,16 @@
                         "size": 9915642,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/iammusicplayer-forge-mc1.20-3.22.0-alpha.2.jar",
                         "MD5": "6fba73745f5c73fb5f627615fba79d6d"
+                    }
+                },
+                {
+                    "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
+                    "name": "Immersive Paintings",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 4841253,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/immersive_paintings-0.6.7+1.20.1-forge.jar",
+                        "MD5": "e010b70ceecf34f91f223b8981f50f40"
                     }
                 },
                 {
@@ -905,6 +935,36 @@
                         "size": 11694,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/merenc-forge-1.20.x-v3.2.jar",
                         "MD5": "7bfcc2b1243e4c7ca0a60230d32b5e1a"
+                    }
+                },
+                {
+                    "id": "net.mehvahdjukaar:moonlight:1.20-2.8.56@jar",
+                    "name": "Moonlight Library",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1109166,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/moonlight-1.20-2.8.56-forge.jar",
+                        "MD5": "738d01da15fcd367764879a740ce6c90"
+                    }
+                },
+                {
+                    "id": "commoble.morered:morered:4.0.0.4@jar",
+                    "name": "More Red",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 756905,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/morered-1.20.1-4.0.0.4.jar",
+                        "MD5": "ea6af92f666cdff46a0a22ea68aa532f"
+                    }
+                },
+                {
+                    "id": "ru.yurannnzzz.moreredcccompat:moreredxcctcompat:1.20.1-1.0.0@jar",
+                    "name": "More Red x CC:Tweaked Compat",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 9388,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/MoreRed-CCT-Compat-1.20.1-1.0.0.jar",
+                        "MD5": "6e31e60032216fe7bb015026c1c0be5a"
                     }
                 },
                 {
