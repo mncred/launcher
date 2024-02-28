@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "rss": "https://rsshub.app/github/issue/mncred/launcher/open/news?update",
     "discord": {
         "clientId": "",
@@ -568,6 +568,16 @@
                     }
                 },
                 {
+                    "id": "dan200.computercraft:computercraft:1.108.4@jar",
+                    "name": "CC: Tweaked",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3097590,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/cc-tweaked-1.20.1-forge-1.108.4.jar",
+                        "MD5": "6f73df198036c920c1eded57eab4327f"
+                    }
+                },
+                {
                     "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
                     "name": "MrCrayfish's Furniture Mod",
                     "type": "ForgeMod",
@@ -735,6 +745,16 @@
                         "size": 50658,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/healingcampfire-1.20.1-5.1.jar",
                         "MD5": "f76795be87f367032e2bf0f483847e4d"
+                    }
+                },
+                {
+                    "id": "dev.felnull.imp:iammusicplayer:3.22.0-alpha.2@jar",
+                    "name": "Iam Music Player",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 9915642,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/iammusicplayer-forge-mc1.20-3.22.0-alpha.2.jar",
+                        "MD5": "6fba73745f5c73fb5f627615fba79d6d"
                     }
                 },
                 {
@@ -955,16 +975,6 @@
                         "size": 16472,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/screenshot-to-clipboard-1.0.9-forge.jar",
                         "MD5": "8d20d50d2bd041ecda38d2f1a1949b90"
-                    }
-                },
-                {
-                    "id": "me.wesley1808:servercore:1.3.7+1.20.1@jar",
-                    "name": "ServerCore",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1197350,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/servercore-forge-1.3.7+1.20.1.jar.dis",
-                        "MD5": "bc71bfcb58c5405fbb0f17c9f39cc5aa"
                     }
                 },
                 {
