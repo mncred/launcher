@@ -1138,6 +1138,83 @@
                     }
                 },
                 {
+                    "id": "journeymap.core.config",
+                    "name": "journeymap.core.config",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1864,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.core.config",
+                        "MD5": "3470a5589ccb676f501dd1bd6e8d9acf",
+                        "path": "journeymap/config/5.9/journeymap.core.config"
+                    }
+                },
+                {
+                    "id": "journeymap.fullmap.config",
+                    "name": "journeymap.fullmap.config",
+                    "type": "File",
+                    "artifact": {
+                        "size": 886,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.fullmap.config",
+                        "MD5": "cdc959db9fd6a6b85851a95c6bc292a9",
+                        "path": "journeymap/config/5.9/journeymap.fullmap.config"
+                    }
+                },
+                {
+                    "id": "journeymap.minimap.config",
+                    "name": "journeymap.minimap.config",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1662,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.minimap.config",
+                        "MD5": "872ed860594981dd8a558a8e01991209",
+                        "path": "journeymap/config/5.9/journeymap.minimap.config"
+                    }
+                },
+                {
+                    "id": "journeymap.minimap2.config",
+                    "name": "journeymap.minimap2.config",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1661,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.minimap2.config",
+                        "MD5": "cee776b3e78b5c837f8c8459a3fb8f80",
+                        "path": "journeymap/config/5.9/journeymap.minimap2.config"
+                    }
+                },
+                {
+                    "id": "journeymap.topo.config",
+                    "name": "journeymap.topo.config",
+                    "type": "File",
+                    "artifact": {
+                        "size": 962,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.topo.config",
+                        "MD5": "7112eabdcac3cff0f73023334876bde1",
+                        "path": "journeymap/config/5.9/journeymap.topo.config"
+                    }
+                },
+                {
+                    "id": "journeymap.waypoint.config",
+                    "name": "journeymap.waypoint.config",
+                    "type": "File",
+                    "artifact": {
+                        "size": 893,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.waypoint.config",
+                        "MD5": "9a103772c417d2cabf747ada779b5e4f",
+                        "path": "journeymap/config/5.9/journeymap.waypoint.config"
+                    }
+                },
+                {
+                    "id": "journeymap.webmap.config",
+                    "name": "journeymap.webmap.config",
+                    "type": "File",
+                    "artifact": {
+                        "size": 152,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.webmap.config",
+                        "MD5": "8ab08d9d73762ba7d119ed6f1191ce08",
+                        "path": "journeymap/config/5.9/journeymap.webmap.config"
+                    }
+                },
+                {
                     "id": "options.txt",
                     "name": "options.txt",
                     "type": "File",
