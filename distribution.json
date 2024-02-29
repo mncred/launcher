@@ -1138,16 +1138,6 @@
                     }
                 },
                 {
-                    "id": "me.jellysquid.mods.sodium.client:xenon:0.3.5+mc1.20.1@jar",
-                    "name": "Xenon",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1762572,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/xenon-0.3.5+mc1.20.1.jar",
-                        "MD5": "ef9956557567274166b7b0021f6beb25"
-                    }
-                },
-                {
                     "id": "inventoryhud-client.toml",
                     "name": "inventoryhud-client.toml",
                     "type": "File",
@@ -1343,6 +1333,171 @@
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/servers.dat",
                         "MD5": "028c3ef8b9d60de944f31badca2f7985",
                         "path": "servers.dat"
+                    }
+                },
+                {
+                    "id": "[Heavy 102] [All] Complementary Reimagined.zip",
+                    "name": "[Heavy 102] [All] Complementary Reimagined.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 409711,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20102]%20[All]%20Complementary%20Reimagined.zip",
+                        "MD5": "1ec0f14ed6fd8567c23249abe50513c9",
+                        "path": "shaderpacks/[Heavy 102] [All] Complementary Reimagined.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 102] [All] Shrimple.zip",
+                    "name": "[Heavy 102] [All] Shrimple.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 9981215,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20102]%20[All]%20Shrimple.zip",
+                        "MD5": "aade7e7e116fab6c4928d7f70a42b436",
+                        "path": "shaderpacks/[Heavy 102] [All] Shrimple.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 105] [All] VanillaPlus.zip",
+                    "name": "[Heavy 105] [All] VanillaPlus.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 438527,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20105]%20[All]%20VanillaPlus.zip",
+                        "MD5": "9e4ae13c6fc67557df80642285769ece",
+                        "path": "shaderpacks/[Heavy 105] [All] VanillaPlus.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 112] [All] Bliss.zip",
+                    "name": "[Heavy 112] [All] Bliss.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1669167,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20112]%20[All]%20Bliss.zip",
+                        "MD5": "fb757db17e378d3174611d4d0698280d",
+                        "path": "shaderpacks/[Heavy 112] [All] Bliss.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 82] [All] SEUS Renewed.zip",
+                    "name": "[Heavy 82] [All] SEUS Renewed.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 7062638,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%2082]%20[All]%20SEUS%20Renewed.zip",
+                        "MD5": "8faeb04d9953c9b10b0794acafc4c1aa",
+                        "path": "shaderpacks/[Heavy 82] [All] SEUS Renewed.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 85] [All] FastPBR.zip",
+                    "name": "[Heavy 85] [All] FastPBR.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1103383,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%2085]%20[All]%20FastPBR.zip",
+                        "MD5": "e1dfee420fabdd943af788d3855e194e",
+                        "path": "shaderpacks/[Heavy 85] [All] FastPBR.zip"
+                    }
+                },
+                {
+                    "id": "[Heavy 95] [All] Complementary.zip",
+                    "name": "[Heavy 95] [All] Complementary.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3456306,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%2095]%20[All]%20Complementary.zip",
+                        "MD5": "9eab6a42fd4c81b8e0837aacab3f0435",
+                        "path": "shaderpacks/[Heavy 95] [All] Complementary.zip"
+                    }
+                },
+                {
+                    "id": "[Light 177] [Intel] Chronos.zip",
+                    "name": "[Light 177] [Intel] Chronos.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 18093007,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Light%20177]%20[Intel]%20Chronos.zip",
+                        "MD5": "909aeaf877dfe61a4f2f3a539e021637",
+                        "path": "shaderpacks/[Light 177] [Intel] Chronos.zip"
+                    }
+                },
+                {
+                    "id": "[Light 230] [Nvidia] Tea.zip",
+                    "name": "[Light 230] [Nvidia] Tea.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 166096,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Light%20230]%20[Nvidia]%20Tea.zip",
+                        "MD5": "fbbd7457f392aa657cd97a449bb57f25",
+                        "path": "shaderpacks/[Light 230] [Nvidia] Tea.zip"
+                    }
+                },
+                {
+                    "id": "[Light 285] [All] Cyanide.zip",
+                    "name": "[Light 285] [All] Cyanide.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 18544,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Light%20285]%20[All]%20Cyanide.zip",
+                        "MD5": "c6d1626d7345dea75f4f26f98c643208",
+                        "path": "shaderpacks/[Light 285] [All] Cyanide.zip"
+                    }
+                },
+                {
+                    "id": "[Medium 147] [All] SuperDuperVanilla.zip",
+                    "name": "[Medium 147] [All] SuperDuperVanilla.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2482875,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Medium%20147]%20[All]%20SuperDuperVanilla.zip",
+                        "MD5": "4ea583d43ebfe5712b441d37062f973e",
+                        "path": "shaderpacks/[Medium 147] [All] SuperDuperVanilla.zip"
+                    }
+                },
+                {
+                    "id": "[Medium 152] [All] Simplicissimus.zip",
+                    "name": "[Medium 152] [All] Simplicissimus.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 90938,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Medium%20152]%20[All]%20Simplicissimus.zip",
+                        "MD5": "c70e0e442863d6ab8700f99814560a5b",
+                        "path": "shaderpacks/[Medium 152] [All] Simplicissimus.zip"
+                    }
+                },
+                {
+                    "id": "[Medium 187] [All] Potato.zip",
+                    "name": "[Medium 187] [All] Potato.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 390552,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Medium%20187]%20[All]%20Potato.zip",
+                        "MD5": "1a31d59c5980154a3ef81f2d1a92ee5d",
+                        "path": "shaderpacks/[Medium 187] [All] Potato.zip"
+                    }
+                },
+                {
+                    "id": "[Ultra-Heavy 30] [All] Rethinking Voxels.zip",
+                    "name": "[Ultra-Heavy 30] [All] Rethinking Voxels.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 361612,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Ultra-Heavy%2030]%20[All]%20Rethinking%20Voxels.zip",
+                        "MD5": "5a9650c5022e53ce3fa75607b4d548cc",
+                        "path": "shaderpacks/[Ultra-Heavy 30] [All] Rethinking Voxels.zip"
+                    }
+                },
+                {
+                    "id": "[Ultra-Heavy 57] [All] RedHat.zip",
+                    "name": "[Ultra-Heavy 57] [All] RedHat.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 196654,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Ultra-Heavy%2057]%20[All]%20RedHat.zip",
+                        "MD5": "7100157d179f268fee9f7a2b6b5d11a0",
+                        "path": "shaderpacks/[Ultra-Heavy 57] [All] RedHat.zip"
                     }
                 }
             ]
