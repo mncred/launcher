@@ -1187,9 +1187,9 @@
                     "type": "File",
                     "artifact": {
                         "size": 207,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/hide-blocks.json",
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/hide-blocks.json",
                         "MD5": "96a520226b75288fb7bcacc90ef64579",
-                        "path": "jade/hide-blocks.json"
+                        "path": "config/jade/hide-blocks.json"
                     }
                 },
                 {
@@ -1198,9 +1198,9 @@
                     "type": "File",
                     "artifact": {
                         "size": 309,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/hide-entities.json",
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/hide-entities.json",
                         "MD5": "352007cefa34b15aa3f1068475ec87cc",
-                        "path": "jade/hide-entities.json"
+                        "path": "config/jade/hide-entities.json"
                     }
                 },
                 {
@@ -1209,9 +1209,9 @@
                     "type": "File",
                     "artifact": {
                         "size": 1904,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/jade.json",
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/jade.json",
                         "MD5": "79870eb11cb4ec66ce3da0e5883353ec",
-                        "path": "jade/jade.json"
+                        "path": "config/jade/jade.json"
                     }
                 },
                 {
@@ -1220,9 +1220,9 @@
                     "type": "File",
                     "artifact": {
                         "size": 1635,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/plugins.json",
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/plugins.json",
                         "MD5": "9e820cabd04ecf17c2a0ea0ae2d8b053",
-                        "path": "jade/plugins.json"
+                        "path": "config/jade/plugins.json"
                     }
                 },
                 {
@@ -1231,9 +1231,9 @@
                     "type": "File",
                     "artifact": {
                         "size": 2844,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/sort-order.json",
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/sort-order.json",
                         "MD5": "e826fafe25acbcad9aa0a4fb868e5487",
-                        "path": "jade/sort-order.json"
+                        "path": "config/jade/sort-order.json"
                     }
                 },
                 {
