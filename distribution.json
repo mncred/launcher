@@ -978,6 +978,16 @@
                     }
                 },
                 {
+                    "id": "net.coderbot.iris:oculus:1.6.15a@jar",
+                    "name": "Oculus",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2806358,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.15a.jar",
+                        "MD5": "b6d1e02b5fccf72570fa19606006d711"
+                    }
+                },
+                {
                     "id": "dev.felnull:otyacraftengine:3.7.0-alpha.2@jar",
                     "name": "Otyacraft Engine",
                     "type": "ForgeMod",
@@ -1015,16 +1025,6 @@
                         "size": 670937,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PuzzlesLib-v8.0.7-1.20.1-Forge.jar",
                         "MD5": "81d4d281abf7a4e927245bdddd2371e4"
-                    }
-                },
-                {
-                    "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.5@jar",
-                    "name": "Rubidium",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 605877,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/rubidium-0.6.5.jar",
-                        "MD5": "a452efa401ac9ec14d7232243ee4f3fd"
                     }
                 },
                 {
@@ -1138,13 +1138,23 @@
                     }
                 },
                 {
+                    "id": "me.jellysquid.mods.sodium.client:xenon:0.3.5+mc1.20.1@jar",
+                    "name": "Xenon",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1762572,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/xenon-0.3.5+mc1.20.1.jar",
+                        "MD5": "ef9956557567274166b7b0021f6beb25"
+                    }
+                },
+                {
                     "id": "inventoryhud-client.toml",
                     "name": "inventoryhud-client.toml",
                     "type": "File",
                     "artifact": {
-                        "size": 4957,
+                        "size": 4955,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryhud-client.toml",
-                        "MD5": "8a4c8946871c8f1dc4b42539432e1b8f",
+                        "MD5": "0425a23b5217ee9cad1dd301cf3da3cc",
                         "path": "config/inventoryhud-client.toml"
                     }
                 },
