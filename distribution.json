@@ -1138,6 +1138,105 @@
                     }
                 },
                 {
+                    "id": "inventoryhud-client.toml",
+                    "name": "inventoryhud-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 4957,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryhud-client.toml",
+                        "MD5": "8a4c8946871c8f1dc4b42539432e1b8f",
+                        "path": "config/inventoryhud-client.toml"
+                    }
+                },
+                {
+                    "id": "villager-trading-config.json",
+                    "name": "villager-trading-config.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1582,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryprofilesnext/CREATE/villager-trading-config.json",
+                        "MD5": "a9de145dfedbe379ada72b5beaf621f7",
+                        "path": "config/inventoryprofilesnext/CREATE/villager-trading-config.json"
+                    }
+                },
+                {
+                    "id": "exampleIntegrationHints.json",
+                    "name": "exampleIntegrationHints.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1450,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+                        "MD5": "1a018549a3d0f945870f75056ce7e5eb",
+                        "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
+                    }
+                },
+                {
+                    "id": "inventoryprofiles.json",
+                    "name": "inventoryprofiles.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1431,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryprofilesnext/inventoryprofiles.json",
+                        "MD5": "44f83f23bdeceecee01afdc7413d7dc6",
+                        "path": "config/inventoryprofilesnext/inventoryprofiles.json"
+                    }
+                },
+                {
+                    "id": "hide-blocks.json",
+                    "name": "hide-blocks.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 207,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/hide-blocks.json",
+                        "MD5": "96a520226b75288fb7bcacc90ef64579",
+                        "path": "jade/hide-blocks.json"
+                    }
+                },
+                {
+                    "id": "hide-entities.json",
+                    "name": "hide-entities.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 309,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/hide-entities.json",
+                        "MD5": "352007cefa34b15aa3f1068475ec87cc",
+                        "path": "jade/hide-entities.json"
+                    }
+                },
+                {
+                    "id": "jade.json",
+                    "name": "jade.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1904,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/jade.json",
+                        "MD5": "79870eb11cb4ec66ce3da0e5883353ec",
+                        "path": "jade/jade.json"
+                    }
+                },
+                {
+                    "id": "plugins.json",
+                    "name": "plugins.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1635,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/plugins.json",
+                        "MD5": "9e820cabd04ecf17c2a0ea0ae2d8b053",
+                        "path": "jade/plugins.json"
+                    }
+                },
+                {
+                    "id": "sort-order.json",
+                    "name": "sort-order.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2844,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/jade/sort-order.json",
+                        "MD5": "e826fafe25acbcad9aa0a4fb868e5487",
+                        "path": "jade/sort-order.json"
+                    }
+                },
+                {
                     "id": "journeymap.core.config",
                     "name": "journeymap.core.config",
                     "type": "File",
@@ -1219,9 +1318,9 @@
                     "name": "options.txt",
                     "type": "File",
                     "artifact": {
-                        "size": 9090,
+                        "size": 9178,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/options.txt",
-                        "MD5": "52be383e32329e9f894f42a2eed0c219",
+                        "MD5": "1e5722d76aa5ce2d9154880686e60eac",
                         "path": "options.txt"
                     }
                 },
