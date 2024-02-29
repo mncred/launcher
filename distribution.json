@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.4",
     "rss": "https://rsshub.app/github/issue/mncred/launcher/open/news?update",
     "discord": {
         "clientId": "",
@@ -12,7 +12,7 @@
             "name": "MNCRED :: Stone",
             "description": "Minecraft 1.20.1 (Forge v47.1.44)",
             "icon": "https://downloads.over.red/default_icon.png",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "address": "stone.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
             "mainServer": true,
