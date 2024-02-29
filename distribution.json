@@ -648,23 +648,23 @@
                     }
                 },
                 {
-                    "id": "com.simibubi:create:0.5.1.d@jar",
+                    "id": "com.simibubi:create:0.5.1.f@jar",
                     "name": "Create",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 14789680,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/create-1.20.1-0.5.1.d.jar",
-                        "MD5": "1d8596c61219833a7c0dbf47302dd607"
+                        "size": 14964127,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/create-1.20.1-0.5.1.f.jar",
+                        "MD5": "6a097aa0bfc73a4f8372a16e763f9f02"
                     }
                 },
                 {
-                    "id": "com.mrh0:createaddition:1.20.1-1.0.0b@jar",
+                    "id": "com.mrh0:createaddition:1.20.1-1.2.2@jar",
                     "name": "Create Crafts & Additions",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 1102170,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/createaddition-1.20.1-1.0.0b.jar",
-                        "MD5": "89a31678f0bdf547343ea53daf9402ec"
+                        "size": 1511009,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/createaddition-1.20.1-1.2.2.jar",
+                        "MD5": "98189137b9cc2c51f83a26971e2eb2dc"
                     }
                 },
                 {
