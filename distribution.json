@@ -1518,10 +1518,32 @@
                     "name": "options.txt",
                     "type": "File",
                     "artifact": {
-                        "size": 9529,
+                        "size": 9707,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/options.txt",
-                        "MD5": "00de6f961bb195262668ce8fa63ffd13",
+                        "MD5": "3a4beeb1c2c048656053d230215cfa34",
                         "path": "options.txt"
+                    }
+                },
+                {
+                    "id": "1.20 Create Computers 1.2.zip",
+                    "name": "1.20 Create Computers 1.2.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 232010,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/1.20%20Create%20Computers%201.2.zip",
+                        "MD5": "04afd4fbca969c34ef1816b1a223511b",
+                        "path": "resourcepacks/1.20 Create Computers 1.2.zip"
+                    }
+                },
+                {
+                    "id": "Create+Simple+Storage+2.1.zip",
+                    "name": "Create+Simple+Storage+2.1.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 78236,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/Create+Simple+Storage+2.1.zip",
+                        "MD5": "99c91274184bf47a691c8faa02102d56",
+                        "path": "resourcepacks/Create+Simple+Storage+2.1.zip"
                     }
                 },
                 {
@@ -1533,6 +1555,17 @@
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip",
                         "MD5": "a6af7ff937c6d3ca755749493eae8cdf",
                         "path": "resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip"
+                    }
+                },
+                {
+                    "id": "ccc.zip",
+                    "name": "ccc.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 160996,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/ccc.zip",
+                        "MD5": "de88dd7c3d005a8b963ab55ada2bbf37",
+                        "path": "resourcepacks/ccc.zip"
                     }
                 },
                 {
