@@ -618,6 +618,16 @@
                     }
                 },
                 {
+                    "id": "com.supermartijn642:fusion:1.1.1@jar",
+                    "name": "Fusion",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 221813,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/004.CLIENT.fusion-1.1.1-forge-mc1.20.1.jar",
+                        "MD5": "c8cc6729366722da02ea57fd87d7275c"
+                    }
+                },
+                {
                     "id": "com.mgen256.al:additional_lights:2.1.7@jar",
                     "name": "Additional Lights",
                     "type": "ForgeMod",
@@ -1508,10 +1518,21 @@
                     "name": "options.txt",
                     "type": "File",
                     "artifact": {
-                        "size": 9178,
+                        "size": 9529,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/options.txt",
-                        "MD5": "1e5722d76aa5ce2d9154880686e60eac",
+                        "MD5": "00de6f961bb195262668ce8fa63ffd13",
                         "path": "options.txt"
+                    }
+                },
+                {
+                    "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
+                    "name": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 133181,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip",
+                        "MD5": "a6af7ff937c6d3ca755749493eae8cdf",
+                        "path": "resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip"
                     }
                 },
                 {
