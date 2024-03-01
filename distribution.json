@@ -428,6 +428,196 @@
                     ]
                 },
                 {
+                    "id": "systems.alexander:bellsandwhistles:0.4.3-1.20.x@jar",
+                    "name": "Create: Bells & Whistles",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 196447,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.bellsandwhistles-0.4.3-1.20.x.jar",
+                        "MD5": "35a1d71ef77ad3e4b36b323d45214e38"
+                    }
+                },
+                {
+                    "id": "earth.terrarium:botarium:2.3.3@jar",
+                    "name": "Botarium",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 157591,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.botarium-forge-1.20.1-2.3.3.jar",
+                        "MD5": "2b0e3bdc3208620d7e172bfe3035aa7c"
+                    }
+                },
+                {
+                    "id": "top.theillusivec4:caelus:3.1.0+1.20@jar",
+                    "name": "Caelus API",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 38169,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.caelus-forge-3.1.0+1.20.jar",
+                        "MD5": "01003de5f2ea85558d3b336f0a386966"
+                    }
+                },
+                {
+                    "id": "plus.dragons.createcentralkitchen:create_central_kitchen:1.3.10@jar",
+                    "name": "Create: Central Kitchen",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 811875,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_central_kitchen-1.20.1-for-create-0.5.1.f-1.3.10.jar",
+                        "MD5": "f03fbbd01e2c2307b67a64a4b739d30c"
+                    }
+                },
+                {
+                    "id": "com.hlysine:create_connected:0.7.2-mc1.20.1@jar",
+                    "name": "Create: Connected",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 5912025,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_connected-0.7.2-mc1.20.1-all.jar",
+                        "MD5": "e035e6f6c00768303ca51e68c3d5626e"
+                    }
+                },
+                {
+                    "id": "plus.dragons.createenchantmentindustry:create_enchantment_industry:1.2.8@jar",
+                    "name": "Create Enchantment Industry",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 496363,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.8.jar",
+                        "MD5": "306c4f48b1a0be6544e9e7dcb2b86f8d"
+                    }
+                },
+                {
+                    "id": "com.possible_triangle:create_jetpack:4.2.1@jar",
+                    "name": "Create Jetpack",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 229959,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_jetpack-forge-4.2.1.jar",
+                        "MD5": "168b88373d42322155c84b87b16a48ce"
+                    }
+                },
+                {
+                    "id": "net.mcreator.createatam:create_things_and_misc:1.0.0@jar",
+                    "name": "Create: things and misc",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1014347,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_misc_and_things_%201.20.1_4.0A.jar",
+                        "MD5": "fc477f3364e0e6096f8619f610c94e17"
+                    }
+                },
+                {
+                    "id": "org.antarcticgardens.newage:create_new_age:1.1.2@jar",
+                    "name": "Create: New Age",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 663575,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create-new-age-forge-1.20.1-1.1.2.jar",
+                        "MD5": "849f2be17ade31494ced55cb5c03aa8b"
+                    }
+                },
+                {
+                    "id": "com.github.talrey:createdeco:2.0.1-1.20.1-forge@jar",
+                    "name": "Create Deco",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2854352,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.createdeco-2.0.1-1.20.1-forge.jar",
+                        "MD5": "cb5dd36b4275e360b34f44fd9aebef96"
+                    }
+                },
+                {
+                    "id": "com.jesz:createdieselgenerators:1.20.1-1.2h@jar",
+                    "name": "Create Diesel Generators",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1943183,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.createdieselgenerators-1.20.1-1.2h.jar",
+                        "MD5": "5a40667156fcff4e4e1a54ac4db46900"
+                    }
+                },
+                {
+                    "id": "com.robocraft999:creategoggles:0.5.5.f@jar",
+                    "name": "Create Goggles",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 246045,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.creategoggles-1.20.1-0.5.5.f-[FORGE].jar",
+                        "MD5": "3fe392768b4aeae79a231ec631c32153"
+                    }
+                },
+                {
+                    "id": "me.duquee:createutilities:0.2.0+1.20.1@jar",
+                    "name": "Create Utilities",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 325467,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.createutilities-0.2.0+1.20.1.jar",
+                        "MD5": "28ecea3200e9bcdfd4b4c4a45b9f2b13"
+                    }
+                },
+                {
+                    "id": "top.theillusivec4:curios:5.4.2+1.20.1@jar",
+                    "name": "Curios API",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 307735,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.curios-forge-5.4.2+1.20.1.jar",
+                        "MD5": "6c43b6b10485e95287855c3a20283fa7"
+                    }
+                },
+                {
+                    "id": "com.illusivesoulworks:elytraslot:6.3.0+1.20.1@jar",
+                    "name": "Elytra Slot",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 56985,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.elytraslot-forge-6.3.0+1.20.1.jar",
+                        "MD5": "3ab79b2737d6da307bdfc2c9891ceb98"
+                    }
+                },
+                {
+                    "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.7+mc1.20.1@jar",
+                    "name": "Embeddium",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 986788,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.embeddium-0.3.7+mc1.20.1.jar",
+                        "MD5": "da7e70bb8c4ddc758531c163e98b2d58"
+                    }
+                },
+                {
+                    "id": "com.possible_triangle:sliceanddice:3.2.0@jar",
+                    "name": "Create Slice & Dice",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 224151,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.sliceanddice-forge-3.2.0.jar",
+                        "MD5": "35a44bc2f244fdc72f692c0d974ef66f"
+                    }
+                },
+                {
+                    "id": "com.railwayteam:railways:1.5.3+forge-mc1.20.1@jar",
+                    "name": "Create: Steam 'n' Rails",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 6704629,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.Steam_Rails-1.5.3+forge-mc1.20.1.jar",
+                        "MD5": "b92819435eb2bbb44c9418e1b5f247a4"
+                    }
+                },
+                {
+                    "id": "net.mehvahdjukaar:supplementaries:1.20-2.6.19@jar",
+                    "name": "Supplementaries",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 14831903,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.supplementaries-1.20-2.6.19.jar",
+                        "MD5": "d7b2c5ad68f1a616c3410593d12219f3"
+                    }
+                },
+                {
                     "id": "com.mgen256.al:additional_lights:2.1.7@jar",
                     "name": "Additional Lights",
                     "type": "ForgeMod",
