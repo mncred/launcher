@@ -1378,16 +1378,6 @@
                     }
                 },
                 {
-                    "id": "org.tlauncher:tlskincape:1.32@jar",
-                    "name": "TLSkinCape",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 715179,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/tl_skin_cape_forge_1.20_1.20.1-1.32.jar.dis",
-                        "MD5": "4a94ba5350850dec78dba59c2988eb43"
-                    }
-                },
-                {
                     "id": "com.dplayend:togenc:1.0@jar",
                     "name": "Toggle Enchantments",
                     "type": "ForgeMod",
