@@ -1508,9 +1508,9 @@
                     "name": "options.txt",
                     "type": "File",
                     "artifact": {
-                        "size": 9707,
+                        "size": 9166,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/options.txt",
-                        "MD5": "3a4beeb1c2c048656053d230215cfa34",
+                        "MD5": "273e6ee9447970f2964d4f983f35d6b6",
                         "path": "options.txt"
                     }
                 },
@@ -1526,17 +1526,6 @@
                     }
                 },
                 {
-                    "id": "Create+Simple+Storage+2.1.zip",
-                    "name": "Create+Simple+Storage+2.1.zip",
-                    "type": "File",
-                    "artifact": {
-                        "size": 78236,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/Create+Simple+Storage+2.1.zip",
-                        "MD5": "99c91274184bf47a691c8faa02102d56",
-                        "path": "resourcepacks/Create+Simple+Storage+2.1.zip"
-                    }
-                },
-                {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
                     "name": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
                     "type": "File",
@@ -1545,17 +1534,6 @@
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip",
                         "MD5": "a6af7ff937c6d3ca755749493eae8cdf",
                         "path": "resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip"
-                    }
-                },
-                {
-                    "id": "ccc.zip",
-                    "name": "ccc.zip",
-                    "type": "File",
-                    "artifact": {
-                        "size": 160996,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/ccc.zip",
-                        "MD5": "de88dd7c3d005a8b963ab55ada2bbf37",
-                        "path": "resourcepacks/ccc.zip"
                     }
                 },
                 {
