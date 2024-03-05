@@ -628,6 +628,36 @@
                     }
                 },
                 {
+                    "id": "com.sekwah:reskin:3.0.1@jar",
+                    "name": "Re:Skin",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 308593,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.ReSkin-1.20-3.0.1-universal.jar",
+                        "MD5": "7c3e89283ea8622bc5237b2f777013e1"
+                    }
+                },
+                {
+                    "id": "com.sekwah:sekclib:1.0.2@jar",
+                    "name": "SekC Lib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 48944,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.SekCLib-1.20-1.0.2-universal.jar",
+                        "MD5": "fc6d6c607a4b8aff5760d4e47a762980"
+                    }
+                },
+                {
+                    "id": "team.creative:ambientsounds:5.3.9@jar",
+                    "name": "AmbientSounds",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 84258834,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.AmbientSounds_FORGE_v5.3.9_mc1.20.1.jar",
+                        "MD5": "fdb5370ea44b15611eb5ee49ca64f60d"
+                    }
+                },
+                {
                     "id": "mod.crend:autohud:6.3.4+1.20.1@jar",
                     "name": "Auto HUD",
                     "type": "ForgeMod",
@@ -638,6 +668,26 @@
                     }
                 },
                 {
+                    "id": "team.creative:creativecore:2.11.24@jar",
+                    "name": "CreativeCore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1088112,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.CreativeCore_FORGE_v2.11.24_mc1.20.1.jar",
+                        "MD5": "e5661a8000a4aeb1a0acaf4b0af47f6b"
+                    }
+                },
+                {
+                    "id": "team.creative:itemphysic:1.7.0@jar",
+                    "name": "ItemPhysic",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 49751,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.ItemPhysic_FORGE_v1.7.0_mc1.20.1.jar",
+                        "MD5": "600ce2addf0a254d039e5c197900e7eb"
+                    }
+                },
+                {
                     "id": "com.focamacho:myserveriscompatible:1.0@jar",
                     "name": "MyServerIsCompatible",
                     "type": "ForgeMod",
@@ -645,6 +695,16 @@
                         "size": 3482,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.MyServerIsCompatible-1.20-1.0.jar",
                         "MD5": "61d6f7c70030cbdacbbb0053cf120b79"
+                    }
+                },
+                {
+                    "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.2@jar",
+                    "name": "3d-Skin-Layers",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 469610,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.skinlayers3d-forge-1.6.2-mc1.20.1.jar",
+                        "MD5": "021094b473f1a51dc6604c665e3d0422"
                     }
                 },
                 {
@@ -898,16 +958,6 @@
                     }
                 },
                 {
-                    "id": "team.creative:creativecore:2.10.31@jar",
-                    "name": "CreativeCore",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1026617,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/CreativeCore_FORGE_v2.10.31_mc1.20.1.jar",
-                        "MD5": "da621334ab635d8199bc8ad78abdc84e"
-                    }
-                },
-                {
                     "id": "chappie.displaycase:display_case:1.0.5@jar",
                     "name": "Display Case Mod",
                     "type": "ForgeMod",
@@ -1063,7 +1113,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 47244,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/ItemPhysic_FORGE_v1.6.9_mc1.20.jar",
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/ItemPhysic_FORGE_v1.6.9_mc1.20.jar.dis",
                         "MD5": "aeaab91763265c1cc07244c6edfa54b3"
                     }
                 },
@@ -1313,7 +1363,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 715179,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/tl_skin_cape_forge_1.20_1.20.1-1.32.jar",
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/tl_skin_cape_forge_1.20_1.20.1-1.32.jar.dis",
                         "MD5": "4a94ba5350850dec78dba59c2988eb43"
                     }
                 },
