@@ -14,6 +14,7 @@
 - [X] Forge Update to 47.2.0
 - [X] Add mod: Advanced Peripheral
 - [X] Add mod: Chat Emoji
+- [ ] Disable InventoryHUD+ new version notification on client and server
 - [ ] Fix uncraftable items from the new mod with decorative elements
 - [ ] Add mod with buffs for different food
 - [ ] Add mod for emotions

@@ -658,6 +658,16 @@
                     }
                 },
                 {
+                    "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+                    "name": "Emotecraft",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 680255,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+                        "MD5": "636c62379cd7c5201a70fd457808e331"
+                    }
+                },
+                {
                     "id": "team.creative:itemphysic:1.7.0@jar",
                     "name": "ItemPhysic",
                     "type": "ForgeMod",
@@ -665,6 +675,16 @@
                         "size": 49751,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.ItemPhysic_FORGE_v1.7.0_mc1.20.1.jar",
                         "MD5": "600ce2addf0a254d039e5c197900e7eb"
+                    }
+                },
+                {
+                    "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+                    "name": "Player Animator",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 181437,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+                        "MD5": "46f8554181d4d240075ea4919d01fd01"
                     }
                 },
                 {
@@ -1451,6 +1471,28 @@
                     }
                 },
                 {
+                    "id": "emotecraft.json",
+                    "name": "emotecraft.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1074,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/emotecraft.json",
+                        "MD5": "c8ad00f98ca8ff37d8252489f8534782",
+                        "path": "config/emotecraft.json"
+                    }
+                },
+                {
+                    "id": "emotecraft_emote_map.json",
+                    "name": "emotecraft_emote_map.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 117,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/emotecraft_emote_map.json",
+                        "MD5": "fdcffe9e7eaa4949ee1d33d613a7c2eb",
+                        "path": "config/emotecraft_emote_map.json"
+                    }
+                },
+                {
                     "id": "inventoryhud-client.toml",
                     "name": "inventoryhud-client.toml",
                     "type": "File",
@@ -1642,9 +1684,9 @@
                     "name": "options.txt",
                     "type": "File",
                     "artifact": {
-                        "size": 9315,
+                        "size": 9475,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/options.txt",
-                        "MD5": "54ad225fdf139326b312238483f650c0",
+                        "MD5": "895fc5bfb4aed0496024c668f1b912fc",
                         "path": "options.txt"
                     }
                 },
