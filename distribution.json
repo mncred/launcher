@@ -1519,9 +1519,9 @@
                     "name": "options.txt",
                     "type": "File",
                     "artifact": {
-                        "size": 9197,
+                        "size": 9221,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/options.txt",
-                        "MD5": "2cd0013655abb776658bb09ff77e3208",
+                        "MD5": "e8bb41069e04819fa35b7a679679ee69",
                         "path": "options.txt"
                     }
                 },
@@ -1545,6 +1545,17 @@
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip",
                         "MD5": "a6af7ff937c6d3ca755749493eae8cdf",
                         "path": "resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip"
+                    }
+                },
+                {
+                    "id": "SimpleHotbar.zip",
+                    "name": "SimpleHotbar.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 229463,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/SimpleHotbar.zip",
+                        "MD5": "14a846bef648ff1ec7534b1bd8bc287c",
+                        "path": "resourcepacks/SimpleHotbar.zip"
                     }
                 },
                 {
