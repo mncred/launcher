@@ -1454,9 +1454,9 @@
                     "name": "emojiful-client.toml",
                     "type": "File",
                     "artifact": {
-                        "size": 810,
+                        "size": 809,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/config/emojiful-client.toml",
-                        "MD5": "83bc052d98ebffd1c0f0a3777a9005ad",
+                        "MD5": "4db67547cca1f3fb00fcbeac821704ff",
                         "path": "config/emojiful-client.toml"
                     }
                 },
