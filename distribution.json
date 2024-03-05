@@ -628,6 +628,26 @@
                     }
                 },
                 {
+                    "id": "team.creative:creativecore:2.11.24@jar",
+                    "name": "CreativeCore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1088112,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.CreativeCore_FORGE_v2.11.24_mc1.20.1.jar",
+                        "MD5": "e5661a8000a4aeb1a0acaf4b0af47f6b"
+                    }
+                },
+                {
+                    "id": "team.creative:itemphysic:1.7.0@jar",
+                    "name": "ItemPhysic",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 49751,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.ItemPhysic_FORGE_v1.7.0_mc1.20.1.jar",
+                        "MD5": "600ce2addf0a254d039e5c197900e7eb"
+                    }
+                },
+                {
                     "id": "com.sekwah:reskin:3.0.1@jar",
                     "name": "Re:Skin",
                     "type": "ForgeMod",
@@ -665,26 +685,6 @@
                         "size": 612804,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.autohud-6.3.4+1.20.1-forge.jar",
                         "MD5": "c21dda497f56f890f19601dbba2343d1"
-                    }
-                },
-                {
-                    "id": "team.creative:creativecore:2.11.24@jar",
-                    "name": "CreativeCore",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1088112,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.CreativeCore_FORGE_v2.11.24_mc1.20.1.jar",
-                        "MD5": "e5661a8000a4aeb1a0acaf4b0af47f6b"
-                    }
-                },
-                {
-                    "id": "team.creative:itemphysic:1.7.0@jar",
-                    "name": "ItemPhysic",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 49751,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.ItemPhysic_FORGE_v1.7.0_mc1.20.1.jar",
-                        "MD5": "600ce2addf0a254d039e5c197900e7eb"
                     }
                 },
                 {
