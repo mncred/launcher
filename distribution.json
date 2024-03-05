@@ -648,6 +648,16 @@
                     }
                 },
                 {
+                    "id": "com.hrznstudio:emojiful:4.2.0@jar",
+                    "name": "Emojiful",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 262412,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.Emojiful-Forge-1.20.1-4.2.0.jar",
+                        "MD5": "0ba360de4747e64c6325b74c0055479a"
+                    }
+                },
+                {
                     "id": "team.creative:itemphysic:1.7.0@jar",
                     "name": "ItemPhysic",
                     "type": "ForgeMod",
@@ -1437,6 +1447,17 @@
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/config/autohud.json5",
                         "MD5": "c40274f12d63e108b9ebf89415ca224f",
                         "path": "config/autohud.json5"
+                    }
+                },
+                {
+                    "id": "emojiful-client.toml",
+                    "name": "emojiful-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 810,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/emojiful-client.toml",
+                        "MD5": "83bc052d98ebffd1c0f0a3777a9005ad",
+                        "path": "config/emojiful-client.toml"
                     }
                 },
                 {
