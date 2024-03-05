@@ -1328,16 +1328,6 @@
                     }
                 },
                 {
-                    "id": "de.maxhenkel:voicechat:1.20.1-2.4.28@jar",
-                    "name": "Simple Voice Chat",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 7654111,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.4.28.jar",
-                        "MD5": "112c51d3f202e40a06cd8bbcc71693c8"
-                    }
-                },
-                {
                     "id": "inventoryhud-client.toml",
                     "name": "inventoryhud-client.toml",
                     "type": "File",
