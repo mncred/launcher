@@ -628,6 +628,16 @@
                     }
                 },
                 {
+                    "id": "de.srendi:advancedperipherals:0.7.38r@jar",
+                    "name": "Advanced Peripherals",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 855665,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.AdvancedPeripherals-1.20.1-0.7.38r.jar",
+                        "MD5": "abae039a35f968b0563b8a346835fd4e"
+                    }
+                },
+                {
                     "id": "team.creative:creativecore:2.11.24@jar",
                     "name": "CreativeCore",
                     "type": "ForgeMod",
