@@ -1,5 +1,5 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "rss": "https://rsshub.app/github/issue/mncred/launcher/open/news?update",
     "discord": {
         "clientId": "",
@@ -1348,13 +1348,24 @@
                     }
                 },
                 {
+                    "id": "curios.json",
+                    "name": "curios.json",
+                    "type": "File",
+                    "artifact": {
+                        "size": 725,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/InventoryHUD/curios.json",
+                        "MD5": "ff9aea298edd3d238ef031a18831f425",
+                        "path": "config/InventoryHUD/curios.json"
+                    }
+                },
+                {
                     "id": "autohud.json5",
                     "name": "autohud.json5",
                     "type": "File",
                     "artifact": {
-                        "size": 2413,
+                        "size": 2414,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/config/autohud.json5",
-                        "MD5": "c498f1227c282a88511235715cfa7573",
+                        "MD5": "c40274f12d63e108b9ebf89415ca224f",
                         "path": "config/autohud.json5"
                     }
                 },
