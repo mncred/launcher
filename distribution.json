@@ -548,16 +548,6 @@
                     }
                 },
                 {
-                    "id": "me.duquee:createutilities:0.2.0+1.20.1@jar",
-                    "name": "Create Utilities",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 325467,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.createutilities-0.2.0+1.20.1.jar",
-                        "MD5": "28ecea3200e9bcdfd4b4c4a45b9f2b13"
-                    }
-                },
-                {
                     "id": "top.theillusivec4:curios:5.4.2+1.20.1@jar",
                     "name": "Curios API",
                     "type": "ForgeMod",
@@ -635,6 +625,16 @@
                         "size": 855665,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.AdvancedPeripherals-1.20.1-0.7.38r.jar",
                         "MD5": "abae039a35f968b0563b8a346835fd4e"
+                    }
+                },
+                {
+                    "id": "fuzs.betteranimationscollection:betteranimationscollection:8.0.0@jar",
+                    "name": "Better Animations Collection",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 198652,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
+                        "MD5": "c46dfe2a4b5d302581777c549c389f01"
                     }
                 },
                 {
