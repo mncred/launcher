@@ -768,6 +768,16 @@
                     }
                 },
                 {
+                    "id": "net.mcvader:seriousplayeranimations:1.1.0@jar",
+                    "name": "Serious Player Animations",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 265613,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.seriousplayeranimations-1.1.0.jar",
+                        "MD5": "c80569900b79b321ee8407ec24b764a1"
+                    }
+                },
+                {
                     "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.2@jar",
                     "name": "3d-Skin-Layers",
                     "type": "ForgeMod",
