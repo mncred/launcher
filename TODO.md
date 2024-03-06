@@ -15,6 +15,7 @@
 - [X] Add mod: Advanced Peripheral
 - [X] Add mod: Chat Emoji
 - [X] Add mod for emotions
+- [X] Added smooth third-person view and elytra roll
 - [ ] Disable InventoryHUD+ new version notification on client and server
 - [ ] Fix uncraftable items from the new mod with decorative elements
 - [ ] Add mod with buffs for different food

@@ -628,16 +628,6 @@
                     }
                 },
                 {
-                    "id": "fuzs.betteranimationscollection:betteranimationscollection:8.0.0@jar",
-                    "name": "Better Animations Collection",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 198652,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
-                        "MD5": "c46dfe2a4b5d302581777c549c389f01"
-                    }
-                },
-                {
                     "id": "team.creative:creativecore:2.11.24@jar",
                     "name": "CreativeCore",
                     "type": "ForgeMod",
@@ -675,6 +665,16 @@
                         "size": 49751,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.ItemPhysic_FORGE_v1.7.0_mc1.20.1.jar",
                         "MD5": "600ce2addf0a254d039e5c197900e7eb"
+                    }
+                },
+                {
+                    "id": "snownee.kiwi:kiwi:11.5.5@jar",
+                    "name": "Kiwi Library",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 918572,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.Kiwi-1.20.1-forge-11.5.5.jar",
+                        "MD5": "5d838e87e279640758a0be7442338469"
                     }
                 },
                 {
@@ -728,6 +728,16 @@
                     }
                 },
                 {
+                    "id": "fuzs.betteranimationscollection:betteranimationscollection:8.0.0@jar",
+                    "name": "Better Animations Collection",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 198652,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
+                        "MD5": "c46dfe2a4b5d302581777c549c389f01"
+                    }
+                },
+                {
                     "id": "com.focamacho:myserveriscompatible:1.0@jar",
                     "name": "MyServerIsCompatible",
                     "type": "ForgeMod",
@@ -735,6 +745,16 @@
                         "size": 3482,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.MyServerIsCompatible-1.20-1.0.jar",
                         "MD5": "61d6f7c70030cbdacbbb0053cf120b79"
+                    }
+                },
+                {
+                    "id": "snownee.nimble:nimble:5.0.1@jar",
+                    "name": "Nimble",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 25937,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.Nimble-1.20.1-forge-5.0.1.jar",
+                        "MD5": "0ed81a0d950c7f2dfcd0587e7ea0bf57"
                     }
                 },
                 {
@@ -1475,9 +1495,9 @@
                     "name": "emotecraft.json",
                     "type": "File",
                     "artifact": {
-                        "size": 1074,
+                        "size": 1075,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/config/emotecraft.json",
-                        "MD5": "c8ad00f98ca8ff37d8252489f8534782",
+                        "MD5": "828621c55fbed237c7a23a9205c8c887",
                         "path": "config/emotecraft.json"
                     }
                 },
@@ -1600,6 +1620,17 @@
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/sort-order.json",
                         "MD5": "e826fafe25acbcad9aa0a4fb868e5487",
                         "path": "config/jade/sort-order.json"
+                    }
+                },
+                {
+                    "id": "nimble-client.yaml",
+                    "name": "nimble-client.yaml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 278,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/nimble-client.yaml",
+                        "MD5": "76a0d12e7edd4f85e5d4472d43a5e82c",
+                        "path": "config/nimble-client.yaml"
                     }
                 },
                 {
