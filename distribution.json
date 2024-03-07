@@ -778,16 +778,6 @@
                     }
                 },
                 {
-                    "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.2@jar",
-                    "name": "3d-Skin-Layers",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 469610,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.skinlayers3d-forge-1.6.2-mc1.20.1.jar",
-                        "MD5": "021094b473f1a51dc6604c665e3d0422"
-                    }
-                },
-                {
                     "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.2.2+1.20@jar",
                     "name": "YetAnotherConfigLib",
                     "type": "ForgeMod",
