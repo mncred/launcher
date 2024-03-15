@@ -1178,16 +1178,6 @@
                     }
                 },
                 {
-                    "id": "team.creative:itemphysic:1.6.9@jar",
-                    "name": "ItemPhysic",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 47244,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/ItemPhysic_FORGE_v1.6.9_mc1.20.jar.dis",
-                        "MD5": "aeaab91763265c1cc07244c6edfa54b3"
-                    }
-                },
-                {
                     "id": "snownee.jade:jade:11.1.4@jar",
                     "name": "Jade",
                     "type": "ForgeMod",
