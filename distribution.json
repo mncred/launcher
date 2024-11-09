@@ -828,13 +828,13 @@
                     }
                 },
                 {
-                    "id": "dev.architectury:architectury:9.0.8@jar",
+                    "id": "dev.architectury:architectury:9.2.14@jar",
                     "name": "Architectury",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 567166,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/architectury-9.0.8-forge.jar",
-                        "MD5": "02ac749cdcd9f064202dd0253b59365c"
+                        "size": 580602,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_005_architectury-9.2.14-forge.jar",
+                        "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
                     }
                 },
                 {
