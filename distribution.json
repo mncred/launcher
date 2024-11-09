@@ -518,6 +518,16 @@
                     }
                 },
                 {
+                    "id": "com.createrailwaysnavigator:1.20.1-0.5.5@jar",
+                    "name": "Create Railways Navigator",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2003765,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_004_createrailwaysnavigator-forge-1.20.1-0.5.5.jar",
+                        "MD5": "119e6cbb90dce7238bcdbcac85b767d0"
+                    }
+                },
+                {
                     "id": "com.github.talrey:createdeco:2.0.1-1.20.1-forge@jar",
                     "name": "Create Deco",
                     "type": "ForgeMod",
