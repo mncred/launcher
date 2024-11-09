@@ -1715,9 +1715,9 @@
                     "name": "options.txt",
                     "type": "File",
                     "artifact": {
-                        "size": 9475,
+                        "size": 10481,
                         "url": "https://downloads.over.red/servers/test-1.20.1/files/options.txt",
-                        "MD5": "895fc5bfb4aed0496024c668f1b912fc",
+                        "MD5": "204c43d5dca9d566a8969052dab09669",
                         "path": "options.txt"
                     }
                 },        
