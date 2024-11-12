@@ -775,6 +775,9 @@
                     "id": "fuzs.betteranimationscollection:betteranimationscollection:8.0.0@jar",
                     "name": "Better Animations Collection",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
                     "artifact": {
                         "size": 198652,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
