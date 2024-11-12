@@ -530,6 +530,8 @@
                 {
                     "id": "com.distanthorizons:2.2.1-a-1.20.1@jar",
                     "name": "Distant Horizons",
+                    "description": "Test Desk 1",
+                    "desc": "Test Desk 2",
                     "type": "ForgeMod",
                     "required": {
                         "value": false,
