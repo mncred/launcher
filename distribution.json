@@ -529,7 +529,7 @@
                 },
                 {
                     "id": "com.distanthorizons:2.2.1-a@jar",
-                    "name": "Distant Horizons - Сильно увеличенная дальность прорисовки",
+                    "name": "Distant Horizons",
                     "type": "ForgeMod",
                     "required": {
                         "value": false,
