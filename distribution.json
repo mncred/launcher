@@ -528,6 +528,16 @@
                     }
                 },
                 {
+                    "id": "com.framedblocks:9.3.1@jar",
+                    "name": "Framed Blocks",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 4190330,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_006_FramedBlocks-9.3.1.jar",
+                        "MD5": "b367304b99c729d267fc294d014af9c5"
+                    }
+                },
+                {
                     "id": "com.github.talrey:createdeco:2.0.1-1.20.1-forge@jar",
                     "name": "Create Deco",
                     "type": "ForgeMod",
