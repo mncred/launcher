@@ -529,7 +529,7 @@
                 },
                 {
                     "id": "com.distanthorizons:2.2.1-a@jar",
-                    "name": "Distant Horizons",
+                    "name": "Distant Horizons - Сильно увеличенная дальность прорисовки",
                     "type": "ForgeMod",
                     "required": {
                         "value": false,
@@ -773,7 +773,7 @@
                 },
                 {
                     "id": "fuzs.betteranimationscollection:betteranimationscollection:8.0.0@jar",
-                    "name": "Better Animations Collection",
+                    "name": "Better Animations Collection - Улучшенная анимация мобов",
                     "type": "ForgeMod",
                     "required": {
                         "value": false
