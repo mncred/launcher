@@ -537,7 +537,7 @@
                     },
                     "artifact": {
                         "size": 16521385,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/optionaloff/PATCH_007_DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar",
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_007_DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar",
                         "MD5": "54dad6f74516f0cc4c92bd6f652ac8b0"
                     }
                 },
