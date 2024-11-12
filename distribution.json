@@ -763,8 +763,12 @@
                 },
                 {
                     "id": "mod.crend:autohud:6.3.4+1.20.1@jar",
-                    "name": "Auto HUD",
+                    "name": "Auto HUD - Автоматически скрывает прицел когда он не нужен",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
                     "artifact": {
                         "size": 612804,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.autohud-6.3.4+1.20.1-forge.jar",
@@ -796,8 +800,12 @@
                 },
                 {
                     "id": "snownee.nimble:nimble:5.0.1@jar",
-                    "name": "Nimble",
+                    "name": "Nimble - Улучшенная анимация камеры игрока (F5)",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
                     "artifact": {
                         "size": 25937,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.Nimble-1.20.1-forge-5.0.1.jar",
@@ -806,8 +814,12 @@
                 },
                 {
                     "id": "net.mcvader:seriousplayeranimations:1.1.0@jar",
-                    "name": "Serious Player Animations",
+                    "name": "Serious Player Animations - Улучшенная анимация игроков",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
                     "artifact": {
                         "size": 265613,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.seriousplayeranimations-1.1.0.jar",
