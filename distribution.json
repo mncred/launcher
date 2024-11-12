@@ -531,6 +531,10 @@
                     "id": "com.distanthorizons:2.2.1-a-1.20.1@jar",
                     "name": "Distant Horizons",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 16521385,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/optionaloff/PATCH_007_DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar",
