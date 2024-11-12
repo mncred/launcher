@@ -800,7 +800,7 @@
                 },
                 {
                     "id": "snownee.nimble:nimble:5.0.1@jar",
-                    "name": "Nimble - Улучшенная анимация камеры игрока (F5)",
+                    "name": "Nimble - Улучшенная анимация камеры игрока при полёте на элитрах и переключении через F5",
                     "type": "ForgeMod",
                     "required": {
                         "value": false,
