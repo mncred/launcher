@@ -528,7 +528,7 @@
                     }
                 },
                 {
-                    "id": "com.distanthorizons:2.2.1-a@jar",
+                    "id": "com.distanthorizons:distanthorizons:2.2.1-a-1.20.1@jar",
                     "name": "Distant Horizons - Сильно увеличенная дальность прорисовки",
                     "type": "ForgeMod",
                     "required": {
@@ -542,7 +542,7 @@
                     }
                 },
                 {
-                    "id": "com.framedblocks:9.3.1@jar",
+                    "id": "com.framedblocks:framedblocks:9.3.1@jar",
                     "name": "Framed Blocks",
                     "type": "ForgeMod",
                     "artifact": {
