@@ -548,6 +548,16 @@
                         "MD5": "f4c6924bef764748d26ee51e4d4c0b00"
                     }
                 },
+                {
+                    "id": "com.probejs:probejs:7.0.0@jar",
+                    "name": "ProbeJS",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 4342166,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_016_probejs-7.0.0-forge.jar",
+                        "MD5": "d08eb550f6c7ea99705f8669408e0e10"
+                    }
+                },
                 
                 {
                     "id": "com.doabarrelroll:doabarrelroll:3.5.6+1.20.1@jar",
