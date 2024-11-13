@@ -518,14 +518,13 @@
                     }
                 },
                 {
-                    "id": "com.createrailwaysnavigator:1.20.1-0.5.5@jar",
+                    "id": "com.createrailwaysnavigator:createrailwaysnavigator:1.20.1-0.6.0@jar",
                     "name": "Create Railways Navigator",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 2003765,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_004_createrailwaysnavigator-forge-1.20.1-0.5.5.jar",
-                        "MD5": "119e6cbb90dce7238bcdbcac85b767d0"
-                    }
+                        "size": 2724565,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_001_createrailwaysnavigator-forge-1.20.1-0.6.0.jar",                        "MD5": "4f7410eb44948310b9c0e64cec0d550d"
+                    }                
                 },
 
                 {
