@@ -528,20 +528,6 @@
                     }
                 },
                 {
-                    "id": "com.sinytraconnector:sinytraconnector:1.0.0-beta.46+1.20.1@jar",
-                    "name": "Sinytra Connector",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": true,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 5043375,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_011_Connector-1.0.0-beta.46+1.20.1.jar",
-                        "MD5": "c12d01f7b20d6909689e458dd9fa760b"
-                    }
-                },
-                {
                     "id": "com.doabarrelroll:doabarrelroll:3.5.6+1.20.1@jar",
                     "name": "Do a Barrel Roll - Динамический наклон и вращение камеры при полёте на элитрах",
                     "type": "ForgeMod",
