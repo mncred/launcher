@@ -612,17 +612,17 @@
                     }
                 },
                 {
-                    "id": "com.effortlessbuilding:effortlessbuilding:3.8@jar",
-                    "name": "Effortless Building",
+                    "id": "com.effortlessstructure:effortlessstructure:3.1.0@jar",
+                    "name": "Effortless Structure",
                     "type": "ForgeMod",
                     "required": {
                         "value": true,
                         "def": true
                     },
                     "artifact": {
-                        "size": 1385037,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_018_effortlessbuilding-1.20.1-3.8-all.jar",
-                        "MD5": "da997e56c131fec115618bf945248a29"
+                        "size": 1871321,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_019_effortless-1.20.1-3.1.0.jar",
+                        "MD5": "0b4ab5aa410168e01f57e16d41f676cc"
                     }
                 },
                 {
