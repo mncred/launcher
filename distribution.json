@@ -527,6 +527,28 @@
                         "MD5": "119e6cbb90dce7238bcdbcac85b767d0"
                     }
                 },
+
+                {
+                    "id": "com.rhino:rhino:2001.2.3-build.6@jar",
+                    "name": "Rhino",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1796600,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_015_rhino-forge-2001.2.3-build.6.jar",
+                        "MD5": "c6f376b91e330b5e220541aab5edd92f"
+                    }
+                },
+                {
+                    "id": "com.kubejs:kubejs:2001.6.5-build.16@jar",
+                    "name": "KubeJS",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1654660,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_014_kubejs-forge-2001.6.5-build.16.jar",
+                        "MD5": "f4c6924bef764748d26ee51e4d4c0b00"
+                    }
+                },
+                
                 {
                     "id": "com.doabarrelroll:doabarrelroll:3.5.6+1.20.1@jar",
                     "name": "Do a Barrel Roll - Динамический наклон и вращение камеры при полёте на элитрах",
