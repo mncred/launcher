@@ -558,9 +558,19 @@
                         "MD5": "d08eb550f6c7ea99705f8669408e0e10"
                     }
                 },
+                {
+                    "id": "com.designanddeco:designanddeco:0.4.0b@jar",
+                    "name": "Create: Design n' Decor",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2439693,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_021_design_decor-0.4.0b-1.20.1.jar",
+                        "MD5": "0448b0a460b69c9f1bed3c0da9aa73c1"
+                    }
+                },
 
                 {
-                    "id": "com.physicsmod:physicsmod:3.5.6+1.20.1@jar",
+                    "id": "com.physicsmod:physicsmod:171@jar",
                     "name": "Physics Mod - Динамический ветер, сугробы, волны, разрушения блоков и мобов (крайне высокая нагрузка на систему)",
                     "type": "ForgeMod",
                     "required": {
