@@ -13,7 +13,7 @@
             "description": "Minecraft 1.20.1 (Forge v47.1.44)",
             "icon": "https://downloads.over.red/default_icon.png",
             "version": "1.0.1",
-            "address": "stone.play.mnc.red:25565",
+            "address": "Syn.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
             "mainServer": true,
             "autoconnect": true,
@@ -533,7 +533,7 @@
                     "type": "ForgeMod",
                     "required": {
                         "value": true,
-                        "def": true
+                        "def": false
                     },
                     "artifact": {
                         "size": 5043375,
