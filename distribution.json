@@ -1155,13 +1155,13 @@
                     }
                 },
                 {
-                    "id": "com.simibubi:create:0.5.1.f@jar",
+                    "id": "com.simibubi:create:0.5.1.j@jar",
                     "name": "Create",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 14964127,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/create-1.20.1-0.5.1.f.jar",
-                        "MD5": "6a097aa0bfc73a4f8372a16e763f9f02"
+                        "size": 15583566,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_024_create-1.20.1-0.5.1.j.jar",
+                        "MD5": "db945b2441efa1a136d3f86126a6f813"
                     }
                 },
                 {
