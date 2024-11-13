@@ -542,6 +542,20 @@
                     }
                 },
                 {
+                    "id": "com.notenoughcrashes:notenoughcrashes:4.4.7+1.20.1@jar",
+                    "name": "Not Enough Crashes",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 133125,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_010_notenoughcrashes-4.4.7+1.20.1-forge.jar",
+                        "MD5": "3ba2ca194082ef73d35b09be4eb3cd2a"
+                    }
+                },
+                {
                     "id": "com.distanthorizons:distanthorizons:2.2.1-a-1.20.1@jar",
                     "name": "Distant Horizons - Сильно увеличенная дальность прорисовки",
                     "type": "ForgeMod",
