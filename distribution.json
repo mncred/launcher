@@ -13,7 +13,7 @@
             "description": "Minecraft 1.20.1 (Forge v47.1.44)",
             "icon": "https://downloads.over.red/default_icon.png",
             "version": "1.0.1",
-            "address": "Syn.play.mnc.red:25565",
+            "address": "stone.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
             "mainServer": true,
             "autoconnect": true,
@@ -611,20 +611,6 @@
                         "MD5": "b367304b99c729d267fc294d014af9c5"
                     }
                 },
-                //{
-                //    "id": "com.effortlessbuilding:effortlessbuilding:3.9@jar",
-                //    "name": "Effortless Building",
-                //    "type": "ForgeMod",
-                //    "required": {
-                //        "value": true,
-                //        "def": true
-                //    },
-                //    "artifact": {
-                //        "size": 1382059,
-                //        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_017_effortlessbuilding-1.20.1-3.9-all.jar",
-                //        "MD5": "3f9ee157d91bf0e8ce3be90c70fc2741"
-                //    }
-                //},
                 {
                     "id": "com.effortlessbuilding:effortlessbuilding:3.8@jar",
                     "name": "Effortless Building",
