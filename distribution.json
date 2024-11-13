@@ -528,6 +528,20 @@
                     }
                 },
                 {
+                    "id": "com.doabarrelroll:doabarrelroll:3.5.6+1.20.1@jar",
+                    "name": "Do a Barrel Roll - Динамический наклон и вращение камеры при полёте на элитрах",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 625488,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_008_do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
+                        "MD5": "6abd43d0aed2c1823718e228006669c6"
+                    }
+                },
+                {
                     "id": "com.distanthorizons:distanthorizons:2.2.1-a-1.20.1@jar",
                     "name": "Distant Horizons - Сильно увеличенная дальность прорисовки",
                     "type": "ForgeMod",
