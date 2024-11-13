@@ -1933,6 +1933,17 @@
                     }
                 },
                 {
+                    "id": "[Heavy 112] [All] Bliss Distant Horizons.zip",
+                    "name": "[Heavy 112] [All] Bliss Distant Horizons.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1669167,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20112]%20[All]%20Bliss%20Distant%20Horizons.zip",
+                        "MD5": "fb757db17e378d3174611d4d0698280d",
+                        "path": "shaderpacks/[Heavy 112] [All] Bliss Distant Horizons.zip"
+                    }
+                },
+                {
                     "id": "[Heavy 82] [All] SEUS Renewed.zip",
                     "name": "[Heavy 82] [All] SEUS Renewed.zip",
                     "type": "File",
