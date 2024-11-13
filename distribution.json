@@ -477,6 +477,18 @@
                         "MD5": "e035e6f6c00768303ca51e68c3d5626e"
                     }
                 },
+
+                {
+                    "id": "com.createdynamiclights:createdynamiclights:1.0.2@jar",
+                    "name": "Create: Dynamic Lights",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 143206,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_025_create-dyn-light-forge1.20.1+1.0.2.jar",
+                        "MD5": "54fbc606644533ca7c5c1e0bc6fb298f"
+                    }
+                },
+                
                 {
                     "id": "plus.dragons.createenchantmentindustry:create_enchantment_industry:1.2.8@jar",
                     "name": "Create Enchantment Industry",
