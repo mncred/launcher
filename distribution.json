@@ -730,13 +730,13 @@
                     }
                 },
                 {
-                    "id": "com.railwayteam:railways:1.6.7@jar",
+                    "id": "com.railwayteam:railways:1.5.3+forge-mc1.20.1@jar",
                     "name": "Create: Steam 'n' Rails",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 9997801,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_023_Steam_Rails-1.6.7+forge-mc1.20.1.jar",
-                        "MD5": "32a83dba6630165e1415f9e78d4aaf2e"
+                        "size": 6704629,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.Steam_Rails-1.5.3+forge-mc1.20.1.jar",
+                        "MD5": "b92819435eb2bbb44c9418e1b5f247a4"
                     }
                 },
                 {
@@ -781,12 +781,8 @@
                 },
                 {
                     "id": "com.hrznstudio:emojiful:4.2.0@jar",
-                    "name": "(НЕСТАБИЛЬНО) Emojiful - Поддержка эмоджи в чате",
+                    "name": "Emojiful",
                     "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
                     "artifact": {
                         "size": 262412,
                         "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.Emojiful-Forge-1.20.1-4.2.0.jar",
@@ -1159,13 +1155,13 @@
                     }
                 },
                 {
-                    "id": "com.simibubi:create:0.5.1.j@jar",
+                    "id": "com.simibubi:create:0.5.1.f@jar",
                     "name": "Create",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 15583566,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_024_create-1.20.1-0.5.1.j.jar",
-                        "MD5": "db945b2441efa1a136d3f86126a6f813"
+                        "size": 14964127,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/create-1.20.1-0.5.1.f.jar",
+                        "MD5": "6a097aa0bfc73a4f8372a16e763f9f02"
                     }
                 },
                 {
