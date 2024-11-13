@@ -568,6 +568,21 @@
                         "MD5": "0448b0a460b69c9f1bed3c0da9aa73c1"
                     }
                 },
+
+                {
+                    "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
+                    "name": "Create Train Perspective - Реалистичное движение камеры для пассажиров поездов",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 202184,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_022_create-train-perspective-1.0.0+mc1.20.1.jar",
+                        "MD5": "95c3a135e2ecacdafdffe55d5668bc86"
+                    }
+                },
                 
                 {
                     "id": "com.doabarrelroll:doabarrelroll:3.5.6+1.20.1@jar",
