@@ -540,17 +540,6 @@
                 },
 
                 {
-                    "id": "com.createoptical:createoptical:0.2.1@jar",
-                    "name": "Create Optical",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1099008,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_026_create_optical-0.2.1.jar", 
-                        "MD5": "75126c0963da5fa895e2807996016182"
-                    }                
-                },
-
-                {
                     "id": "com.rhino:rhino:2001.2.3-build.6@jar",
                     "name": "Rhino",
                     "type": "ForgeMod",
