@@ -542,6 +542,20 @@
                     }
                 },
                 {
+                    "id": "com.physicsmod:physicsmod:3.0.14@jar",
+                    "name": "Physics Mod - Физика разрушения блоков и динамическая анимация гибели мобов",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 139191552,
+                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_009_physics-mod-3.0.14-mc-1.20.1-forge.jar",
+                        "MD5": "0d009db15745e39fc6eef96dcafc7b7a"
+                    }
+                },
+                {
                     "id": "com.distanthorizons:distanthorizons:2.2.1-a-1.20.1@jar",
                     "name": "Distant Horizons - Сильно увеличенная дальность прорисовки",
                     "type": "ForgeMod",
