@@ -568,21 +568,6 @@
                         "MD5": "0448b0a460b69c9f1bed3c0da9aa73c1"
                     }
                 },
-
-                {
-                    "id": "com.physicsmod:physicsmod:171@jar",
-                    "name": "Physics Mod - Динамический ветер, сугробы, волны, разрушения блоков и мобов (крайне высокая нагрузка на систему)",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 139244938,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_020_physics-mod-pro-v171b-forge-1.20.1.jar",
-                        "MD5": "0575c2923f2a17374c44790d26622e4b"
-                    }
-                },
                 
                 {
                     "id": "com.doabarrelroll:doabarrelroll:3.5.6+1.20.1@jar",
