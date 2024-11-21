@@ -521,7 +521,7 @@
                 },
                 {
                     "id": "scholar:scholar:1.0.0@jar",
-                    "name": "Two-page book editing/viewing, colored books and other book-related improvements",
+                    "name": "Scholar",
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 198940,
