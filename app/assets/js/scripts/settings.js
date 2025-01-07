@@ -232,7 +232,7 @@ function saveSettingsValues() {
     })
 }
 
-let selectedSettingsTab = 'settingsTabAccount'
+let selectedSettingsTab = 'settingsTabMods'
 
 /**
  * Modify the settings container UI when the scroll threshold reaches

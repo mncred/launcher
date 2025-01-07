@@ -1373,6 +1373,7 @@ body, button {
     height: 20px;
     border-radius: 50px;
     box-sizing: border-box;
+    min-width: 40px;
 }
 .toggleSwitch input {
     display:none;
@@ -1782,6 +1783,7 @@ input:checked + .toggleSwitchSlider:before {
     background-color: #c32625;
     margin-right: 15px;
     transition: 0.25s ease;
+    min-width: 7px;
 }
 
 /* Mod details container. */

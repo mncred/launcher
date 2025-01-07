@@ -125,7 +125,7 @@ document.getElementById('launch_button').addEventListener('click', async e => {
         }
     } catch (err) {
         loggerLanding.error('Unhandled error in during launch process.', err)
-        showLaunchFailure('Error During Launch', 'See console (CTRL + Shift + i) for more details.')
+        showLaunchFailure('Ошибка запуска', 'Смотрите консоль (CTRL + Shift + i) для подробностей')
     }
 })
 
@@ -494,12 +494,12 @@ async function dlAsync(login = true) {
 
     fullRepairModule.childProcess.on('error', (err) => {
         loggerLaunchSuite.error('Error during launch', err)
-        showLaunchFailure('Error During Launch', err.message || 'See console (CTRL + Shift + i) for more details.')
+        showLaunchFailure('Ошибка запуска', err.message || 'Смотрите консоль (CTRL + Shift + i) для подробностей')
     })
     fullRepairModule.childProcess.on('close', (code, _signal) => {
         if (code !== 0) {
             loggerLaunchSuite.error(`Full Repair Module exited with code ${code}, assuming error.`)
-            showLaunchFailure('Error During Launch', 'See console (CTRL + Shift + i) for more details.')
+            showLaunchFailure('Ошибка запуска', 'Смотрите консоль (CTRL + Shift + i) для подробностей')
         }
     })
 
@@ -513,7 +513,7 @@ async function dlAsync(login = true) {
         setLaunchPercentage(100)
     } catch (err) {
         loggerLaunchSuite.error('Error during file validation.')
-        showLaunchFailure('Error During File Verification', err.displayable || 'See console (CTRL + Shift + i) for more details.')
+        showLaunchFailure('Ошибка валидации файлов игры', err.displayable || 'Смотрите консоль (CTRL + Shift + i) для подробностей')
         return
     }
 
@@ -529,7 +529,7 @@ async function dlAsync(login = true) {
             setDownloadPercentage(100)
         } catch (err) {
             loggerLaunchSuite.error('Error during file download.')
-            showLaunchFailure('Error During File Download', err.displayable || 'See console (CTRL + Shift + i) for more details.')
+            showLaunchFailure('Ошибка загрузки файлов', err.displayable || 'Смотрите консоль (CTRL + Shift + i) для подробностей')
             return
         }
     } else {
@@ -604,7 +604,7 @@ async function dlAsync(login = true) {
             data = data.trim()
             if (data.indexOf('Could not find or load main class net.minecraft.launchwrapper.Launch') > -1) {
                 loggerLaunchSuite.error('Game launch failed, LaunchWrapper was not downloaded properly.')
-                showLaunchFailure('Error During Launch', 'The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href="https://github.com/dscalzi/HeliosLauncher/issues">submit an issue</a> and let us know what antivirus software you use. We\'ll contact them and try to straighten things out.')
+                showLaunchFailure('Ошибка запуска', 'The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href="https://github.com/dscalzi/HeliosLauncher/issues">submit an issue</a> and let us know what antivirus software you use. We\'ll contact them and try to straighten things out.')
             }
         }
 
@@ -633,7 +633,7 @@ async function dlAsync(login = true) {
         } catch (err) {
 
             loggerLaunchSuite.error('Error during launch', err)
-            showLaunchFailure('Error During Launch', 'Please check the console (CTRL + Shift + i) for more details.')
+            showLaunchFailure('Ошибка запуска', 'Смотрите консоль (CTRL + Shift + i) для подробностей')
 
         }
     }
