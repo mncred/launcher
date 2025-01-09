@@ -11,7 +11,7 @@
             "id": "test-1.20.1",
             "name": "MNCRED :: Stone",
             "description": "Minecraft 1.20.1 (Forge v47.1.44)",
-            "icon": "https://downloads.over.red/default_icon.png",
+            "icon": "http://mnc.red/default_icon.png",
             "version": "1.0.1",
             "address": "stone.play.mnc.red:25565",
             "minecraftVersion": "1.20.1",
@@ -26,7 +26,7 @@
                     "artifact": {
                         "size": 7397,
                         "MD5": "f538b3b9ad1668b3d92945741f841071",
-                        "url": "https://downloads.over.red/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar"
+                        "url": "http://mnc.red/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar"
                     },
                     "subModules": [
                         {
@@ -36,7 +36,7 @@
                             "artifact": {
                                 "size": 16542,
                                 "MD5": "374162e774d7cf1b09af7af4d7805982",
-                                "url": "https://downloads.over.red/repo/versions/1.20.1-forge-47.2.0/1.20.1-forge-47.2.0.json"
+                                "url": "http://mnc.red/repo/versions/1.20.1-forge-47.2.0/1.20.1-forge-47.2.0.json"
                             }
                         },
                         {
@@ -47,7 +47,7 @@
                             "artifact": {
                                 "size": 117589,
                                 "MD5": "549205a1ba89e1c0735d9a46a338e715",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar"
                             },
                             "subModules": []
                         },
@@ -59,7 +59,7 @@
                             "artifact": {
                                 "size": 16371,
                                 "MD5": "ab1c94373972048884a363d08bd1720d",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar"
                             },
                             "subModules": []
                         },
@@ -71,7 +71,7 @@
                             "artifact": {
                                 "size": 4996,
                                 "MD5": "1bb13fed852f5088675101b9c6b538a0",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar"
                             },
                             "subModules": []
                         },
@@ -83,7 +83,7 @@
                             "artifact": {
                                 "size": 2672123,
                                 "MD5": "5902d79463abb7a3746c777c3919143e",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-universal.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-universal.jar"
                             },
                             "subModules": []
                         },
@@ -95,7 +95,7 @@
                             "artifact": {
                                 "size": 4791112,
                                 "MD5": "d805b1803123c683648f2e65dd98f3a8",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-client.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-client.jar"
                             },
                             "subModules": []
                         },
@@ -107,7 +107,7 @@
                             "artifact": {
                                 "size": 18842082,
                                 "MD5": "8bfacfba4f54cda741019756165c5ecf",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
                             },
                             "subModules": []
                         },
@@ -119,7 +119,7 @@
                             "artifact": {
                                 "size": 12592249,
                                 "MD5": "28edebec7b5a007bc9961ee9bab4d764",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
                             },
                             "subModules": []
                         },
@@ -131,7 +131,7 @@
                             "artifact": {
                                 "size": 10436626,
                                 "MD5": "da6bb1a2c23108392fd6c103da40867c",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
                             },
                             "subModules": []
                         },
@@ -142,7 +142,7 @@
                             "artifact": {
                                 "size": 88749,
                                 "MD5": "d9ff48d1c68388270388b803fa42611e",
-                                "url": "https://downloads.over.red/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+                                "url": "http://mnc.red/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
                             }
                         },
                         {
@@ -152,7 +152,7 @@
                             "artifact": {
                                 "size": 121863,
                                 "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
-                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+                                "url": "http://mnc.red/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
                             }
                         },
                         {
@@ -162,7 +162,7 @@
                             "artifact": {
                                 "size": 72209,
                                 "MD5": "7d1fce986192f71722b19754e4cb9e61",
-                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+                                "url": "http://mnc.red/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
                             }
                         },
                         {
@@ -172,7 +172,7 @@
                             "artifact": {
                                 "size": 51944,
                                 "MD5": "44755681b7d6fa7143afbb438e55c20c",
-                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+                                "url": "http://mnc.red/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
                             }
                         },
                         {
@@ -182,7 +182,7 @@
                             "artifact": {
                                 "size": 91076,
                                 "MD5": "ad0016249fb68bb9196babefd47b80dc",
-                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+                                "url": "http://mnc.red/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
                             }
                         },
                         {
@@ -192,7 +192,7 @@
                             "artifact": {
                                 "size": 33978,
                                 "MD5": "4df0adafc78ebba404d4037987d36b61",
-                                "url": "https://downloads.over.red/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+                                "url": "http://mnc.red/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
                             }
                         },
                         {
@@ -202,7 +202,7 @@
                             "artifact": {
                                 "size": 77756,
                                 "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
                             }
                         },
                         {
@@ -212,7 +212,7 @@
                             "artifact": {
                                 "size": 337868,
                                 "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                                "url": "https://downloads.over.red/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                                "url": "http://mnc.red/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
                             }
                         },
                         {
@@ -222,7 +222,7 @@
                             "artifact": {
                                 "size": 53985,
                                 "MD5": "2a6245210b446b2144071e71ca13432b",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
                             }
                         },
                         {
@@ -232,7 +232,7 @@
                             "artifact": {
                                 "size": 29831,
                                 "MD5": "bd34d20287dc95201fe9475a8bbc2540",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
                             }
                         },
                         {
@@ -242,7 +242,7 @@
                             "artifact": {
                                 "size": 24199,
                                 "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
                             }
                         },
                         {
@@ -252,7 +252,7 @@
                             "artifact": {
                                 "size": 130343,
                                 "MD5": "07507d18d72661f8ae6a5da75bbf35be",
-                                "url": "https://downloads.over.red/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+                                "url": "http://mnc.red/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
                             }
                         },
                         {
@@ -262,7 +262,7 @@
                             "artifact": {
                                 "size": 2834,
                                 "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
                             }
                         },
                         {
@@ -272,7 +272,7 @@
                             "artifact": {
                                 "size": 2572,
                                 "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
                             }
                         },
                         {
@@ -282,7 +282,7 @@
                             "artifact": {
                                 "size": 199834,
                                 "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                                "url": "https://downloads.over.red/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+                                "url": "http://mnc.red/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
                             }
                         },
                         {
@@ -292,7 +292,7 @@
                             "artifact": {
                                 "size": 31816,
                                 "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                                "url": "https://downloads.over.red/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+                                "url": "http://mnc.red/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
                             }
                         },
                         {
@@ -302,7 +302,7 @@
                             "artifact": {
                                 "size": 58077,
                                 "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                                "url": "https://downloads.over.red/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+                                "url": "http://mnc.red/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
                             }
                         },
                         {
@@ -312,7 +312,7 @@
                             "artifact": {
                                 "size": 18281,
                                 "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                                "url": "https://downloads.over.red/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+                                "url": "http://mnc.red/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
                             }
                         },
                         {
@@ -322,7 +322,7 @@
                             "artifact": {
                                 "size": 15977,
                                 "MD5": "679363fa893293791e55a21f81342f87",
-                                "url": "https://downloads.over.red/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
                             }
                         },
                         {
@@ -332,7 +332,7 @@
                             "artifact": {
                                 "size": 150765,
                                 "MD5": "a2e7b012cd9802f83321187409174a94",
-                                "url": "https://downloads.over.red/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+                                "url": "http://mnc.red/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
                             }
                         },
                         {
@@ -342,7 +342,7 @@
                             "artifact": {
                                 "size": 211712,
                                 "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                                "url": "https://downloads.over.red/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                                "url": "http://mnc.red/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
                             }
                         },
                         {
@@ -352,7 +352,7 @@
                             "artifact": {
                                 "size": 1089277,
                                 "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                                "url": "https://downloads.over.red/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                                "url": "http://mnc.red/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
                             }
                         },
                         {
@@ -362,7 +362,7 @@
                             "artifact": {
                                 "size": 2167288,
                                 "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                                "url": "https://downloads.over.red/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+                                "url": "http://mnc.red/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
                             }
                         },
                         {
@@ -372,7 +372,7 @@
                             "artifact": {
                                 "size": 17374,
                                 "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
                             }
                         },
                         {
@@ -382,7 +382,7 @@
                             "artifact": {
                                 "size": 15895,
                                 "MD5": "9633546d299d4282ca68d10582be1c8f",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
                             }
                         },
                         {
@@ -392,7 +392,7 @@
                             "artifact": {
                                 "size": 8284,
                                 "MD5": "48f5255aa337344c467c0150d347813d",
-                                "url": "https://downloads.over.red/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+                                "url": "http://mnc.red/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
                             }
                         },
                         {
@@ -402,7 +402,7 @@
                             "artifact": {
                                 "size": 32195,
                                 "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
                             }
                         },
                         {
@@ -412,7 +412,7 @@
                             "artifact": {
                                 "size": 264245,
                                 "MD5": "6ea3c95084cc6dec3205fae098bb8cab",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.0/fmlloader-1.20.1-47.2.0.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.0/fmlloader-1.20.1-47.2.0.jar"
                             }
                         },
                         {
@@ -422,7 +422,7 @@
                             "artifact": {
                                 "size": 170333,
                                 "MD5": "7050197358f88cf4ea899066fc97625d",
-                                "url": "https://downloads.over.red/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.0/fmlearlydisplay-1.20.1-47.2.0.jar"
+                                "url": "http://mnc.red/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.0/fmlearlydisplay-1.20.1-47.2.0.jar"
                             }
                         }
                     ]
@@ -433,7 +433,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 196447,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.bellsandwhistles-0.4.3-1.20.x.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.bellsandwhistles-0.4.3-1.20.x.jar",
                         "MD5": "35a1d71ef77ad3e4b36b323d45214e38"
                     }
                 },
@@ -443,7 +443,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 157591,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.botarium-forge-1.20.1-2.3.3.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.botarium-forge-1.20.1-2.3.3.jar",
                         "MD5": "2b0e3bdc3208620d7e172bfe3035aa7c"
                     }
                 },
@@ -453,7 +453,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 38169,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.caelus-forge-3.1.0+1.20.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.caelus-forge-3.1.0+1.20.jar",
                         "MD5": "01003de5f2ea85558d3b336f0a386966"
                     }
                 },
@@ -463,7 +463,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 811875,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_central_kitchen-1.20.1-for-create-0.5.1.f-1.3.10.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.create_central_kitchen-1.20.1-for-create-0.5.1.f-1.3.10.jar",
                         "MD5": "f03fbbd01e2c2307b67a64a4b739d30c"
                     }
                 },
@@ -473,7 +473,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 5912025,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_connected-0.7.2-mc1.20.1-all.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.create_connected-0.7.2-mc1.20.1-all.jar",
                         "MD5": "e035e6f6c00768303ca51e68c3d5626e"
                     }
                 },
@@ -484,7 +484,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 143206,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_025_create-dyn-light-forge1.20.1+1.0.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_025_create-dyn-light-forge1.20.1+1.0.2.jar",
                         "MD5": "54fbc606644533ca7c5c1e0bc6fb298f"
                     }
                 },
@@ -495,7 +495,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 496363,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.8.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.8.jar",
                         "MD5": "306c4f48b1a0be6544e9e7dcb2b86f8d"
                     }
                 },
@@ -505,7 +505,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 229959,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_jetpack-forge-4.2.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.create_jetpack-forge-4.2.1.jar",
                         "MD5": "168b88373d42322155c84b87b16a48ce"
                     }
                 },
@@ -515,7 +515,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1014347,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create_misc_and_things_%201.20.1_4.0A.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.create_misc_and_things_%201.20.1_4.0A.jar",
                         "MD5": "fc477f3364e0e6096f8619f610c94e17"
                     }
                 },
@@ -525,7 +525,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 198940,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_027_scholar-1.20.1-1.0.0-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_027_scholar-1.20.1-1.0.0-forge.jar",
                         "MD5": "f00b081f8d22a69e1ad67fd16a146679"
                     }
                 },
@@ -535,7 +535,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 663575,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.create-new-age-forge-1.20.1-1.1.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.create-new-age-forge-1.20.1-1.1.2.jar",
                         "MD5": "849f2be17ade31494ced55cb5c03aa8b"
                     }
                 },
@@ -545,7 +545,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 2724565,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_001_createrailwaysnavigator-forge-1.20.1-0.6.0.jar",                        "MD5": "4f7410eb44948310b9c0e64cec0d550d"
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_001_createrailwaysnavigator-forge-1.20.1-0.6.0.jar",                        "MD5": "4f7410eb44948310b9c0e64cec0d550d"
                     }                
                 },
 
@@ -555,7 +555,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1796600,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_015_rhino-forge-2001.2.3-build.6.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_015_rhino-forge-2001.2.3-build.6.jar",
                         "MD5": "c6f376b91e330b5e220541aab5edd92f"
                     }
                 },
@@ -565,7 +565,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1654660,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_014_kubejs-forge-2001.6.5-build.16.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_014_kubejs-forge-2001.6.5-build.16.jar",
                         "MD5": "f4c6924bef764748d26ee51e4d4c0b00"
                     }
                 },
@@ -575,7 +575,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 4342166,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_016_probejs-7.0.0-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_016_probejs-7.0.0-forge.jar",
                         "MD5": "d08eb550f6c7ea99705f8669408e0e10"
                     }
                 },
@@ -585,7 +585,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 2439693,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_021_design_decor-0.4.0b-1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_021_design_decor-0.4.0b-1.20.1.jar",
                         "MD5": "0448b0a460b69c9f1bed3c0da9aa73c1"
                     }
                 },
@@ -600,7 +600,7 @@
                     },
                     "artifact": {
                         "size": 202184,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_022_create-train-perspective-1.0.0+mc1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_022_create-train-perspective-1.0.0+mc1.20.1.jar",
                         "MD5": "95c3a135e2ecacdafdffe55d5668bc86"
                     }
                 },
@@ -615,7 +615,7 @@
                     },
                     "artifact": {
                         "size": 625488,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_008_do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_008_do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
                         "MD5": "6abd43d0aed2c1823718e228006669c6"
                     }
                 },
@@ -629,7 +629,7 @@
                     },
                     "artifact": {
                         "size": 133125,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_010_notenoughcrashes-4.4.7+1.20.1-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_010_notenoughcrashes-4.4.7+1.20.1-forge.jar",
                         "MD5": "3ba2ca194082ef73d35b09be4eb3cd2a"
                     }
                 },
@@ -643,7 +643,7 @@
                     },
                     "artifact": {
                         "size": 16521385,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_007_DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_007_DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar",
                         "MD5": "54dad6f74516f0cc4c92bd6f652ac8b0"
                     }
                 },
@@ -653,7 +653,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 4190330,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_006_FramedBlocks-9.3.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_006_FramedBlocks-9.3.1.jar",
                         "MD5": "b367304b99c729d267fc294d014af9c5"
                     }
                 },
@@ -667,7 +667,7 @@
                     },
                     "artifact": {
                         "size": 1871321,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_019_effortless-1.20.1-3.1.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_019_effortless-1.20.1-3.1.0.jar",
                         "MD5": "0b4ab5aa410168e01f57e16d41f676cc"
                     }
                 },
@@ -677,7 +677,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 2854352,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.createdeco-2.0.1-1.20.1-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.createdeco-2.0.1-1.20.1-forge.jar",
                         "MD5": "cb5dd36b4275e360b34f44fd9aebef96"
                     }
                 },
@@ -687,7 +687,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1943183,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.createdieselgenerators-1.20.1-1.2h.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.createdieselgenerators-1.20.1-1.2h.jar",
                         "MD5": "5a40667156fcff4e4e1a54ac4db46900"
                     }
                 },
@@ -697,7 +697,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 246045,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.creategoggles-1.20.1-0.5.5.f-[FORGE].jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.creategoggles-1.20.1-0.5.5.f-[FORGE].jar",
                         "MD5": "3fe392768b4aeae79a231ec631c32153"
                     }
                 },
@@ -707,7 +707,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 325467,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.createutilities-0.2.0+1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.createutilities-0.2.0+1.20.1.jar",
                         "MD5": "28ecea3200e9bcdfd4b4c4a45b9f2b13"
                     }
                 },
@@ -717,7 +717,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 307735,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.curios-forge-5.4.2+1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.curios-forge-5.4.2+1.20.1.jar",
                         "MD5": "6c43b6b10485e95287855c3a20283fa7"
                     }
                 },
@@ -727,7 +727,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 56985,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.elytraslot-forge-6.3.0+1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.elytraslot-forge-6.3.0+1.20.1.jar",
                         "MD5": "3ab79b2737d6da307bdfc2c9891ceb98"
                     }
                 },
@@ -737,7 +737,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 986788,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.embeddium-0.3.7+mc1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.embeddium-0.3.7+mc1.20.1.jar",
                         "MD5": "da7e70bb8c4ddc758531c163e98b2d58"
                     }
                 },
@@ -747,7 +747,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 224151,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.sliceanddice-forge-3.2.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.sliceanddice-forge-3.2.0.jar",
                         "MD5": "35a44bc2f244fdc72f692c0d974ef66f"
                     }
                 },
@@ -757,7 +757,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 6704629,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.Steam_Rails-1.5.3+forge-mc1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.Steam_Rails-1.5.3+forge-mc1.20.1.jar",
                         "MD5": "b92819435eb2bbb44c9418e1b5f247a4"
                     }
                 },
@@ -767,7 +767,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 14831903,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/003.supplementaries-1.20-2.6.19.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/003.supplementaries-1.20-2.6.19.jar",
                         "MD5": "d7b2c5ad68f1a616c3410593d12219f3"
                     }
                 },
@@ -777,7 +777,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 221813,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/004.CLIENT.fusion-1.1.1-forge-mc1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/004.CLIENT.fusion-1.1.1-forge-mc1.20.1.jar",
                         "MD5": "c8cc6729366722da02ea57fd87d7275c"
                     }
                 },
@@ -787,7 +787,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 855665,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.AdvancedPeripherals-1.20.1-0.7.38r.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.BOTH.AdvancedPeripherals-1.20.1-0.7.38r.jar",
                         "MD5": "abae039a35f968b0563b8a346835fd4e"
                     }
                 },
@@ -797,7 +797,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1088112,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.CreativeCore_FORGE_v2.11.24_mc1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.BOTH.CreativeCore_FORGE_v2.11.24_mc1.20.1.jar",
                         "MD5": "e5661a8000a4aeb1a0acaf4b0af47f6b"
                     }
                 },
@@ -807,7 +807,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 262412,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.Emojiful-Forge-1.20.1-4.2.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.BOTH.Emojiful-Forge-1.20.1-4.2.0.jar",
                         "MD5": "0ba360de4747e64c6325b74c0055479a"
                     }
                 },
@@ -817,7 +817,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 680255,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.BOTH.emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
                         "MD5": "636c62379cd7c5201a70fd457808e331"
                     }
                 },
@@ -827,7 +827,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 49751,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.ItemPhysic_FORGE_v1.7.0_mc1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.BOTH.ItemPhysic_FORGE_v1.7.0_mc1.20.1.jar",
                         "MD5": "600ce2addf0a254d039e5c197900e7eb"
                     }
                 },
@@ -837,7 +837,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 918572,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.Kiwi-1.20.1-forge-11.5.5.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.BOTH.Kiwi-1.20.1-forge-11.5.5.jar",
                         "MD5": "5d838e87e279640758a0be7442338469"
                     }
                 },
@@ -847,7 +847,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 181437,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.BOTH.player-animation-lib-forge-1.0.2-rc1+1.20.jar",
                         "MD5": "46f8554181d4d240075ea4919d01fd01"
                     }
                 },
@@ -857,7 +857,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 308593,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.ReSkin-1.20-3.0.1-universal.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.BOTH.ReSkin-1.20-3.0.1-universal.jar",
                         "MD5": "7c3e89283ea8622bc5237b2f777013e1"
                     }
                 },
@@ -867,7 +867,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 48944,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.BOTH.SekCLib-1.20-1.0.2-universal.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.BOTH.SekCLib-1.20-1.0.2-universal.jar",
                         "MD5": "fc6d6c607a4b8aff5760d4e47a762980"
                     }
                 },
@@ -877,7 +877,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 84258834,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.AmbientSounds_FORGE_v5.3.9_mc1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.CLIENT.AmbientSounds_FORGE_v5.3.9_mc1.20.1.jar",
                         "MD5": "fdb5370ea44b15611eb5ee49ca64f60d"
                     }
                 },
@@ -891,7 +891,7 @@
                     },
                     "artifact": {
                         "size": 612804,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.autohud-6.3.4+1.20.1-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.CLIENT.autohud-6.3.4+1.20.1-forge.jar",
                         "MD5": "c21dda497f56f890f19601dbba2343d1"
                     }
                 },
@@ -904,7 +904,7 @@
                     },
                     "artifact": {
                         "size": 198652,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.CLIENT.BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
                         "MD5": "c46dfe2a4b5d302581777c549c389f01"
                     }
                 },
@@ -914,7 +914,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 3482,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.MyServerIsCompatible-1.20-1.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.CLIENT.MyServerIsCompatible-1.20-1.0.jar",
                         "MD5": "61d6f7c70030cbdacbbb0053cf120b79"
                     }
                 },
@@ -928,7 +928,7 @@
                     },
                     "artifact": {
                         "size": 25937,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.Nimble-1.20.1-forge-5.0.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.CLIENT.Nimble-1.20.1-forge-5.0.1.jar",
                         "MD5": "0ed81a0d950c7f2dfcd0587e7ea0bf57"
                     }
                 },
@@ -942,7 +942,7 @@
                     },
                     "artifact": {
                         "size": 265613,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.seriousplayeranimations-1.1.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.CLIENT.seriousplayeranimations-1.1.0.jar",
                         "MD5": "c80569900b79b321ee8407ec24b764a1"
                     }
                 },
@@ -952,7 +952,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 984522,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/005.CLIENT.yet-another-config-lib-forge-3.2.2+1.20.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/005.CLIENT.yet-another-config-lib-forge-3.2.2+1.20.jar",
                         "MD5": "e72feb2f4859acdb40d252c07b24688a"
                     }
                 },
@@ -962,7 +962,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 530405,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/additional_lights-1.20.1-2.1.7.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/additional_lights-1.20.1-2.1.7.jar",
                         "MD5": "2a2661fc9399c3fb4a40fda6e6eec0d1"
                     }
                 },
@@ -972,7 +972,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 36703,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/alternate_current-mc1.20-1.7.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/alternate_current-mc1.20-1.7.0.jar",
                         "MD5": "43d4d8efddfa77a80aa7b1ae1a04ab48"
                     }
                 },
@@ -982,7 +982,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 47447,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.0.jar",
                         "MD5": "e2e1bc69dd56e4945ab47cdb9a92e12b"
                     }
                 },
@@ -992,7 +992,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 580602,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_005_architectury-9.2.14-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_005_architectury-9.2.14-forge.jar",
                         "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
                     }
                 },
@@ -1002,7 +1002,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 513898,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/assortedlib-forge-1.20.1-3.0.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/assortedlib-forge-1.20.1-3.0.1.jar",
                         "MD5": "8638cc36d5dcf79dc78c5bb16a772641"
                     }
                 },
@@ -1012,7 +1012,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1602379,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/assortedstorage-forge-1.20.1-10.0.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/assortedstorage-forge-1.20.1-10.0.1.jar",
                         "MD5": "dff8a241d240538b3dd26da1eb280144"
                     }
                 },
@@ -1022,7 +1022,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 91812,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/athena-forge-1.20.1-3.1.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/athena-forge-1.20.1-3.1.1.jar",
                         "MD5": "4fb97328cba69ed8506b345e66b43a0f"
                     }
                 },
@@ -1032,7 +1032,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 27745,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/AxesAreWeapons-1.7.0-forge-1.19.3.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/AxesAreWeapons-1.7.0-forge-1.19.3.jar",
                         "MD5": "55afd334042978ba809084444f2b32c1"
                     }
                 },
@@ -1042,7 +1042,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 330777,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/balm-forge-1.20-7.0.4.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/balm-forge-1.20-7.0.4.jar",
                         "MD5": "f5eb8f8dc7b257ff17ca8a3fe28bb61e"
                     }
                 },
@@ -1052,7 +1052,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 456795,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/BetterF3-7.0.1-Forge-1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/BetterF3-7.0.1-Forge-1.20.1.jar",
                         "MD5": "59994205b68680095fcc1b9fea447020"
                     }
                 },
@@ -1062,7 +1062,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 528761,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/calcmod-forge-1.20.1-1.3.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/calcmod-forge-1.20.1-1.3.0.jar",
                         "MD5": "472852ffe9b14e38e87111dd056c4834"
                     }
                 },
@@ -1072,7 +1072,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 428448,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/canary-mc1.20(.1)-0.2.6.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/canary-mc1.20(.1)-0.2.6.jar",
                         "MD5": "a13c32c69731a8d07f6764d2a4151d9c"
                     }
                 },
@@ -1082,7 +1082,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 439103,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/carryon-forge-1.20.1-2.1.0.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/carryon-forge-1.20.1-2.1.0.1.jar",
                         "MD5": "422a316778f6a4e031002ba12605e03d"
                     }
                 },
@@ -1092,7 +1092,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 244311,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/catalogue-forge-1.20.1-1.7.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/catalogue-forge-1.20.1-1.7.1.jar",
                         "MD5": "5036bf92c0aadbf05c851121c63ecf8d"
                     }
                 },
@@ -1102,7 +1102,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 3097590,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/cc-tweaked-1.20.1-forge-1.108.4.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/cc-tweaked-1.20.1-forge-1.108.4.jar",
                         "MD5": "6f73df198036c920c1eded57eab4327f"
                     }
                 },
@@ -1112,7 +1112,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 2613393,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
                         "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
                     }
                 },
@@ -1122,7 +1122,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 49230,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/chat_heads-0.10.18-forge-1.20.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/chat_heads-0.10.18-forge-1.20.jar",
                         "MD5": "3375ab694f84b5eca58844d361d9afdf"
                     }
                 },
@@ -1132,7 +1132,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 10078,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/chatcolours-1.19-1.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/chatcolours-1.19-1.0.jar",
                         "MD5": "68321e376752234372cce1171de12f65"
                     }
                 },
@@ -1142,7 +1142,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 20022,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/ClearDespawn-forge-1.20.1-1.1.13.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/ClearDespawn-forge-1.20.1-1.1.13.jar",
                         "MD5": "6065e80e7aae80728b9d6827b3121bdb"
                     }
                 },
@@ -1152,7 +1152,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1168375,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/cloth-config-11.1.106-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/cloth-config-11.1.106-forge.jar",
                         "MD5": "17794d377921e9cd96b30250a7b13156"
                     }
                 },
@@ -1162,7 +1162,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 530909,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/collective-1.20.1-7.3.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/collective-1.20.1-7.3.jar",
                         "MD5": "82fee47565c2947e866347a9d1707ea3"
                     }
                 },
@@ -1172,7 +1172,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 183519,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/craftingtweaks-forge-1.20-18.0.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/craftingtweaks-forge-1.20-18.0.2.jar",
                         "MD5": "69e8547b5a260671c68404fb478f74d6"
                     }
                 },
@@ -1182,7 +1182,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 14964127,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/create-1.20.1-0.5.1.f.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/create-1.20.1-0.5.1.f.jar",
                         "MD5": "6a097aa0bfc73a4f8372a16e763f9f02"
                     }
                 },
@@ -1192,7 +1192,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1511009,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/createaddition-1.20.1-1.2.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/createaddition-1.20.1-1.2.2.jar",
                         "MD5": "98189137b9cc2c51f83a26971e2eb2dc"
                     }
                 },
@@ -1202,7 +1202,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 45633,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/Display%20Case-forge-1.20-1.0.5.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/Display%20Case-forge-1.20-1.0.5.jar",
                         "MD5": "3aaa55508c5b168ab9bf6fa51d758c3d"
                     }
                 },
@@ -1212,7 +1212,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 51453,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/doubledoors-1.20.1-5.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/doubledoors-1.20.1-5.0.jar",
                         "MD5": "178ef3c1cdf0a6e9e68c451a7ef7dd10"
                     }
                 },
@@ -1222,7 +1222,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 45225,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/dynamiclights-1.20.1.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/dynamiclights-1.20.1.0.jar",
                         "MD5": "dd0fef7eedc68506900374adf7f11a41"
                     }
                 },
@@ -1232,7 +1232,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 115947,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/EasyMagic-v8.0.1-1.20.1-Forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/EasyMagic-v8.0.1-1.20.1-Forge.jar",
                         "MD5": "4818f5240dc07c9da2fafe9b1c344305"
                     }
                 },
@@ -1242,7 +1242,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 7729000,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PATCH_002_voicechat-forge-1.20.1-2.5.25.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_002_voicechat-forge-1.20.1-2.5.25.jar",
                         "MD5": "41840cef561b89417a42ac516ab3d3a8"
                     }
                 },
@@ -1252,7 +1252,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 60489,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/entityculling-forge-1.6.2-mc1.20.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/entityculling-forge-1.6.2-mc1.20.jar",
                         "MD5": "70a8664d4f7b153cdc92557d50e6bf35"
                     }
                 },
@@ -1262,7 +1262,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 3202951,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/fantasyfurniture-1.20.1-9.0.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/fantasyfurniture-1.20.1-9.0.0.jar",
                         "MD5": "0712007756c04d20100121c31510d346"
                     }
                 },
@@ -1272,7 +1272,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 2898860,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.3.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.3.jar",
                         "MD5": "3fa71a0df7af96333247851c6e168f9c"
                     }
                 },
@@ -1282,7 +1282,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 125347,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/FpsReducer2-forge-1.20-2.5.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/FpsReducer2-forge-1.20-2.5.jar",
                         "MD5": "667e0ad36f07af69e285d47624b1d084"
                     }
                 },
@@ -1292,7 +1292,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 50658,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/healingcampfire-1.20.1-5.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/healingcampfire-1.20.1-5.1.jar",
                         "MD5": "f76795be87f367032e2bf0f483847e4d"
                     }
                 },
@@ -1302,7 +1302,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 9915642,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/iammusicplayer-forge-mc1.20-3.22.0-alpha.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/iammusicplayer-forge-mc1.20-3.22.0-alpha.2.jar",
                         "MD5": "6fba73745f5c73fb5f627615fba79d6d"
                     }
                 },
@@ -1312,7 +1312,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 4841253,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/immersive_paintings-0.6.7+1.20.1-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/immersive_paintings-0.6.7+1.20.1-forge.jar",
                         "MD5": "e010b70ceecf34f91f223b8981f50f40"
                     }
                 },
@@ -1322,7 +1322,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 43734,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/infinitetrading-1.20.1-4.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/infinitetrading-1.20.1-4.0.jar",
                         "MD5": "0f579e1d35cb0400f372ed4218721ba7"
                     }
                 },
@@ -1332,7 +1332,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1343696,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/InventoryProfilesNext-forge-1.20-1.10.6.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/InventoryProfilesNext-forge-1.20-1.10.6.jar",
                         "MD5": "eb1a6273289ef1a152847dce35302f73"
                     }
                 },
@@ -1342,7 +1342,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 22446,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/inventorytotem-1.20.1-3.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/inventorytotem-1.20.1-3.0.jar",
                         "MD5": "c57f4f39725e61e64155634061528660"
                     }
                 },
@@ -1352,7 +1352,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 218494,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/invhud.forge.1.20-3.4.13.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/invhud.forge.1.20-3.4.13.jar",
                         "MD5": "0258f9f88b7044bf489624cf2283a780"
                     }
                 },
@@ -1362,7 +1362,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 479574,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/Jade-1.20-forge-11.1.4.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/Jade-1.20-forge-11.1.4.jar",
                         "MD5": "60ab1ec7e4d7b13245e139e0314b0eee"
                     }
                 },
@@ -1372,7 +1372,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1112922,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/jei-1.20.1-forge-15.2.0.22.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/jei-1.20.1-forge-15.2.0.22.jar",
                         "MD5": "fbf44cd9b80449ab7bc8fa041e73e33b"
                     }
                 },
@@ -1382,7 +1382,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 7102721,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/journeymap-1.20.1-5.9.12-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/journeymap-1.20.1-5.9.12-forge.jar",
                         "MD5": "2eeacde9ac5caca71c994ecccae28105"
                     }
                 },
@@ -1392,7 +1392,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 7598082,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/kotlinforforge-4.4.0-all.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/kotlinforforge-4.4.0-all.jar",
                         "MD5": "de59abb1cfcf3d07874819e8b888bca0"
                     }
                 },
@@ -1402,7 +1402,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 678877,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/libIPN-forge-1.20-3.0.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/libIPN-forge-1.20-3.0.2.jar",
                         "MD5": "8e90a6dfc9db95e5bde0113c8098ab03"
                     }
                 },
@@ -1412,7 +1412,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 7757,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/LongerChatHistory-1.3-Forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/LongerChatHistory-1.3-Forge.jar",
                         "MD5": "f0a3e89a3e42f1db2ef27e4744c34b0b"
                     }
                 },
@@ -1422,7 +1422,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 745774,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/mcw-bridges-2.1.1-mc1.20.1forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/mcw-bridges-2.1.1-mc1.20.1forge.jar",
                         "MD5": "2fd10e11adaffb31e9b2f0ae9f391dd7"
                     }
                 },
@@ -1432,7 +1432,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 391919,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/mcw-fences-1.0.7-mc1.20.1forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/mcw-fences-1.0.7-mc1.20.1forge.jar",
                         "MD5": "72d46c58d50ed19a58acab42a815ff77"
                     }
                 },
@@ -1442,7 +1442,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 415180,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/mcw-lights-1.0.6-mc1.20.1forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/mcw-lights-1.0.6-mc1.20.1forge.jar",
                         "MD5": "a19a1f72ac7f958f540ef8c71e410336"
                     }
                 },
@@ -1452,7 +1452,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 11694,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/merenc-forge-1.20.x-v3.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/merenc-forge-1.20.x-v3.2.jar",
                         "MD5": "7bfcc2b1243e4c7ca0a60230d32b5e1a"
                     }
                 },
@@ -1462,7 +1462,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1109166,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/moonlight-1.20-2.8.56-forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/moonlight-1.20-2.8.56-forge.jar",
                         "MD5": "738d01da15fcd367764879a740ce6c90"
                     }
                 },
@@ -1472,7 +1472,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 756905,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/morered-1.20.1-4.0.0.4.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/morered-1.20.1-4.0.0.4.jar",
                         "MD5": "ea6af92f666cdff46a0a22ea68aa532f"
                     }
                 },
@@ -1482,7 +1482,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 9388,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/MoreRed-CCT-Compat-1.20.1-1.0.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/MoreRed-CCT-Compat-1.20.1-1.0.0.jar",
                         "MD5": "6e31e60032216fe7bb015026c1c0be5a"
                     }
                 },
@@ -1492,7 +1492,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 272740,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/NoChatReports-FORGE-1.20.1-v2.2.2.jar",
                         "MD5": "3153d1e860c6fefe6dac26efdb5c40c6"
                     }
                 },
@@ -1502,7 +1502,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 2806358,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.15a.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.15a.jar",
                         "MD5": "b6d1e02b5fccf72570fa19606006d711"
                     }
                 },
@@ -1512,7 +1512,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 655951,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/otyacraftengine-forge-mc1.20-3.7.0-alpha.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/otyacraftengine-forge-mc1.20-3.7.0-alpha.2.jar",
                         "MD5": "9e7104fba0208a364b159aff60fb47f3"
                     }
                 },
@@ -1522,7 +1522,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 102164,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
                         "MD5": "c1004011e796ef62010dcb03e9597cdc"
                     }
                 },
@@ -1532,7 +1532,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 297448,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/polymorph-forge-0.49.0+1.20.1.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/polymorph-forge-0.49.0+1.20.1.jar",
                         "MD5": "bf22dcae0b8799e0475281dbb3b26165"
                     }
                 },
@@ -1542,7 +1542,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 670937,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/PuzzlesLib-v8.0.7-1.20.1-Forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PuzzlesLib-v8.0.7-1.20.1-Forge.jar",
                         "MD5": "81d4d281abf7a4e927245bdddd2371e4"
                     }
                 },
@@ -1552,7 +1552,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 786298,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.18.54.870.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.18.54.870.jar",
                         "MD5": "738a039e233c1cd4082e45e5375a26b2"
                     }
                 },
@@ -1562,7 +1562,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 978229,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/sophisticatedcore-1.20.1-0.5.77.347.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/sophisticatedcore-1.20.1-0.5.77.347.jar",
                         "MD5": "df1f8d435ad8af5ce2307cbd4bf2c52e"
                     }
                 },
@@ -1572,7 +1572,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 34660,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/stackrefill-1.20.1-4.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/stackrefill-1.20.1-4.0.jar",
                         "MD5": "7c8e77fcb2ea9e753d5cf1207e355ed5"
                     }
                 },
@@ -1582,7 +1582,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 14757,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/TaxFreeLevels-1.3.6-forge-1.20.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/TaxFreeLevels-1.3.6-forge-1.20.2.jar",
                         "MD5": "f2731cb2661785368bdbb26a932e3d37"
                     }
                 },
@@ -1592,7 +1592,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 38508,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/togenc-forge-1.20.x-v1.0.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/togenc-forge-1.20.x-v1.0.jar",
                         "MD5": "f196cd61c5156f637556e319cfa8151b"
                     }
                 },
@@ -1602,7 +1602,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 504999,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/toms_storage-1.20-1.6.4.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/toms_storage-1.20-1.6.4.jar",
                         "MD5": "054f9a072ea3505db17085d083e21093"
                     }
                 },
@@ -1612,7 +1612,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 26606,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/vanillazoom-1.20.1-2.2.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/vanillazoom-1.20.1-2.2.jar",
                         "MD5": "44c6cb759f2a69de762a624316e4d29d"
                     }
                 },
@@ -1622,7 +1622,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 82055,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/forgemods/required/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
                         "MD5": "d741bc2d4d3a385116d094b874474a6b"
                     }
                 },
@@ -1632,7 +1632,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 725,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/InventoryHUD/curios.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/InventoryHUD/curios.json",
                         "MD5": "ff9aea298edd3d238ef031a18831f425",
                         "path": "config/InventoryHUD/curios.json"
                     }
@@ -1643,7 +1643,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 2414,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/autohud.json5",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/autohud.json5",
                         "MD5": "c40274f12d63e108b9ebf89415ca224f",
                         "path": "config/autohud.json5"
                     }
@@ -1654,7 +1654,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 809,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/emojiful-client.toml",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/emojiful-client.toml",
                         "MD5": "4db67547cca1f3fb00fcbeac821704ff",
                         "path": "config/emojiful-client.toml"
                     }
@@ -1665,7 +1665,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1075,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/emotecraft.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/emotecraft.json",
                         "MD5": "828621c55fbed237c7a23a9205c8c887",
                         "path": "config/emotecraft.json"
                     }
@@ -1676,7 +1676,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 117,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/emotecraft_emote_map.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/emotecraft_emote_map.json",
                         "MD5": "fdcffe9e7eaa4949ee1d33d613a7c2eb",
                         "path": "config/emotecraft_emote_map.json"
                     }
@@ -1687,7 +1687,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 4955,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryhud-client.toml",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/inventoryhud-client.toml",
                         "MD5": "cb04ffa91b491b5c9ba0946865cf8aec",
                         "path": "config/inventoryhud-client.toml"
                     }
@@ -1698,7 +1698,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1582,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryprofilesnext/CREATE/villager-trading-config.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/inventoryprofilesnext/CREATE/villager-trading-config.json",
                         "MD5": "a9de145dfedbe379ada72b5beaf621f7",
                         "path": "config/inventoryprofilesnext/CREATE/villager-trading-config.json"
                     }
@@ -1709,7 +1709,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1450,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
                         "MD5": "1a018549a3d0f945870f75056ce7e5eb",
                         "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
                     }
@@ -1720,7 +1720,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1431,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryprofilesnext/inventoryprofiles.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/inventoryprofilesnext/inventoryprofiles.json",
                         "MD5": "44f83f23bdeceecee01afdc7413d7dc6",
                         "path": "config/inventoryprofilesnext/inventoryprofiles.json"
                     }
@@ -1731,7 +1731,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1582,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/inventoryprofilesnext/villager-trading-config.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/inventoryprofilesnext/villager-trading-config.json",
                         "MD5": "a9de145dfedbe379ada72b5beaf621f7",
                         "path": "config/inventoryprofilesnext/villager-trading-config.json"
                     }
@@ -1742,7 +1742,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 207,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/hide-blocks.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/jade/hide-blocks.json",
                         "MD5": "96a520226b75288fb7bcacc90ef64579",
                         "path": "config/jade/hide-blocks.json"
                     }
@@ -1753,7 +1753,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 309,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/hide-entities.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/jade/hide-entities.json",
                         "MD5": "352007cefa34b15aa3f1068475ec87cc",
                         "path": "config/jade/hide-entities.json"
                     }
@@ -1764,7 +1764,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1904,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/jade.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/jade/jade.json",
                         "MD5": "79870eb11cb4ec66ce3da0e5883353ec",
                         "path": "config/jade/jade.json"
                     }
@@ -1775,7 +1775,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1635,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/plugins.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/jade/plugins.json",
                         "MD5": "9e820cabd04ecf17c2a0ea0ae2d8b053",
                         "path": "config/jade/plugins.json"
                     }
@@ -1786,7 +1786,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 2844,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/jade/sort-order.json",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/jade/sort-order.json",
                         "MD5": "e826fafe25acbcad9aa0a4fb868e5487",
                         "path": "config/jade/sort-order.json"
                     }
@@ -1797,7 +1797,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 278,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/config/nimble-client.yaml",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/nimble-client.yaml",
                         "MD5": "76a0d12e7edd4f85e5d4472d43a5e82c",
                         "path": "config/nimble-client.yaml"
                     }
@@ -1808,7 +1808,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1864,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.core.config",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.core.config",
                         "MD5": "3470a5589ccb676f501dd1bd6e8d9acf",
                         "path": "journeymap/config/5.9/journeymap.core.config"
                     }
@@ -1819,7 +1819,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 886,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.fullmap.config",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.fullmap.config",
                         "MD5": "cdc959db9fd6a6b85851a95c6bc292a9",
                         "path": "journeymap/config/5.9/journeymap.fullmap.config"
                     }
@@ -1830,7 +1830,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1662,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.minimap.config",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.minimap.config",
                         "MD5": "872ed860594981dd8a558a8e01991209",
                         "path": "journeymap/config/5.9/journeymap.minimap.config"
                     }
@@ -1841,7 +1841,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1661,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.minimap2.config",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.minimap2.config",
                         "MD5": "cee776b3e78b5c837f8c8459a3fb8f80",
                         "path": "journeymap/config/5.9/journeymap.minimap2.config"
                     }
@@ -1852,7 +1852,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 962,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.topo.config",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.topo.config",
                         "MD5": "7112eabdcac3cff0f73023334876bde1",
                         "path": "journeymap/config/5.9/journeymap.topo.config"
                     }
@@ -1863,7 +1863,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 893,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.waypoint.config",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.waypoint.config",
                         "MD5": "9a103772c417d2cabf747ada779b5e4f",
                         "path": "journeymap/config/5.9/journeymap.waypoint.config"
                     }
@@ -1874,7 +1874,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 152,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.webmap.config",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/journeymap/config/5.9/journeymap.webmap.config",
                         "MD5": "8ab08d9d73762ba7d119ed6f1191ce08",
                         "path": "journeymap/config/5.9/journeymap.webmap.config"
                     }
@@ -1885,7 +1885,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 10481,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/options.txt",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/options.txt",
                         "MD5": "204c43d5dca9d566a8969052dab09669",
                         "path": "options.txt"
                     }
@@ -1896,7 +1896,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 232010,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/1.20%20Create%20Computers%201.2.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/1.20%20Create%20Computers%201.2.zip",
                         "MD5": "04afd4fbca969c34ef1816b1a223511b",
                         "path": "resourcepacks/1.20 Create Computers 1.2.zip"
                     }
@@ -1907,7 +1907,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 133181,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip",
                         "MD5": "a6af7ff937c6d3ca755749493eae8cdf",
                         "path": "resourcepacks/Midnighttiggers-CTM-Default_1.20.2_V2.zip"
                     }
@@ -1918,7 +1918,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 229463,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/resourcepacks/SimpleHotbar.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/SimpleHotbar.zip",
                         "MD5": "14a846bef648ff1ec7534b1bd8bc287c",
                         "path": "resourcepacks/SimpleHotbar.zip"
                     }
@@ -1929,7 +1929,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 129,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/servers.dat",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/servers.dat",
                         "MD5": "028c3ef8b9d60de944f31badca2f7985",
                         "path": "servers.dat"
                     }
@@ -1940,7 +1940,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 409711,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20102]%20[All]%20Complementary%20Reimagined.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20102]%20[All]%20Complementary%20Reimagined.zip",
                         "MD5": "1ec0f14ed6fd8567c23249abe50513c9",
                         "path": "shaderpacks/[Heavy 102] [All] Complementary Reimagined.zip"
                     }
@@ -1951,7 +1951,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 9981215,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20102]%20[All]%20Shrimple.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20102]%20[All]%20Shrimple.zip",
                         "MD5": "aade7e7e116fab6c4928d7f70a42b436",
                         "path": "shaderpacks/[Heavy 102] [All] Shrimple.zip"
                     }
@@ -1962,7 +1962,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 438527,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20105]%20[All]%20VanillaPlus.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20105]%20[All]%20VanillaPlus.zip",
                         "MD5": "9e4ae13c6fc67557df80642285769ece",
                         "path": "shaderpacks/[Heavy 105] [All] VanillaPlus.zip"
                     }
@@ -1973,7 +1973,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1669167,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20112]%20[All]%20Bliss.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20112]%20[All]%20Bliss.zip",
                         "MD5": "fb757db17e378d3174611d4d0698280d",
                         "path": "shaderpacks/[Heavy 112] [All] Bliss.zip"
                     }
@@ -1984,7 +1984,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1669167,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20112]%20[All]%20Bliss%20Distant%20Horizons.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Heavy%20112]%20[All]%20Bliss%20Distant%20Horizons.zip",
                         "MD5": "fb757db17e378d3174611d4d0698280d",
                         "path": "shaderpacks/[Heavy 112] [All] Bliss Distant Horizons.zip"
                     }
@@ -1995,7 +1995,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 7062638,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%2082]%20[All]%20SEUS%20Renewed.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Heavy%2082]%20[All]%20SEUS%20Renewed.zip",
                         "MD5": "8faeb04d9953c9b10b0794acafc4c1aa",
                         "path": "shaderpacks/[Heavy 82] [All] SEUS Renewed.zip"
                     }
@@ -2006,7 +2006,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 1103383,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%2085]%20[All]%20FastPBR.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Heavy%2085]%20[All]%20FastPBR.zip",
                         "MD5": "e1dfee420fabdd943af788d3855e194e",
                         "path": "shaderpacks/[Heavy 85] [All] FastPBR.zip"
                     }
@@ -2017,7 +2017,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 3456306,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Heavy%2095]%20[All]%20Complementary.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Heavy%2095]%20[All]%20Complementary.zip",
                         "MD5": "9eab6a42fd4c81b8e0837aacab3f0435",
                         "path": "shaderpacks/[Heavy 95] [All] Complementary.zip"
                     }
@@ -2028,7 +2028,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 18093007,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Light%20177]%20[Intel]%20Chronos.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Light%20177]%20[Intel]%20Chronos.zip",
                         "MD5": "909aeaf877dfe61a4f2f3a539e021637",
                         "path": "shaderpacks/[Light 177] [Intel] Chronos.zip"
                     }
@@ -2039,7 +2039,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 166096,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Light%20230]%20[Nvidia]%20Tea.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Light%20230]%20[Nvidia]%20Tea.zip",
                         "MD5": "fbbd7457f392aa657cd97a449bb57f25",
                         "path": "shaderpacks/[Light 230] [Nvidia] Tea.zip"
                     }
@@ -2050,7 +2050,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 18544,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Light%20285]%20[All]%20Cyanide.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Light%20285]%20[All]%20Cyanide.zip",
                         "MD5": "c6d1626d7345dea75f4f26f98c643208",
                         "path": "shaderpacks/[Light 285] [All] Cyanide.zip"
                     }
@@ -2061,7 +2061,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 2482875,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Medium%20147]%20[All]%20SuperDuperVanilla.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Medium%20147]%20[All]%20SuperDuperVanilla.zip",
                         "MD5": "4ea583d43ebfe5712b441d37062f973e",
                         "path": "shaderpacks/[Medium 147] [All] SuperDuperVanilla.zip"
                     }
@@ -2072,7 +2072,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 90938,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Medium%20152]%20[All]%20Simplicissimus.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Medium%20152]%20[All]%20Simplicissimus.zip",
                         "MD5": "c70e0e442863d6ab8700f99814560a5b",
                         "path": "shaderpacks/[Medium 152] [All] Simplicissimus.zip"
                     }
@@ -2083,7 +2083,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 390552,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Medium%20187]%20[All]%20Potato.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Medium%20187]%20[All]%20Potato.zip",
                         "MD5": "1a31d59c5980154a3ef81f2d1a92ee5d",
                         "path": "shaderpacks/[Medium 187] [All] Potato.zip"
                     }
@@ -2094,7 +2094,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 361612,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Ultra-Heavy%2030]%20[All]%20Rethinking%20Voxels.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Ultra-Heavy%2030]%20[All]%20Rethinking%20Voxels.zip",
                         "MD5": "5a9650c5022e53ce3fa75607b4d548cc",
                         "path": "shaderpacks/[Ultra-Heavy 30] [All] Rethinking Voxels.zip"
                     }
@@ -2105,7 +2105,7 @@
                     "type": "File",
                     "artifact": {
                         "size": 196654,
-                        "url": "https://downloads.over.red/servers/test-1.20.1/files/shaderpacks/[Ultra-Heavy%2057]%20[All]%20RedHat.zip",
+                        "url": "http://mnc.red/servers/test-1.20.1/files/shaderpacks/[Ultra-Heavy%2057]%20[All]%20RedHat.zip",
                         "MD5": "7100157d179f268fee9f7a2b6b5d11a0",
                         "path": "shaderpacks/[Ultra-Heavy 57] [All] RedHat.zip"
                     }
