@@ -519,7 +519,7 @@
                         "MD5": "fc477f3364e0e6096f8619f610c94e17"
                     }
                 },
-                
+
                 {
                     "id": "org.antarcticgardens.newage:create_new_age:1.1.2@jar",
                     "name": "Create: New Age",
@@ -578,6 +578,16 @@
                         "size": 2439693,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_021_design_decor-0.4.0b-1.20.1.jar",
                         "MD5": "0448b0a460b69c9f1bed3c0da9aa73c1"
+                    }
+                },
+                {
+                    "id": "com.automobility:automobility:0.4.2@jar",
+                    "name": "Automobility",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1054094,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_031_automobility-0.4.2+1.20.1-forge.jar",
+                        "MD5": "fb16b053cc0eda55bb287c1aa926dcb5"
                     }
                 },
 
