@@ -601,6 +601,16 @@
                     }
                 },
 
+                {
+                    "id": "com.queencats:queencats:1.0.6@jar",
+                    "name": "Queen Cats & Dogs",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1265095,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_032_queencats-1.0.6-1.20.1-Forge.jar",
+                        "MD5": "58eec58445ed64a8528fbad4e138dad5"
+                    }
+                },
 
                 {
                     "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
