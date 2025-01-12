@@ -520,16 +520,6 @@
                     }
                 },
                 {
-                    "id": "net.rusticengineers:rusticengineers:1.0.6@jar",
-                    "name": "Rustic Engineers",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 3180067,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_030_rustic_engineer-1.20.1-1.0.6.jar",
-                        "MD5": "86ad1118199193e4d65e4227dd26a835"
-                    }
-                },
-                {
                     "id": "org.antarcticgardens.newage:create_new_age:1.1.2@jar",
                     "name": "Create: New Age",
                     "type": "ForgeMod",
