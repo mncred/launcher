@@ -611,6 +611,16 @@
                         "MD5": "c52bf453f18b87f43cae36acf628eb60"
                     }
                 },
+                {
+                    "id": "com.immersiveaircraft:immersiveaircraft:1.1.8@jar",
+                    "name": "Immersive Aircraft",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2175827,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_032_immersive_aircraft-1.1.8+1.20.1-forge.jar",
+                        "MD5": "5ca2496630aa98a29d79bb5068c01369"
+                    }
+                },
 
 
                 {
