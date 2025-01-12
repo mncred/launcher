@@ -600,6 +600,16 @@
                         "MD5": "11a97dc9e22c79724b82baf209ba74cd"
                     }
                 },
+                {
+                    "id": "com.remorphed:remorphed:4.2@jar",
+                    "name": "Remorphed",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 93741,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_032_remorphed-4.2.jar",
+                        "MD5": "eb0764621a6a0e2a55e967f4be3b52a0"
+                    }
+                },
 
                 {
                     "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
