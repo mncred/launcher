@@ -590,6 +590,16 @@
                         "MD5": "fb16b053cc0eda55bb287c1aa926dcb5"
                     }
                 },
+                {
+                    "id": "com.joyofpainting:joyofpainting:1.0.1@jar",
+                    "name": "Joy of Painting",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 400817,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_032_xercapaint-1.20.1-1.0.1.jar",
+                        "MD5": "11a97dc9e22c79724b82baf209ba74cd"
+                    }
+                },
 
                 {
                     "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
