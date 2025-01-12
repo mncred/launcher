@@ -580,16 +580,6 @@
                     }
                 },
                 {
-                    "id": "com.chessgo:chessgo:2.2@jar",
-                    "name": "Chess Go",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 10248706,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_030_chessgo-1.20.1-2.2.jar",
-                        "MD5": "501dd3d9c0211f59bdbfba4ecc6a5e99"
-                    }
-                },
-                {
                     "id": "com.designanddeco:designanddeco:0.4.0b@jar",
                     "name": "Create: Design n' Decor",
                     "type": "ForgeMod",
