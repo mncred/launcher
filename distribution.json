@@ -601,6 +601,17 @@
                     }
                 },
 
+                {
+                    "id": "com.smallships:smallships:2.0.0-b1.4@jar",
+                    "name": "Small Ships",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1816687,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_032_smallships-forge-1.20.1-2.0.0-b1.4.jar",
+                        "MD5": "c52bf453f18b87f43cae36acf628eb60"
+                    }
+                },
+
 
                 {
                     "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
