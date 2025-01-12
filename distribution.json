@@ -520,16 +520,6 @@
                     }
                 },
                 {
-                    "id": "scholar:scholar:1.0.0@jar",
-                    "name": "Scholar",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 198940,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_027_scholar-1.20.1-1.0.0-forge.jar",
-                        "MD5": "f00b081f8d22a69e1ad67fd16a146679"
-                    }
-                },
-                {
                     "id": "org.antarcticgardens.newage:create_new_age:1.1.2@jar",
                     "name": "Create: New Age",
                     "type": "ForgeMod",
