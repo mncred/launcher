@@ -642,6 +642,16 @@
                         "MD5": "1b6b6ccc60c5a6ef2c232553f8a060f4"
                     }
                 },
+                {
+                    "id": "com.justenoughguns:justenoughguns:0.11.0@jar",
+                    "name": "Just Enough Guns",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 8203393,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_033_JustEnoughGuns-0.11.0-1.20.1.jar",
+                        "MD5": "023c17a7450e526a171fecef179aa34f"
+                    }
+                },
 
 
                 {
