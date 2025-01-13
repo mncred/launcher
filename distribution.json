@@ -622,6 +622,17 @@
                     }
                 },
 
+                {
+                    "id": "com.geckolib:geckolib:4.7@jar",
+                    "name": "GeckoLib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1004042,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_035_geckolib-forge-1.20.1-4.7.jar",
+                        "MD5": "96dddfb78d375bdd330ae1577ee28bfe"
+                    }
+                },
+
 
                 {
                     "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
