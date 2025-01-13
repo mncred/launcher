@@ -652,6 +652,16 @@
                         "MD5": "023c17a7450e526a171fecef179aa34f"
                     }
                 },
+                {
+                    "id": "com.mteg:mteg:0.11.0@jar",
+                    "name": "Mo' Than Enough Guns",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2014105,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_035_M'TEG-1.1.0-1.20.1.jar",
+                        "MD5": "03b5cbe247c590fced0d5dcc03d575b6"
+                    }
+                },
 
 
                 {
