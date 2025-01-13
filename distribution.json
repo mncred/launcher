@@ -662,6 +662,16 @@
                         "MD5": "03b5cbe247c590fced0d5dcc03d575b6"
                     }
                 },
+                {
+                    "id": "com.aurorasarsenal:aurorasarsenal:1.0.0@jar",
+                    "name": "Aurora's Arsenal",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1585834,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_035_Aurora's-Arsenal-1.0.0-1.20.1.jar",
+                        "MD5": "a3b29fc86bbb9257ff19028563d7308e"
+                    }
+                },
 
 
                 {
