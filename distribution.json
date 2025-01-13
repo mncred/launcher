@@ -672,6 +672,16 @@
                         "MD5": "a3b29fc86bbb9257ff19028563d7308e"
                     }
                 },
+                {
+                    "id": "com.manofmanyplanes:manofmanyplanes:0.2.0@jar",
+                    "name": "Man of Many Planes",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 309137,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_036_man_of_many_planes-0.2.0+1.20.1-forge.jar",
+                        "MD5": "513ceaf49ede4812691e6e80fb4cbdee"
+                    }
+                },
 
 
                 {
