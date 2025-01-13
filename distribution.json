@@ -632,6 +632,16 @@
                         "MD5": "96dddfb78d375bdd330ae1577ee28bfe"
                     }
                 },
+                {
+                    "id": "com.framework:framework:0.7.12@jar",
+                    "name": "Framework",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 308420,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_034_framework-forge-1.20.1-0.7.12.jar",
+                        "MD5": "1b6b6ccc60c5a6ef2c232553f8a060f4"
+                    }
+                },
 
 
                 {
