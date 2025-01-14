@@ -644,17 +644,6 @@
                 },
 
                 {
-                    "id": "com.quickerconnectbutton:quickerconnectbutton:1.0.1@jar",
-                    "name": "Quicker Connect Button",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 29215,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_039_Quicker Connect Button-forge-1.20.1-1.0.1.jar",
-                        "MD5": "25884eb56f790d6623edb45ef2e6e7b9"
-                    }
-                },
-
-                {
                     "id": "com.geckolib:geckolib:4.7@jar",
                     "name": "GeckoLib",
                     "type": "ForgeMod",
