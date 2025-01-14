@@ -705,6 +705,17 @@
                 },
 
                 {
+                    "id": "com.macawsholiday:macawsholiday:1.1.0@jar",
+                    "name": "Macaw's Holidays",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1028361,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_040_mcw-holidays-1.1.0-mc1.20.1forge.jar",
+                        "MD5": "e6c090d8820739a89f117014b7fafb32"
+                    }
+                },
+
+                {
                     "id": "com.cmdcam:cmdcam:2.2.0@jar",
                     "name": "CMDCam - Позволяет устанавливать контрольные точки и создавать анимации камеры",
                     "type": "ForgeMod",
