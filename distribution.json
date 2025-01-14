@@ -683,27 +683,6 @@
                     }
                 },
 
-                {
-                    "id": "com.cameraanim:cameraanim:1.1.0@jar",
-                    "name": "Camera Anim",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 188959,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_037_camera_anim-forge-1.20.1-1.1.0.jar",
-                        "MD5": "8121b98c15a9a8d119a3ced5fcbaecb5"
-                    }
-                },
-                {
-                    "id": "com.freecameraapi:freecameraapi:2.1.1@jar",
-                    "name": "Free Camera API",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1015884,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_037_freecameraapi-forge-1.20.1-2.1.1.jar",
-                        "MD5": "6e50bd8f34b5dd18a05246cd7f9ceba0"
-                    }
-                },
-
 
                 {
                     "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
