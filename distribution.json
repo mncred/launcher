@@ -1912,6 +1912,17 @@
                     }
                 },
                 {
+                    "id": "create_jetpack-client.toml",
+                    "name": "create_jetpack-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 287,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/create_jetpack-client.toml",
+                        "MD5": "6655d83fab720f7ee4a4945739afede2",
+                        "path": "config/create_jetpack-client.toml"
+                    }
+                },
+                {
                     "id": "journeymap.core.config",
                     "name": "journeymap.core.config",
                     "type": "File",
