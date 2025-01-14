@@ -685,8 +685,12 @@
 
                 {
                     "id": "com.cmdcam:cmdcam:2.2.0@jar",
-                    "name": "CMDCam",
+                    "name": "CMDCam - Позволяет устанавливать контрольные точки и создавать анимации камеры",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 138723,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_038_CMDCam_FORGE_v2.2.0_mc1.20.1.jar",
