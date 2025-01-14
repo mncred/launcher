@@ -683,6 +683,17 @@
                     }
                 },
 
+                {
+                    "id": "com.cmdcam:cmdcam:2.2.0@jar",
+                    "name": "CMDCam",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 138723,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_038_CMDCam_FORGE_v2.2.0_mc1.20.1.jar",
+                        "MD5": "36d088e72de13edc3d32aea6c5840d68"
+                    }
+                },
+
 
                 {
                     "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
