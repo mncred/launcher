@@ -648,9 +648,9 @@
                     "name": "Fancy Menu",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 2897882,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_038_fancymenu_forge_3.3.2_MC_1.20.1.jar",
-                        "MD5": "a362aedda7626827587c445d2e28d3f5"
+                        "size": 2897660,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_038_fancymenu_forge_3.3.1_MC_1.20.1.jar",
+                        "MD5": "850565241f9115975bee940b64a15597"
                     }
                 },
                 {
