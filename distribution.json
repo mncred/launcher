@@ -741,6 +741,17 @@
                     }
                 },
 
+                {
+                    "id": "com.moderndecorations:moderndecorations:2.1.13@jar",
+                    "name": "Modern Decorations Mod",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 949215,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_043_mdm-2.1.13-forge-1.20.1.jar",
+                        "MD5": "089bdc5576c2f66a6f49112c337e1826"
+                    }
+                },
+
 
                 {
                     "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
