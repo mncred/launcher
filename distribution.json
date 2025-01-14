@@ -644,37 +644,6 @@
                 },
 
                 {
-                    "id": "com.fancymenu:fancymenu:3.3.2@jar",
-                    "name": "Fancy Menu",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2897660,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_038_fancymenu_forge_3.3.1_MC_1.20.1.jar",
-                        "MD5": "850565241f9115975bee940b64a15597"
-                    }
-                },
-                {
-                    "id": "com.konkrete:konkrete:1.8.0@jar",
-                    "name": "Konkrete",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 625185,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_038_konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-                        "MD5": "d69107c593e361e1b7b96733250bd098"
-                    }
-                },
-                {
-                    "id": "com.melody:melody:1.0.3@jar",
-                    "name": "Melody",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 37178,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_038_melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-                        "MD5": "6b528d368f7fcbf737df28f2457cdec6"
-                    }
-                },
-
-                {
                     "id": "com.geckolib:geckolib:4.7@jar",
                     "name": "GeckoLib",
                     "type": "ForgeMod",
