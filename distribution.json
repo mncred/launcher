@@ -623,6 +623,27 @@
                 },
 
                 {
+                    "id": "com.prometheus:prometheus:1.2.5@jar",
+                    "name": "Prometheus",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 818179,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_037_prometheus-forge-1.20.1-1.2.5.jar",
+                        "MD5": "201329622bd0a4ff293490a489f2e9ba"
+                    }
+                },
+                {
+                    "id": "com.resourcefullib:resourcefullib:2.1.29@jar",
+                    "name": "Resourcefulllib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 432753,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_037_resourcefullib-forge-1.20.1-2.1.29.jar",
+                        "MD5": "a040c6cc86f653fddf280ff3af9068f0"
+                    }
+                },
+
+                {
                     "id": "com.geckolib:geckolib:4.7@jar",
                     "name": "GeckoLib",
                     "type": "ForgeMod",
