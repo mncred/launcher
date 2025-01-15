@@ -762,21 +762,6 @@
                     }
                 },
 
-                {
-                    "id": "com.trafficcraft:trafficcraft:1.1.3@jar",
-                    "name": "Traffic Craft - PATCH 041",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 6030955,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_041_trafficcraft-forge-1.20.1-1.1.3.jar",
-                        "MD5": "a5e14b4f4e35af9e1f6511d8e045b37e"
-                    }
-                },
-
 
                 {
                     "id": "com.createtrainperspective:createtrainperspective:1.0.0@jar",
