@@ -1652,6 +1652,10 @@
                     "id": "net.coderbot.iris:oculus:1.6.15a@jar",
                     "name": "Oculus",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
                     "artifact": {
                         "size": 2806358,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.15a.jar",
