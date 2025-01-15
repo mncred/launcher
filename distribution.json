@@ -2087,6 +2087,17 @@
                         "path": "resourcepacks/§6Leader of the Pack v1.0.zip"
                     }
                 },
+                {
+                    "id": "3D Buckets and Fish 1.20.1.zip",
+                    "name": "3D Buckets and Fish 1.20.1.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 93081,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/3D Buckets and Fish 1.20.1.zip",
+                        "MD5": "3e3b76333cc1ea88a270d3002107cfb0",
+                        "path": "resourcepacks/3D Buckets and Fish 1.20.1.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
