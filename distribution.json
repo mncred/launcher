@@ -1481,6 +1481,17 @@
                 },
 
                 {
+                    "id": "com.nofog:nofog:1.3.6@jar",
+                    "name": "No Fog",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 58748,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_048_NoFog-1.3.6+1.20.1-forge.jar",
+                        "MD5": "73bd7e8d20d27749fd002c2b2be35ea5"
+                    }
+                },
+
+                {
                     "id": "com.terrablender:terrablender:3.0.1.7@jar",
                     "name": "TerraBlender",
                     "type": "ForgeMod",
