@@ -2219,6 +2219,17 @@
                         "path": "resourcepacks/XPlus Font Pack v1.1.1.zip"
                     }
                 },
+                {
+                    "id": "BVBoverlaysV6.zip",
+                    "name": "BVBoverlaysV6.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 229204,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/BVBoverlaysV6.zip",
+                        "MD5": "ecf6fa675ecf65675c1a3c1e8d8d04de",
+                        "path": "resourcepacks/BVBoverlaysV6.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
