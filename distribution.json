@@ -2307,6 +2307,17 @@
                         "path": "resourcepacks/§9RAY's §f3D §6Ladders§8§o§k.zip"
                     }
                 },
+                {
+                    "id": "Simple Grass Flowers v1.9.3.zip",
+                    "name": "Simple Grass Flowers v1.9.3.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 78985,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Simple Grass Flowers v1.9.3.zip",
+                        "MD5": "3e523cb57bc2b9c8027d309f1d7c71cc",
+                        "path": "resourcepacks/Simple Grass Flowers v1.9.3.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
