@@ -2047,9 +2047,9 @@
                     "name": "options.txt",
                     "type": "File",
                     "artifact": {
-                        "size": 10481,
+                        "size": 11080,
                         "url": "http://mnc.red/servers/test-1.20.1/files/options.txt",
-                        "MD5": "204c43d5dca9d566a8969052dab09669",
+                        "MD5": "bd607f66962d3e7659cb87bbe66d53f2",
                         "path": "options.txt"
                     }
                 },        
