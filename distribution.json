@@ -592,8 +592,12 @@
                 },
                 {
                     "id": "com.joyofpainting:joyofpainting:1.0.1@jar",
-                    "name": "Joy of Painting",
+                    "name": "Joy of Painting - PATCH 032",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 400817,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_032_xercapaint-1.20.1-1.0.1.jar",
@@ -603,8 +607,12 @@
 
                 {
                     "id": "com.smallships:smallships:2.0.0-b1.4@jar",
-                    "name": "Small Ships",
+                    "name": "Small Ships - PATCH 032",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 1816687,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_032_smallships-forge-1.20.1-2.0.0-b1.4.jar",
@@ -613,8 +621,12 @@
                 },
                 {
                     "id": "com.immersiveaircraft:immersiveaircraft:1.1.8@jar",
-                    "name": "Immersive Aircraft",
+                    "name": "Immersive Aircraft - PATCH 032",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 2175827,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_032_immersive_aircraft-1.1.8+1.20.1-forge.jar",
@@ -665,8 +677,12 @@
                 },
                 {
                     "id": "com.justenoughguns:justenoughguns:0.11.0@jar",
-                    "name": "Just Enough Guns",
+                    "name": "Just Enough Guns - PATCH 033",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 8203393,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_033_JustEnoughGuns-0.11.0-1.20.1.jar",
@@ -675,8 +691,12 @@
                 },
                 {
                     "id": "com.mteg:mteg:1.1.0@jar",
-                    "name": "Mo' Than Enough Guns",
+                    "name": "Mo' Than Enough Guns - PATCH 035",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 2014105,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_035_M'TEG-1.1.0-1.20.1.jar",
@@ -685,8 +705,12 @@
                 },
                 {
                     "id": "com.aurorasarsenal:aurorasarsenal:1.0.0@jar",
-                    "name": "Aurora's Arsenal",
+                    "name": "Aurora's Arsenal - PATCH 035",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 1585834,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_035_Aurora's-Arsenal-1.0.0-1.20.1.jar",
@@ -695,8 +719,12 @@
                 },
                 {
                     "id": "com.manofmanyplanes:manofmanyplanes:0.2.0@jar",
-                    "name": "Man of Many Planes",
+                    "name": "Man of Many Planes - PATCH 036",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 309137,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_036_man_of_many_planes-0.2.0+1.20.1-forge.jar",
@@ -706,8 +734,12 @@
 
                 {
                     "id": "com.macawsholiday:macawsholiday:1.1.0@jar",
-                    "name": "Macaw's Holidays",
+                    "name": "Macaw's Holidays - PATCH 040",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 1028361,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_040_mcw-holidays-1.1.0-mc1.20.1forge.jar",
@@ -732,8 +764,12 @@
 
                 {
                     "id": "com.trafficcraft:trafficcraft:1.1.3@jar",
-                    "name": "Traffic Craft",
+                    "name": "Traffic Craft - PATCH 041",
                     "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
                     "artifact": {
                         "size": 6030955,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_041_trafficcraft-forge-1.20.1-1.1.3.jar",
@@ -1653,7 +1689,7 @@
                     "name": "Oculus - Поддержка шейдеров",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
+                        "value": true,
                         "def": true
                     },
                     "artifact": {
