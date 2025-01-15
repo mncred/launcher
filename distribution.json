@@ -2296,6 +2296,17 @@
                         "path": "resourcepacks/§9RAY's §f3D §6Rails§8§o§k.zip"
                     }
                 },
+                {
+                    "id": "§9RAY's §f3D §6Ladders§8§o§k.zip",
+                    "name": "§9RAY's §f3D §6Ladders§8§o§k.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 420093,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/§9RAY's §f3D §6Ladders§8§o§k.zip",
+                        "MD5": "1837849193695a134aa77018744dd316",
+                        "path": "resourcepacks/§9RAY's §f3D §6Ladders§8§o§k.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
