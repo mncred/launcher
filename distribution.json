@@ -2197,6 +2197,17 @@
                         "path": "resourcepacks/remodeledcactus.zip"
                     }
                 },
+                {
+                    "id": "AnimatedDoors-RPv1.2.zip",
+                    "name": "AnimatedDoors-RPv1.2.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 78123,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/AnimatedDoors-RPv1.2.zip",
+                        "MD5": "c8884ae58d672dc794205790ad914261",
+                        "path": "resourcepacks/AnimatedDoors-RPv1.2.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
