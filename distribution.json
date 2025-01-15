@@ -2120,6 +2120,17 @@
                         "path": "resourcepacks/Better Cats v2.0 1.21.zip"
                     }
                 },
+                {
+                    "id": "Enhanced Audio r6.zip",
+                    "name": "Enhanced Audio r6.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 9307892,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Enhanced Audio r6.zip",
+                        "MD5": "3cd819a6e6768b00a08c1cfb0a94147c",
+                        "path": "resourcepacks/Enhanced Audio r6.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
