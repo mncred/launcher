@@ -2208,6 +2208,17 @@
                         "path": "resourcepacks/AnimatedDoors-RPv1.2.zip"
                     }
                 },
+                {
+                    "id": "XPlus Font Pack v1.1.1.zip",
+                    "name": "XPlus Font Pack v1.1.1.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 8386153,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/XPlus Font Pack v1.1.1.zip",
+                        "MD5": "8a37c078bb4b603a5c47e41f83f60d3c",
+                        "path": "resourcepacks/XPlus Font Pack v1.1.1.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
