@@ -2153,6 +2153,17 @@
                         "path": "resourcepacks/Chest-Boat-GUI-v1-dark.zip"
                     }
                 },
+                {
+                    "id": "DiagonalPerfectRails.zip",
+                    "name": "DiagonalPerfectRails.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 42093,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/DiagonalPerfectRails.zip",
+                        "MD5": "80b0321a3eb7c5264da2e982d8675763",
+                        "path": "resourcepacks/DiagonalPerfectRails.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
