@@ -2175,6 +2175,17 @@
                         "path": "resourcepacks/Eugene‘s 3D Stuffs 1.0.zip"
                     }
                 },
+                {
+                    "id": "Basket.zip",
+                    "name": "Basket.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 90638,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Basket.zip",
+                        "MD5": "23a1933fb15e2eab22ea194822b3d5c6",
+                        "path": "resourcepacks/Basket.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
