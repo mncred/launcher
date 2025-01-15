@@ -2064,6 +2064,19 @@
                         "path": "resourcepacks/1.20 Create Computers 1.2.zip"
                     }
                 },
+
+                {
+                    "id": "Invisible-Item-Frames-V5.zip",
+                    "name": "Invisible-Item-Frames-V5.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 91989,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Invisible-Item-Frames-V5.zip",
+                        "MD5": "621688061215dc73f5faaff39a36312d",
+                        "path": "resourcepacks/Invisible-Item-Frames-V5.zip"
+                    }
+                },
+
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
                     "name": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
