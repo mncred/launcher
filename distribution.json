@@ -2098,6 +2098,17 @@
                         "path": "resourcepacks/3D Buckets and Fish 1.20.1.zip"
                     }
                 },
+                {
+                    "id": "Better_Dogs_V0.41.zip",
+                    "name": "Better_Dogs_V0.41.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 11447859,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Better_Dogs_V0.41.zip",
+                        "MD5": "120f28724b311d2a6a931f75aa9591ee",
+                        "path": "resourcepacks/Better_Dogs_V0.41.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
