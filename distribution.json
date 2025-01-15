@@ -2274,6 +2274,17 @@
                         "path": "resourcepacks/Recolourful Containers 1.1.2 (1.19.4-1.21.x).zip"
                     }
                 },
+                {
+                    "id": "Dramatic Skys Demo 1.5.3.31.zip",
+                    "name": "Dramatic Skys Demo 1.5.3.31.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 11383911,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Dramatic Skys Demo 1.5.3.31.zip",
+                        "MD5": "af91967a7b91c7d0be44ea92a2086d6a",
+                        "path": "resourcepacks/Dramatic Skys Demo 1.5.3.31.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
