@@ -2109,6 +2109,17 @@
                         "path": "resourcepacks/Better_Dogs_V0.41.zip"
                     }
                 },
+                {
+                    "id": "Better Cats v2.0 1.21.zip",
+                    "name": "Better Cats v2.0 1.21.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 721727,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Better Cats v2.0 1.21.zip",
+                        "MD5": "be6471d444177b7c30d2bad8eb4e1fb0",
+                        "path": "resourcepacks/Better Cats v2.0 1.21.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
