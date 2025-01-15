@@ -1490,6 +1490,16 @@
                         "MD5": "59a1a66895bb140b94f9c3c26486ce80"
                     }
                 },
+                {
+                    "id": "com.terralith:terralith:2.5.4@jar",
+                    "name": "Terralith",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3156901,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_046_Terralith_1.20.x_v2.5.4.jar",
+                        "MD5": "b143cfd648086c68d7f47a86b8994ee3"
+                    }
+                },
 
                 {
                     "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
