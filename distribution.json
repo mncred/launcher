@@ -2186,6 +2186,17 @@
                         "path": "resourcepacks/Basket.zip"
                     }
                 },
+                {
+                    "id": "remodeledcactus.zip",
+                    "name": "remodeledcactus.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 68978,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/remodeledcactus.zip",
+                        "MD5": "d01f2edbc602c068a465d579525a34e2",
+                        "path": "resourcepacks/remodeledcactus.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
