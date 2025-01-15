@@ -1500,6 +1500,16 @@
                         "MD5": "b143cfd648086c68d7f47a86b8994ee3"
                     }
                 },
+                {
+                    "id": "com.biomesoplenty:biomesoplenty:0.0.94@jar",
+                    "name": "Biomes'O'Plenty",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 22378754,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_046_BiomesOPlenty-forge-1.20.1-19.0.0.94.jar",
+                        "MD5": "dd7311adc3da7634a24c8a7c31d98d89"
+                    }
+                },
 
                 {
                     "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
