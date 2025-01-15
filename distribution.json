@@ -2285,6 +2285,17 @@
                         "path": "resourcepacks/Dramatic Skys Demo 1.5.3.31.zip"
                     }
                 },
+                {
+                    "id": "§9RAY's §f3D §6Rails§8§o§k.zip",
+                    "name": "§9RAY's §f3D §6Rails§8§o§k.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 800931,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/§9RAY's §f3D §6Rails§8§o§k.zip",
+                        "MD5": "824f06b6141ff71ec4653c1c21956ce1",
+                        "path": "resourcepacks/§9RAY's §f3D §6Rails§8§o§k.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
