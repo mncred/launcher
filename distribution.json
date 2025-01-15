@@ -1501,13 +1501,13 @@
                     }
                 },
                 {
-                    "id": "com.biomesoplenty:biomesoplenty:0.0.94@jar",
+                    "id": "com.biomesoplenty:biomesoplenty:19.0.0.94@jar",
                     "name": "Biomes'O'Plenty",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 22378754,
+                        "size": 22371720,
                         "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_046_BiomesOPlenty-forge-1.20.1-19.0.0.94.jar",
-                        "MD5": "dd7311adc3da7634a24c8a7c31d98d89"
+                        "MD5": "e01fcacd5c027009f0df907d2061f958"
                     }
                 },
 
