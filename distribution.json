@@ -595,8 +595,8 @@
                     "name": "Joy of Painting - PATCH 032",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": false
+                        "value": true,
+                        "def": true
                     },
                     "artifact": {
                         "size": 400817,
@@ -610,8 +610,8 @@
                     "name": "Small Ships - PATCH 032",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": false
+                        "value": true,
+                        "def": true
                     },
                     "artifact": {
                         "size": 1816687,
@@ -624,8 +624,8 @@
                     "name": "Immersive Aircraft - PATCH 032",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": false
+                        "value": true,
+                        "def": true
                     },
                     "artifact": {
                         "size": 2175827,
@@ -680,8 +680,8 @@
                     "name": "Just Enough Guns - PATCH 033",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": false
+                        "value": true,
+                        "def": true
                     },
                     "artifact": {
                         "size": 8203393,
@@ -694,8 +694,8 @@
                     "name": "Mo' Than Enough Guns - PATCH 035",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": false
+                        "value": true,
+                        "def": true
                     },
                     "artifact": {
                         "size": 2014105,
@@ -708,8 +708,8 @@
                     "name": "Aurora's Arsenal - PATCH 035",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": false
+                        "value": true,
+                        "def": true
                     },
                     "artifact": {
                         "size": 1585834,
@@ -722,8 +722,8 @@
                     "name": "Man of Many Planes - PATCH 036",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": false
+                        "value": true,
+                        "def": true
                     },
                     "artifact": {
                         "size": 309137,
@@ -737,8 +737,8 @@
                     "name": "Macaw's Holidays - PATCH 040",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": false
+                        "value": true,
+                        "def": true
                     },
                     "artifact": {
                         "size": 1028361,
