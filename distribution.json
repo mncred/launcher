@@ -1500,6 +1500,16 @@
                         "MD5": "b143cfd648086c68d7f47a86b8994ee3"
                     }
                 },
+                {
+                    "id": "com.tectonic:tectonic:2.4.1@jar",
+                    "name": "Additional Structures",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 349125,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_047_tectonic-forge-1.20.1-2.4.1.jar",
+                        "MD5": "e4646116efca671837889dd58cad9844"
+                    }
+                },
 
                 {
                     "id": "com.structuresplus:structuresplus:1.0.0@jar",
