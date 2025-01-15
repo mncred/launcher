@@ -2230,6 +2230,17 @@
                         "path": "resourcepacks/BVBoverlaysV6.zip"
                     }
                 },
+                {
+                    "id": "Fancy_Beds-v3.4.zip",
+                    "name": "Fancy_Beds-v3.4.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 233432,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Fancy_Beds-v3.4.zip",
+                        "MD5": "6e8ba92942dcd5570739177097492553",
+                        "path": "resourcepacks/Fancy_Beds-v3.4.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
