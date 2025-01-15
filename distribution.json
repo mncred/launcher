@@ -2164,6 +2164,17 @@
                         "path": "resourcepacks/DiagonalPerfectRails.zip"
                     }
                 },
+                {
+                    "id": "Eugene‘s 3D Stuffs 1.0.zip",
+                    "name": "Eugene‘s 3D Stuffs 1.0.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 750221,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Eugene‘s 3D Stuffs 1.0.zip",
+                        "MD5": "53a59a934397a986e680ea7aa9489a48",
+                        "path": "resourcepacks/Eugene‘s 3D Stuffs 1.0.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
