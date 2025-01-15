@@ -2131,6 +2131,17 @@
                         "path": "resourcepacks/Enhanced Audio r6.zip"
                     }
                 },
+                {
+                    "id": "Os' Colorful Cobblestone.zip",
+                    "name": "Os' Colorful Cobblestone.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 301275,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Os' Colorful Cobblestone.zip",
+                        "MD5": "85a6c2ef33107c2ce902c96bd066e474",
+                        "path": "resourcepacks/Os' Colorful Cobblestone.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
