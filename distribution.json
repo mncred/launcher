@@ -1650,7 +1650,7 @@
                 },
                 {
                     "id": "net.coderbot.iris:oculus:1.6.15a@jar",
-                    "name": "Oculus",
+                    "name": "Oculus - Поддержка шейдеров",
                     "type": "ForgeMod",
                     "required": {
                         "value": false,
