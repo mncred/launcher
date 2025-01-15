@@ -2241,6 +2241,17 @@
                         "path": "resourcepacks/Fancy_Beds-v3.4.zip"
                     }
                 },
+                {
+                    "id": "NoFog.zip",
+                    "name": "NoFog.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 18000,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/NoFog.zip",
+                        "MD5": "350526510ca98dfd0cc51f9633a7ee33",
+                        "path": "resourcepacks/NoFog.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
