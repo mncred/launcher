@@ -2142,6 +2142,17 @@
                         "path": "resourcepacks/Os' Colorful Cobblestone.zip"
                     }
                 },
+                {
+                    "id": "Chest-Boat-GUI-v1-dark.zip",
+                    "name": "Chest-Boat-GUI-v1-dark.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 35270,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/Chest-Boat-GUI-v1-dark.zip",
+                        "MD5": "f1a599e4162ec995e8baaad91eed6cc8",
+                        "path": "resourcepacks/Chest-Boat-GUI-v1-dark.zip"
+                    }
+                },
 
                 {
                     "id": "Midnighttiggers-CTM-Default_1.20.2_V2.zip",
