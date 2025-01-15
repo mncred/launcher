@@ -1502,6 +1502,47 @@
                 },
 
                 {
+                    "id": "com.structuresplus:structuresplus:1.0.0@jar",
+                    "name": "Structures Plus II",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 483917,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_047_structuresplus.jar",
+                        "MD5": "7f4d2958f6e2be9aae7d3e747e641043"
+                    }
+                },
+                {
+                    "id": "com.atistructures:atistructures:1.1.0@jar",
+                    "name": "ATi Structures - Original",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1871997,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_047_ati_structures(1.20)_v1.1.0_FORGE.jar",
+                        "MD5": "6ce3d25a7fbbc8af6714b6a5a9727e91"
+                    }
+                },
+                {
+                    "id": "com.adorabuildstructures:adorabuildstructures:2.8.0@jar",
+                    "name": "AdoraBuild: Structures",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 617050,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_047_adorabuild-structures-2.8.0-forge-1.20.1.jar",
+                        "MD5": "08f9cd5d618b169eeeb9a0374e7e1117"
+                    }
+                },
+                {
+                    "id": "com.additionalstructures:additionalstructures:4.2.2@jar",
+                    "name": "Additional Structures",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1521981,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_047_AdditionalStructures-1.20.x-(v.4.2.2).jar",
+                        "MD5": "1d04b87263ca6de24d079b60d60e4139"
+                    }
+                },
+
+                {
                     "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
                     "name": "Immersive Paintings",
                     "type": "ForgeMod",
