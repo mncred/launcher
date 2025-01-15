@@ -1479,6 +1479,18 @@
                         "MD5": "6fba73745f5c73fb5f627615fba79d6d"
                     }
                 },
+
+                {
+                    "id": "com.terrablender:terrablender:3.0.1.7@jar",
+                    "name": "TerraBlender",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 107534,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_046_TerraBlender-forge-1.20.1-3.0.1.7.jar",
+                        "MD5": "59a1a66895bb140b94f9c3c26486ce80"
+                    }
+                },
+
                 {
                     "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
                     "name": "Immersive Paintings",
