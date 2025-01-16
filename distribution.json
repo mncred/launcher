@@ -1342,13 +1342,13 @@
                     }
                 },
                 {
-                    "id": "com.natamus:collective:7.3@jar",
+                    "id": "com.natamus:collective:7.87@jar",
                     "name": "Collective",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 530909,
-                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/collective-1.20.1-7.3.jar",
-                        "MD5": "82fee47565c2947e866347a9d1707ea3"
+                        "size": 648876,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_052_collective-1.20.1-7.87.jar",
+                        "MD5": "b0bcc1d5e282bab76d0f8f39a85a1a92"
                     }
                 },
                 {
