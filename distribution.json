@@ -1840,6 +1840,18 @@
                         "MD5": "bf22dcae0b8799e0475281dbb3b26165"
                     }
                 },
+
+                {
+                    "id": "com.tips:tips:12.1.8@jar",
+                    "name": "Tips",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 130094,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_051_Tips-Forge-1.20.1-12.1.8.jar",
+                        "MD5": "bda7f9db0b3c89405a12d180449c1210"
+                    }
+                },
+
                 {
                     "id": "fuzs.puzzleslib.impl:puzzleslib:8.0.7@jar",
                     "name": "Puzzles Lib",
