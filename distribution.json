@@ -2575,9 +2575,9 @@
                     "name": "servers.dat",
                     "type": "File",
                     "artifact": {
-                        "size": 76,
-                        "url": "http://mnc.red/servers/test-1.20.1/files/servers.dat",
-                        "MD5": "431219aeb49fe916dac4dd25ad9aaf3b",
+                        "size": 1000,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/AUTOUPDATE/servers.dat",
+                        "MD5": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                         "path": "servers.dat"
                     }
                 },
