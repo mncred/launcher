@@ -1851,6 +1851,16 @@
                         "MD5": "bda7f9db0b3c89405a12d180449c1210"
                     }
                 },
+                {
+                    "id": "com.bookshelf:bookshelf:20.2.13@jar",
+                    "name": "Bookshelf",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 343962,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_051_Bookshelf-Forge-1.20.1-20.2.13.jar",
+                        "MD5": "46c8e7f9bcfa984bd576e448df2beb25"
+                    }
+                },
 
                 {
                     "id": "fuzs.puzzleslib.impl:puzzleslib:8.0.7@jar",
