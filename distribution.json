@@ -2091,7 +2091,7 @@
                     "artifact": {
                         "size": 425,
                         "url": "http://mnc.red/servers/test-1.20.1/files/config/splasher/en_us.txt",
-                        "MD5": "181e309b04e93e1e6c3ca1ac79c31371",
+                        "MD5": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                         "path": "config/splasher/en_us.txt"
                     }
                 },
