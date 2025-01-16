@@ -1809,6 +1809,16 @@
                         "MD5": "8d6f4018a0bfc3a16435b7b60d022a02"
                     }
                 },
+                {
+                    "id": "com.resourcefullib:resourcefullib:2.1.29@jar",
+                    "name": "Resourceful Lib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 432753,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_050_resourcefullib-forge-1.20.1-2.1.29.jar",
+                        "MD5": "a040c6cc86f653fddf280ff3af9068f0"
+                    }
+                },
 
                 {
                     "id": "com.illusivesoulworks:polymorph:0.49.0+1.20.1@jar",
