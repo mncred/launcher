@@ -1492,6 +1492,17 @@
                 },
 
                 {
+                    "id": "com.splashy:splashy:14.0.4@jar",
+                    "name": "Splashy",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 23824,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_049_Splashy-Forge-1.20.1-14.0.4.jar",
+                        "MD5": "80ea1a972d1cfd87fe1de79c4e638161"
+                    }
+                },
+
+                {
                     "id": "com.terrablender:terrablender:3.0.1.7@jar",
                     "name": "TerraBlender",
                     "type": "ForgeMod",
