@@ -2295,6 +2295,17 @@
                     }
                 },
                 {
+                    "id": "§fMinecraft §cRED§0.zip",
+                    "name": "§fMinecraft §cRED§0.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 5000000,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/resourcepacks/§fMinecraft §cRED§0.zip",
+                        "MD5": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                        "path": "resourcepacks/§fMinecraft §cRED§0.zip"
+                    }
+                },
+                {
                     "id": "3D Buckets and Fish 1.20.1.zip",
                     "name": "3D Buckets and Fish 1.20.1.zip",
                     "type": "File",
