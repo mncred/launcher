@@ -2118,6 +2118,74 @@
                         "path": "config/splasher.toml"
                     }
                 },
+
+                {
+                    "id": "simplemenu.json5",
+                    "name": "simplemenu.json5",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3000,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/AUTOUPDATE/simplemenu/simplemenu.json5",
+                        "MD5": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                        "path": "config/simplemenu.json5"
+                    }
+                },
+                {
+                    "id": "simplemenu_background.png",
+                    "name": "simplemenu_background.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 5000000,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/AUTOUPDATE/simplemenu/background.png",
+                        "MD5": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                        "path": "config/simplemenu/background/background.png"
+                    }
+                },
+                {
+                    "id": "simplemenu_icon16.png",
+                    "name": "simplemenu_icon16.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 5000,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/AUTOUPDATE/simplemenu/icon_16x16.png",
+                        "MD5": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                        "path": "config/simplemenu/icon/icon_16x16.png"
+                    }
+                },
+                {
+                    "id": "simplemenu_icon32.png",
+                    "name": "simplemenu_icon32.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 10000,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/AUTOUPDATE/simplemenu/icon_32x32.png",
+                        "MD5": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                        "path": "config/simplemenu/icon/icon_32x32.png"
+                    }
+                },
+                {
+                    "id": "simplemenu_logo.png",
+                    "name": "simplemenu_logo.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1000000,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/AUTOUPDATE/simplemenu/logo.png",
+                        "MD5": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                        "path": "config/simplemenu/logo/logo.png"
+                    }
+                },
+                {
+                    "id": "simplemenu_edition.png",
+                    "name": "simplemenu_edition.png",
+                    "type": "File",
+                    "artifact": {
+                        "size": 500000,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/AUTOUPDATE/simplemenu/edition.png",
+                        "MD5": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                        "path": "config/simplemenu/logo/edition.png"
+                    }
+                },
+
                 {
                     "id": "splasher_texts.txt",
                     "name": "splasher_texts.txt",
