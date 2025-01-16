@@ -1044,6 +1044,18 @@
                         "MD5": "fc6d6c607a4b8aff5760d4e47a762980"
                     }
                 },
+
+                {
+                    "id": "com.titlechanger:titlechanger:1.10.1@jar",
+                    "name": "TitleChanger",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 36243,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_052_titlechanger-1.10.1-all.jar",
+                        "MD5": "72376bad22e02f5b37bd4fcf93070d84"
+                    }
+                },
+
                 {
                     "id": "team.creative:ambientsounds:5.3.9@jar",
                     "name": "AmbientSounds",
