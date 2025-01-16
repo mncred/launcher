@@ -1799,7 +1799,16 @@
                     }
                 },
 
-
+                {
+                    "id": "com.immersivetips:immersivetips:1.0.0@jar",
+                    "name": "Immersive Tips",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3495425,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_050_immersivetips-forge-1.0.0-1.20.1.jar",
+                        "MD5": "8aa21165455731769af4eca6e5d6139b"
+                    }
+                },
 
                 {
                     "id": "com.illusivesoulworks:polymorph:0.49.0+1.20.1@jar",
