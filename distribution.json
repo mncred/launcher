@@ -2042,6 +2042,28 @@
                     }
                 },
                 {
+                    "id": "splasher.toml",
+                    "name": "splasher.toml",
+                    "type": "File",
+                    "artifact": {
+                        "size": 199,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/splasher.toml",
+                        "MD5": "fb9ab7ec5277a22790d95a9d2ce903fd",
+                        "path": "config/splasher.toml"
+                    }
+                },
+                {
+                    "id": "splasher_texts.txt",
+                    "name": "splasher_texts.txt",
+                    "type": "File",
+                    "artifact": {
+                        "size": 425,
+                        "url": "http://mnc.red/servers/test-1.20.1/files/config/splasher/en_us.txt",
+                        "MD5": "181e309b04e93e1e6c3ca1ac79c31371",
+                        "path": "config/splasher/en_us.txt"
+                    }
+                },
+                {
                     "id": "plugins.json",
                     "name": "plugins.json",
                     "type": "File",
