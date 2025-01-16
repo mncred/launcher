@@ -1492,6 +1492,17 @@
                 },
 
                 {
+                    "id": "com.splasher:splasher:6.1.0@jar",
+                    "name": "Splasher",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 68196,
+                        "url": "http://mnc.red/servers/test-1.20.1/forgemods/required/PATCH_049_splasher-6.1.0-forge1.20.1.jar",
+                        "MD5": "8993ba9b4f37b9c12b5929eebaffdd10"
+                    }
+                },
+
+                {
                     "id": "com.terrablender:terrablender:3.0.1.7@jar",
                     "name": "TerraBlender",
                     "type": "ForgeMod",
