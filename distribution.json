@@ -2288,9 +2288,9 @@
                     "name": "tips.json",
                     "type": "File",
                     "artifact": {
-                        "size": 305,
+                        "size": 306,
                         "url": "http://mnc.red/servers/test-1.20.1/files/config/tips.json",
-                        "MD5": "a28d93f8199fcfb7684b756118ccb96a",
+                        "MD5": "e27663ea2f22ca1e3765d4a6f3a71565",
                         "path": "config/tips.json"
                     }
                 },
