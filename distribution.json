@@ -1926,16 +1926,6 @@
                     }
                 },
                 {
-                    "id": "com.dplayend:togenc:1.0@jar",
-                    "name": "Toggle Enchantments",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 38508,
-                        "url": "http://mnc.red/helios/servers/test-1.20.1/forgemods/required/togenc-forge-1.20.x-v1.0.jar",
-                        "MD5": "f196cd61c5156f637556e319cfa8151b"
-                    }
-                },
-                {
                     "id": "com.tom.storagemod:toms_storage:1.6.4@jar",
                     "name": "Tom's Simple Storage Mod",
                     "type": "ForgeMod",
