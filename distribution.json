@@ -1925,6 +1925,28 @@
                         "MD5": "f2731cb2661785368bdbb26a932e3d37"
                     }
                 },
+
+                {
+                    "id": "coroutil:coroutil:1.20.1-1.3.7@jar",
+                    "name": "CoroUtil",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 64187,
+                        "url": "http://mnc.red/helios/servers/test-1.20.1/forgemods/required/PATCH_100_coroutil-forge-1.20.1-1.3.7.jar",
+                        "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
+                    }
+                },
+                {
+                    "id": "watut:watut:1.20.1-1.1.3@jar",
+                    "name": "What Are They Up To (Watut)",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 352474,
+                        "url": "http://mnc.red/helios/servers/test-1.20.1/forgemods/required/PATCH_100_watut-forge-1.20.1-1.1.3.jar",
+                        "MD5": "d3014c889b0c54e1a7f049fa2d54787b"
+                    }
+                },
+
                 {
                     "id": "com.tom.storagemod:toms_storage:1.6.4@jar",
                     "name": "Tom's Simple Storage Mod",
