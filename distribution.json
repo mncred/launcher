@@ -1948,6 +1948,17 @@
                 },
 
                 {
+                    "id": "languagereloadunofficial:languagereloadunofficial:1.0.1@jar",
+                    "name": "LanguageReloadUnofficial",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 201732,
+                        "url": "http://mnc.red/helios/servers/test-1.20.1/forgemods/required/PATCH_101_languagereload-forge-1.20.1-1.0.1-all.jar",
+                        "MD5": "8cffb6a841d3922c1c1e28eb35c6b212"
+                    }
+                },
+
+                {
                     "id": "com.tom.storagemod:toms_storage:1.6.4@jar",
                     "name": "Tom's Simple Storage Mod",
                     "type": "ForgeMod",
