@@ -1366,9 +1366,9 @@
                     "name": "Create",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 14964127,
-                        "url": "http://mnc.red/helios/servers/test-1.20.1/forgemods/required/create-1.20.1-0.5.1.f.jar",
-                        "MD5": "6a097aa0bfc73a4f8372a16e763f9f02"
+                        "size": 18764522,
+                        "url": "http://mnc.red/helios/servers/test-1.20.1/forgemods/required/create-1.20.1-6.0.6.jar",
+                        "MD5": "0bdb2789d1708a9de227c8ef05a830d9"
                     }
                 },
                 {
